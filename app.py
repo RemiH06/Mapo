@@ -118,8 +118,8 @@ class INEGIDashboard(ctk.CTk):
             self.tree.insert("", "end", values=list(row))
 
 if __name__ == "__main__":
-    ctk.set_appearance_mode("System")  # Puedes cambiar a "Dark" o "Light"
-    ctk.set_default_color_theme("blue")  # Temas: "blue", "green", "dark-blue"
+    ctk.set_appearance_mode("System")
+    ctk.set_default_color_theme("blue")
     
     app = INEGIDashboard()
     app.mainloop()
