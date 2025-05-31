@@ -53,7 +53,9 @@ ui <- fluidPage(
     sidebarPanel(
       selectInput("estado", "Selecciona un estado:",
                   choices = estado_claves,
-                  selected = "0700")
+                  selected = "0700"),
+      checkboxInput("recientes", "Mostrar datos recientes", value = FALSE),
+      checkboxInput("usar_bie", "Usar BIE en lugar de BISE", value = FALSE)
     ),
     mainPanel(
       DTOutput("data_table")
@@ -66,10 +68,12 @@ server <- function(input, output, session) {
   
   data_raw <- reactive({
     clave_estado <- input$estado
+    recientes_flag <- tolower(as.character(input$recientes)) # "true" o "false"
+    base_type <- if (input$usar_bie) "BIE" else "BISE"
     
     url <- glue(
       "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/",
-      "1002000041/es/{clave_estado}/false/BISE/2.0/{token}?type=json"
+      "1002000041/es/{clave_estado}/{recientes_flag}/{base_type}/2.0/{token}?type=json"
     )
     
     res <- httr::GET(url)
