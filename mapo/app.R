@@ -10,50 +10,45 @@ get_token <- function() {
   secrets$token
 }
 
-# Lista de claves de estado
 estado_claves <- c(
-  "Aguascalientes" = "07000001",
-  "Baja California" = "07000002",
-  "Baja California Sur" = "07000003",
-  "Campeche" = "07000004",
-  "Coahuila" = "07000005",
-  "Colima" = "07000006",
-  "Chiapas" = "07000007",
-  "Chihuahua" = "07000008",
-  "Ciudad de México" = "07000009",
-  "Durango" = "07000010",
-  "Guanajuato" = "07000011",
-  "Guerrero" = "07000012",
-  "Hidalgo" = "07000013",
-  "Jalisco" = "07000014",
-  "México" = "07000015",
-  "Michoacán" = "07000016",
-  "Morelos" = "07000017",
-  "Nayarit" = "07000018",
-  "Nuevo León" = "07000019",
-  "Oaxaca" = "07000020",
-  "Puebla" = "07000021",
-  "Querétaro" = "07000022",
-  "Quintana Roo" = "07000023",
-  "San Luis Potosí" = "07000024",
-  "Sinaloa" = "07000025",
-  "Sonora" = "07000026",
-  "Tabasco" = "07000027",
-  "Tamaulipas" = "07000028",
-  "Tlaxcala" = "07000029",
-  "Veracruz" = "07000030",
-  "Yucatán" = "07000031",
-  "Zacatecas" = "07000032",
+  "Aguascalientes" = "07000001", "Baja California" = "07000002",
+  "Baja California Sur" = "07000003", "Campeche" = "07000004",
+  "Coahuila" = "07000005", "Colima" = "07000006",
+  "Chiapas" = "07000007", "Chihuahua" = "07000008",
+  "Ciudad de México" = "07000009", "Durango" = "07000010",
+  "Guanajuato" = "07000011", "Guerrero" = "07000012",
+  "Hidalgo" = "07000013", "Jalisco" = "07000014",
+  "México" = "07000015", "Michoacán" = "07000016",
+  "Morelos" = "07000017", "Nayarit" = "07000018",
+  "Nuevo León" = "07000019", "Oaxaca" = "07000020",
+  "Puebla" = "07000021", "Querétaro" = "07000022",
+  "Quintana Roo" = "07000023", "San Luis Potosí" = "07000024",
+  "Sinaloa" = "07000025", "Sonora" = "07000026",
+  "Tabasco" = "07000027", "Tamaulipas" = "07000028",
+  "Tlaxcala" = "07000029", "Veracruz" = "07000030",
+  "Yucatán" = "07000031", "Zacatecas" = "07000032",
   "Toda la República" = "0700"
+)
+
+indicador_ids <- c(
+  "" = "1002000041",
+  "" = "1002000050",
+  "" = "1005000012",
+  "" = "1005000038",
+  "" = "3108001001",
+  "" = "3108001002",
+  "" = "3108001003",
+  "" = "6200200237",
+  "" = "6200205238",
+  "" = "6200205239"
 )
 
 ui <- fluidPage(
   titlePanel("Dashboard INEGI - Indicador Ejemplo"),
   sidebarLayout(
     sidebarPanel(
-      selectInput("estado", "Selecciona un estado:",
-                  choices = estado_claves,
-                  selected = "0700"),
+      selectInput("indicador_id", "Selecciona un indicador:", choices = indicador_ids),
+      selectInput("estado", "Selecciona un estado:", choices = estado_claves, selected = "0700"),
       checkboxInput("recientes", "Mostrar datos recientes", value = FALSE),
       checkboxInput("usar_bie", "Usar BIE en lugar de BISE", value = FALSE)
     ),
@@ -67,13 +62,10 @@ server <- function(input, output, session) {
   token <- get_token()
   
   data_raw <- reactive({
-    clave_estado <- input$estado
-    recientes_flag <- tolower(as.character(input$recientes)) # "true" o "false"
-    base_type <- if (input$usar_bie) "BIE" else "BISE"
-    
     url <- glue(
       "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/",
-      "1002000041/es/{clave_estado}/{recientes_flag}/{base_type}/2.0/{token}?type=json"
+      "{input$indicador_id}/es/{input$estado}/{tolower(as.character(input$recientes))}/",
+      "{if (input$usar_bie) 'BIE' else 'BISE'}/2.0/{token}?type=json"
     )
     
     res <- httr::GET(url)
