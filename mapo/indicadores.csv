@@ -1,44 +1,45 @@
-nombre,id
-Porcentaje de personas de 15 años y más alfabetas,1002000041
-Tasa de alfabetización de las personas de 15 a 24 años,1002000050
-Población de 5 años y más que asiste a la escuela,1005000012
-Grado promedio de escolaridad de la población de 15 y más años,1005000038
-Porcentaje de analfabetas total,3108001001
-Porcentaje de analfabetas hombres,3108001002
-Porcentaje de analfabetas mujeres,3108001003
-Población en edad escolar de 3 a 24 años,6200200237
-Población de 8 a 14 años que sabe leer y escribir,6200205238
-Población de 15 años y más con algún grado aprobado en educación básica,6200205239
-Población de 19 años y más con algún grado aprobado en estudios técnicos o comerciales con secundaria terminada,
-Población de 19 años y más con algún grado aprobado en bachillerato,
-Población de 24 años y más con algún grado aprobado en estudios superiores,
-Porcentaje de la población de 15 años y más con instrucción media superior,
-Porcentaje de la población de 15 años y más con secundaria incompleta,
-Porcentaje de la población de 15 años y más con primaria completa,
-Porcentaje de la población de 15 años y más con instrucción superior,
-Porcentaje de la población de 15 años y más con instrucción no especificada,
-Porcentaje de la población de 15 años y más con secundaria completa,
-Porcentaje de la población de 15 años y más con rezago educativo,
-Porcentaje de la población de 15 años y más sin instrucción,
-Porcentaje de la población de 15 años y más con primaria incompleta,
-Porcentaje de población de 25 años y más alfabeta,
-Porcentaje de población de 15 años y más sin escolaridad,
-Porcentaje de la población de 3 a 5 años que asiste a la escuela,
-Porcentaje de la población de 6 a 11 años que asiste a la escuela,
-Porcentaje de la población de 12 a 14 años que asiste a la escuela,
-Porcentaje de la población de 15 a 24 años que asiste a la escuela,
-Porcentaje de población de 15 años y más con escolaridad básica,
-Porcentaje de la población de 3 a 5 años que asiste a la escuela en otro municipio o delegación diferente al de residencia,
-Porcentaje de la población de 6 a 11 años que asiste a la escuela en otro municipio o delegación diferente al de residencia,
-Porcentaje de la población de 12 a 14 años que asiste a la escuela en otro municipio o delegación diferente al de residencia,
-Porcentaje de la población de 15 a 24 años que asiste a la escuela en otro municipio o delegación diferente al de residencia,
-Población de 6 a 14 años que sabe leer y escribir,
-Población de 6 a 14 años que no sabe leer y escribir,
-Porcentaje de la población de 3 años y más que asiste a la escuela,
-Porcentaje de la población de 3 años y más que no asiste a la escuela,
-Población de 6 a 14 años que no especificó si sabe o no leer y escribir,
-Porcentaje de la población de 3 años y más que no especificó si asiste o no a la escuela,
-Razón entre niñas y niños en la enseñanza secundaria,
-Razón entre mujeres y hombres en la enseñanza superior,
-Razón entre mujeres y hombres en la enseñanza media superior,
-Razón entre niñas y niños en la enseñanza primaria,
+nombre,id,bdi,sect,clase,subclase
+Porcentaje de personas de 15 años y más alfabetas,1002000041,BISE,Demografía y Sociedad,Educación,Características educativas de la población
+Tasa de alfabetización de las personas de 15 a 24 años,1002000050,BISE,Demografía y Sociedad,Educación,Características educativas de la población
+Población de 5 años y más que asiste a la escuela,1005000012,BISE,Demografía y Sociedad,Educación,Características educativas de la población
+Grado promedio de escolaridad de la población de 15 y más años,1005000038,BISE,Demografía y Sociedad,Educación,Características educativas de la población
+Porcentaje de analfabetas total,3108001001,BISE,Demografía y Sociedad,Educación,Características educativas de la población
+Porcentaje de analfabetas hombres,3108001002,BISE,Demografía y Sociedad,Educación,Características educativas de la población
+Porcentaje de analfabetas mujeres,3108001003,BISE,Demografía y Sociedad,Educación,Características educativas de la población
+Población en edad escolar de 3 a 24 años,6200200237,BISE,Demografía y Sociedad,Educación,Características educativas de la población
+Población de 8 a 14 años que sabe leer y escribir,6200205238,BISE,Demografía y Sociedad,Educación,Características educativas de la población
+Población de 15 años y más con algún grado aprobado en educación básica,6200205239,BISE,Demografía y Sociedad,Educación,Características educativas de la población
+Población de 19 años y más con algún grado aprobado en estudios técnicos o comerciales con secundaria terminada,,BISE,Demografía y Sociedad,Educación,Características educativas de la población
+Población de 19 años y más con algún grado aprobado en bachillerato,,BISE,Demografía y Sociedad,Educación,Características educativas de la población
+Población de 24 años y más con algún grado aprobado en estudios superiores,,BISE,Demografía y Sociedad,Educación,Características educativas de la población
+Porcentaje de la población de 15 años y más con instrucción media superior,,BISE,Demografía y Sociedad,Educación,Características educativas de la población
+Porcentaje de la población de 15 años y más con secundaria incompleta,,BISE,Demografía y Sociedad,Educación,Características educativas de la población
+Porcentaje de la población de 15 años y más con primaria completa,,BISE,Demografía y Sociedad,Educación,Características educativas de la población
+Porcentaje de la población de 15 años y más con instrucción superior,,BISE,Demografía y Sociedad,Educación,Características educativas de la población
+Porcentaje de la población de 15 años y más con instrucción no especificada,,BISE,Demografía y Sociedad,Educación,Características educativas de la población
+Porcentaje de la población de 15 años y más con secundaria completa,,BISE,Demografía y Sociedad,Educación,Características educativas de la población
+Porcentaje de la población de 15 años y más con rezago educativo,,BISE,Demografía y Sociedad,Educación,Características educativas de la población
+Porcentaje de la población de 15 años y más sin instrucción,,BISE,Demografía y Sociedad,Educación,Características educativas de la población
+Porcentaje de la población de 15 años y más con primaria incompleta,,BISE,Demografía y Sociedad,Educación,Características educativas de la población
+Porcentaje de población de 25 años y más alfabeta,,BISE,Demografía y Sociedad,Educación,Características educativas de la población
+Porcentaje de población de 15 años y más sin escolaridad,,BISE,Demografía y Sociedad,Educación,Características educativas de la población
+Porcentaje de la población de 3 a 5 años que asiste a la escuela,,BISE,Demografía y Sociedad,Educación,Características educativas de la población
+Porcentaje de la población de 6 a 11 años que asiste a la escuela,,BISE,Demografía y Sociedad,Educación,Características educativas de la población
+Porcentaje de la población de 12 a 14 años que asiste a la escuela,,BISE,Demografía y Sociedad,Educación,Características educativas de la población
+Porcentaje de la población de 15 a 24 años que asiste a la escuela,,BISE,Demografía y Sociedad,Educación,Características educativas de la población
+Porcentaje de población de 15 años y más con escolaridad básica,,BISE,Demografía y Sociedad,Educación,Características educativas de la población
+Porcentaje de la población de 3 a 5 años que asiste a la escuela en otro municipio o delegación diferente al de residencia,,BISE,Demografía y Sociedad,Educación,Características educativas de la población
+Porcentaje de la población de 6 a 11 años que asiste a la escuela en otro municipio o delegación diferente al de residencia,,BISE,Demografía y Sociedad,Educación,Características educativas de la población
+Porcentaje de la población de 12 a 14 años que asiste a la escuela en otro municipio o delegación diferente al de residencia,,BISE,Demografía y Sociedad,Educación,Características educativas de la población
+Porcentaje de la población de 15 a 24 años que asiste a la escuela en otro municipio o delegación diferente al de residencia,,BISE,Demografía y Sociedad,Educación,Características educativas de la población
+Población de 6 a 14 años que sabe leer y escribir,,BISE,Demografía y Sociedad,Educación,Características educativas de la población
+Población de 6 a 14 años que no sabe leer y escribir,,BISE,Demografía y Sociedad,Educación,Características educativas de la población
+Porcentaje de la población de 3 años y más que asiste a la escuela,,BISE,Demografía y Sociedad,Educación,Características educativas de la población
+Porcentaje de la población de 3 años y más que no asiste a la escuela,,BISE,Demografía y Sociedad,Educación,Características educativas de la población
+Población de 6 a 14 años que no especificó si sabe o no leer y escribir,,BISE,Demografía y Sociedad,Educación,Características educativas de la población
+Porcentaje de la población de 3 años y más que no especificó si asiste o no a la escuela,,BISE,Demografía y Sociedad,Educación,Características educativas de la población
+Razón entre niñas y niños en la enseñanza secundaria,,BISE,Demografía y Sociedad,Educación,Características educativas de la población
+Razón entre mujeres y hombres en la enseñanza superior,,BISE,Demografía y Sociedad,Educación,Características educativas de la población
+Razón entre mujeres y hombres en la enseñanza media superior,,BISE,Demografía y Sociedad,Educación,Características educativas de la población
+Razón entre niñas y niños en la enseñanza primaria,,BISE,Demografía y Sociedad,Educación,Características educativas de la población
+Gasto nacional en educación total como porcentaje del PIB,,BISE,Demografía y Sociedad,Educación,
