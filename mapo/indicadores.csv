@@ -1,45 +1,1039 @@
-nombre,id,bdi,sect,clase,subclase
-Porcentaje de personas de 15 años y más alfabetas,1002000041,BISE,Demografía y Sociedad,Educación,Características educativas de la población
-Tasa de alfabetización de las personas de 15 a 24 años,1002000050,BISE,Demografía y Sociedad,Educación,Características educativas de la población
-Población de 5 años y más que asiste a la escuela,1005000012,BISE,Demografía y Sociedad,Educación,Características educativas de la población
-Grado promedio de escolaridad de la población de 15 y más años,1005000038,BISE,Demografía y Sociedad,Educación,Características educativas de la población
-Porcentaje de analfabetas total,3108001001,BISE,Demografía y Sociedad,Educación,Características educativas de la población
-Porcentaje de analfabetas hombres,3108001002,BISE,Demografía y Sociedad,Educación,Características educativas de la población
-Porcentaje de analfabetas mujeres,3108001003,BISE,Demografía y Sociedad,Educación,Características educativas de la población
-Población en edad escolar de 3 a 24 años,6200200237,BISE,Demografía y Sociedad,Educación,Características educativas de la población
-Población de 8 a 14 años que sabe leer y escribir,6200205238,BISE,Demografía y Sociedad,Educación,Características educativas de la población
-Población de 15 años y más con algún grado aprobado en educación básica,6200205239,BISE,Demografía y Sociedad,Educación,Características educativas de la población
-Población de 19 años y más con algún grado aprobado en estudios técnicos o comerciales con secundaria terminada,,BISE,Demografía y Sociedad,Educación,Características educativas de la población
-Población de 19 años y más con algún grado aprobado en bachillerato,,BISE,Demografía y Sociedad,Educación,Características educativas de la población
-Población de 24 años y más con algún grado aprobado en estudios superiores,,BISE,Demografía y Sociedad,Educación,Características educativas de la población
-Porcentaje de la población de 15 años y más con instrucción media superior,,BISE,Demografía y Sociedad,Educación,Características educativas de la población
-Porcentaje de la población de 15 años y más con secundaria incompleta,,BISE,Demografía y Sociedad,Educación,Características educativas de la población
-Porcentaje de la población de 15 años y más con primaria completa,,BISE,Demografía y Sociedad,Educación,Características educativas de la población
-Porcentaje de la población de 15 años y más con instrucción superior,,BISE,Demografía y Sociedad,Educación,Características educativas de la población
-Porcentaje de la población de 15 años y más con instrucción no especificada,,BISE,Demografía y Sociedad,Educación,Características educativas de la población
-Porcentaje de la población de 15 años y más con secundaria completa,,BISE,Demografía y Sociedad,Educación,Características educativas de la población
-Porcentaje de la población de 15 años y más con rezago educativo,,BISE,Demografía y Sociedad,Educación,Características educativas de la población
-Porcentaje de la población de 15 años y más sin instrucción,,BISE,Demografía y Sociedad,Educación,Características educativas de la población
-Porcentaje de la población de 15 años y más con primaria incompleta,,BISE,Demografía y Sociedad,Educación,Características educativas de la población
-Porcentaje de población de 25 años y más alfabeta,,BISE,Demografía y Sociedad,Educación,Características educativas de la población
-Porcentaje de población de 15 años y más sin escolaridad,,BISE,Demografía y Sociedad,Educación,Características educativas de la población
-Porcentaje de la población de 3 a 5 años que asiste a la escuela,,BISE,Demografía y Sociedad,Educación,Características educativas de la población
-Porcentaje de la población de 6 a 11 años que asiste a la escuela,,BISE,Demografía y Sociedad,Educación,Características educativas de la población
-Porcentaje de la población de 12 a 14 años que asiste a la escuela,,BISE,Demografía y Sociedad,Educación,Características educativas de la población
-Porcentaje de la población de 15 a 24 años que asiste a la escuela,,BISE,Demografía y Sociedad,Educación,Características educativas de la población
-Porcentaje de población de 15 años y más con escolaridad básica,,BISE,Demografía y Sociedad,Educación,Características educativas de la población
-Porcentaje de la población de 3 a 5 años que asiste a la escuela en otro municipio o delegación diferente al de residencia,,BISE,Demografía y Sociedad,Educación,Características educativas de la población
-Porcentaje de la población de 6 a 11 años que asiste a la escuela en otro municipio o delegación diferente al de residencia,,BISE,Demografía y Sociedad,Educación,Características educativas de la población
-Porcentaje de la población de 12 a 14 años que asiste a la escuela en otro municipio o delegación diferente al de residencia,,BISE,Demografía y Sociedad,Educación,Características educativas de la población
-Porcentaje de la población de 15 a 24 años que asiste a la escuela en otro municipio o delegación diferente al de residencia,,BISE,Demografía y Sociedad,Educación,Características educativas de la población
-Población de 6 a 14 años que sabe leer y escribir,,BISE,Demografía y Sociedad,Educación,Características educativas de la población
-Población de 6 a 14 años que no sabe leer y escribir,,BISE,Demografía y Sociedad,Educación,Características educativas de la población
-Porcentaje de la población de 3 años y más que asiste a la escuela,,BISE,Demografía y Sociedad,Educación,Características educativas de la población
-Porcentaje de la población de 3 años y más que no asiste a la escuela,,BISE,Demografía y Sociedad,Educación,Características educativas de la población
-Población de 6 a 14 años que no especificó si sabe o no leer y escribir,,BISE,Demografía y Sociedad,Educación,Características educativas de la población
-Porcentaje de la población de 3 años y más que no especificó si asiste o no a la escuela,,BISE,Demografía y Sociedad,Educación,Características educativas de la población
-Razón entre niñas y niños en la enseñanza secundaria,,BISE,Demografía y Sociedad,Educación,Características educativas de la población
-Razón entre mujeres y hombres en la enseñanza superior,,BISE,Demografía y Sociedad,Educación,Características educativas de la población
-Razón entre mujeres y hombres en la enseñanza media superior,,BISE,Demografía y Sociedad,Educación,Características educativas de la población
-Razón entre niñas y niños en la enseñanza primaria,,BISE,Demografía y Sociedad,Educación,Características educativas de la población
-Gasto nacional en educación total como porcentaje del PIB,,BISE,Demografía y Sociedad,Educación,
+nombre,id,bdi,sect,clase,subclase,subclase2
+Porcentaje de personas de 15 años y más alfabetas,1002000041,BISE,Demografía y Sociedad,Educación,Características educativas de la población,
+Tasa de alfabetización de las personas de 15 a 24 años,1002000050,BISE,Demografía y Sociedad,Educación,Características educativas de la población,
+Población de 5 años y más que asiste a la escuela,1005000012,BISE,Demografía y Sociedad,Educación,Características educativas de la población,
+Grado promedio de escolaridad de la población de 15 y más años,1005000038,BISE,Demografía y Sociedad,Educación,Características educativas de la población,
+Porcentaje de analfabetas total,3108001001,BISE,Demografía y Sociedad,Educación,Características educativas de la población,
+Porcentaje de analfabetas hombres,3108001002,BISE,Demografía y Sociedad,Educación,Características educativas de la población,
+Porcentaje de analfabetas mujeres,3108001003,BISE,Demografía y Sociedad,Educación,Características educativas de la población,
+Población en edad escolar de 3 a 24 años,6200200237,BISE,Demografía y Sociedad,Educación,Características educativas de la población,
+Población de 8 a 14 años que sabe leer y escribir,6200205238,BISE,Demografía y Sociedad,Educación,Características educativas de la población,
+Población de 15 años y más con algún grado aprobado en educación básica,6200205239,BISE,Demografía y Sociedad,Educación,Características educativas de la población,
+Población de 19 años y más con algún grado aprobado en estudios técnicos o comerciales con secundaria terminada,6200205240,BISE,Demografía y Sociedad,Educación,Características educativas de la población,
+Población de 19 años y más con algún grado aprobado en bachillerato,6200205241,BISE,Demografía y Sociedad,Educación,Características educativas de la población,
+Población de 24 años y más con algún grado aprobado en estudios superiores,6200205242,BISE,Demografía y Sociedad,Educación,Características educativas de la población,
+Porcentaje de la población de 15 años y más con instrucción media superior,6200240314,BISE,Demografía y Sociedad,Educación,Características educativas de la población,
+Porcentaje de la población de 15 años y más con secundaria incompleta,6200240333,BISE,Demografía y Sociedad,Educación,Características educativas de la población,
+Porcentaje de la población de 15 años y más con primaria completa,6200240362,BISE,Demografía y Sociedad,Educación,Características educativas de la población,
+Porcentaje de la población de 15 años y más con instrucción superior,6200240365,BISE,Demografía y Sociedad,Educación,Características educativas de la población,
+Porcentaje de la población de 15 años y más con instrucción no especificada,6200240368,BISE,Demografía y Sociedad,Educación,Características educativas de la población,
+Porcentaje de la población de 15 años y más con secundaria completa,6200240380,BISE,Demografía y Sociedad,Educación,Características educativas de la población,
+Porcentaje de la población de 15 años y más con rezago educativo,6200240391,BISE,Demografía y Sociedad,Educación,Características educativas de la población,
+Porcentaje de la población de 15 años y más sin instrucción,6200240447,BISE,Demografía y Sociedad,Educación,Características educativas de la población,
+Porcentaje de la población de 15 años y más con primaria incompleta,6200240510,BISE,Demografía y Sociedad,Educación,Características educativas de la población,
+Porcentaje de población de 25 años y más alfabeta,6207019010,BISE,Demografía y Sociedad,Educación,Características educativas de la población,
+Porcentaje de población de 15 años y más sin escolaridad,6207019020,BISE,Demografía y Sociedad,Educación,Características educativas de la población,
+Porcentaje de la población de 3 a 5 años que asiste a la escuela,6207019024,BISE,Demografía y Sociedad,Educación,Características educativas de la población,
+Porcentaje de la población de 6 a 11 años que asiste a la escuela,6207019026,BISE,Demografía y Sociedad,Educación,Características educativas de la población,
+Porcentaje de la población de 12 a 14 años que asiste a la escuela,6207019028,BISE,Demografía y Sociedad,Educación,Características educativas de la población,
+Porcentaje de la población de 15 a 24 años que asiste a la escuela,6207019029,BISE,Demografía y Sociedad,Educación,Características educativas de la población,
+Porcentaje de población de 15 años y más con escolaridad básica,6207019031,BISE,Demografía y Sociedad,Educación,Características educativas de la población,
+Porcentaje de la población de 3 a 5 años que asiste a la escuela en otro municipio o delegación diferente al de residencia,6207019066,BISE,Demografía y Sociedad,Educación,Características educativas de la población,
+Porcentaje de la población de 6 a 11 años que asiste a la escuela en otro municipio o delegación diferente al de residencia,6207019067,BISE,Demografía y Sociedad,Educación,Características educativas de la población,
+Porcentaje de la población de 12 a 14 años que asiste a la escuela en otro municipio o delegación diferente al de residencia,6207019068,BISE,Demografía y Sociedad,Educación,Características educativas de la población,
+Porcentaje de la población de 15 a 24 años que asiste a la escuela en otro municipio o delegación diferente al de residencia,6207019069,BISE,Demografía y Sociedad,Educación,Características educativas de la población,
+Población de 6 a 14 años que sabe leer y escribir,6207049066,BISE,Demografía y Sociedad,Educación,Características educativas de la población,
+Población de 6 a 14 años que no sabe leer y escribir,6207049067,BISE,Demografía y Sociedad,Educación,Características educativas de la población,
+Porcentaje de la población de 3 años y más que asiste a la escuela,6207049068,BISE,Demografía y Sociedad,Educación,Características educativas de la población,
+Porcentaje de la población de 3 años y más que no asiste a la escuela,6207049069,BISE,Demografía y Sociedad,Educación,Características educativas de la población,
+Población de 6 a 14 años que no especificó si sabe o no leer y escribir,6207049070,BISE,Demografía y Sociedad,Educación,Características educativas de la población,
+Porcentaje de la población de 3 años y más que no especificó si asiste o no a la escuela,6207049071,BISE,Demografía y Sociedad,Educación,Características educativas de la población,
+Razón entre niñas y niños en la enseñanza secundaria,6300000229,BISE,Demografía y Sociedad,Educación,Características educativas de la población,
+Razón entre mujeres y hombres en la enseñanza superior,6300000231,BISE,Demografía y Sociedad,Educación,Características educativas de la población,
+Razón entre mujeres y hombres en la enseñanza media superior,6300000235,BISE,Demografía y Sociedad,Educación,Características educativas de la población,
+Razón entre niñas y niños en la enseñanza primaria,6300000246,BISE,Demografía y Sociedad,Educación,Características educativas de la población,
+Gasto nacional en educación total como porcentaje del PIB,6207067825,BISE,Demografía y Sociedad,Educación,,
+Conflictos de trabajo,,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+Conflictos de trabajo solucionados,,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+Huelgas estalladas,,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+Huelgas solucionadas,,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+Personal ocupado total. Universo total,,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+Personal ocupado total. Sector privado y paraestatal,,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+Personal ocupado total. Gran sector 43-46. Comercio,,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+"Personal ocupado total. Gran sector 51 ,53 ,54 ,55, 56, 61, 62, 71, 72 y 81. Servicios privados no financieros",,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+Personal ocupado total. Sector 11. Pesca y acuicultura,,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+Personal ocupado total. Sector 21. Minería,,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+"Personal ocupado total. Sector 22. Electricidad, agua y gas",,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+Personal ocupado total. Sector 23. Construcción,,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+Personal ocupado total. Sector 31-33. Industrias manufactureras,,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+Personal ocupado total. Sector 48-49. Transportes,,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+Personal ocupado total. Sector 52. Servicios financieros y de seguros,,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+Población no económicamente activa - 15 años y más,,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+Población no económicamente activa disponible - 15 años y más,,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+Población no económicamente activa no disponible - 15 años y más,,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+Población ocupada con ingresos de hasta un salario mínimo - 15 años y más,,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+"Población ocupada con ingresos de hasta un salario mínimo - 15 años y más, hombres",,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+"Población ocupada con ingresos de hasta un salario mínimo - 15 años y más, mujeres",,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+Población ocupada con ingresos de más de 1 hasta 2 salarios mínimos - 15 años y más,,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+"Población ocupada con ingresos de más de 1 hasta 2 salarios mínimos - 15 años y más, hombres",,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+"Población ocupada con ingresos de más de 1 hasta 2 salarios mínimos - 15 años y más, mujeres",,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+Población ocupada con ingresos de más de 2 hasta 3 salarios mínimos - 15 años y más,,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+"Población ocupada con ingresos de más de 2 hasta 3 salarios mínimos - 15 años y más, hombres",,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+"Población ocupada con ingresos de más de 2 hasta 3 salarios mínimos - 15 años y más, mujeres",,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+Población ocupada con ingresos de más de 3 hasta 5 salarios mínimos - 15 años y más,,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+"Población ocupada con ingresos de más de 3 hasta 5 salarios mínimos - 15 años y más, hombres",,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+"Población ocupada con ingresos de más de 3 hasta 5 salarios mínimos - 15 años y más, mujeres",,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+Población ocupada con ingresos de más de 5 salarios mínimos - 15 años y más,,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+"Población ocupada con ingresos de más de 5 salarios mínimos - 15 años y más, hombres",,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+"Población ocupada con ingresos de más de 5 salarios mínimos - 15 años y más, mujeres",,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+Población ocupada que no recibe ingresos - 15 años y más,,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+"Población ocupada que no recibe ingresos - 15 años y más, hombres",,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+"Población ocupada que no recibe ingresos - 15 años y más, mujeres",,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+Población ocupada con ingresos no especificados - 15 años y más,,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+"Población ocupada con ingresos no especificados - 15 años y más, hombres",,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+"Población ocupada con ingresos no especificados - 15 años y más, mujeres",,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+Cantidad de personal ocupado total en la prestación del servicio de agua potable,,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+Cantidad de personal sindicalizado ocupado en la prestación del servicio de agua potable,,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+Cantidad de personal de confianza ocupado en la prestación del servicio de agua potable,,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+Población ocupada en el sector informal - 15 años y más,,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+"Población ocupada en el sector informal - 15 años y más, mujeres",,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+"Población ocupada en el sector informal - 15 años y más, hombres",,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+"Población ocupada - 15 años y más, hombres",,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+Población ocupada - 15 años y más,,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+"Población ocupada - 15 años y más, mujeres",,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+Población económicamente activa - 15 años y más,,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+Población en edad de trabajar (15 años y más),,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+Población desocupada - 15 años y más,,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+"Población desocupada - 15 años y más, hombres",,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+"Población desocupada - 15 años y más, mujeres",,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+Porcentaje de población de 12 años y más económicamente activa,,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+Porcentaje de la población de 12 años y más No Económicamente Activa,,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+Porcentaje de la población de 12 años y más económicamente activa ocupada,,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+Porcentaje de la población femenina de 12 años y más económicamente activa,,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+Porcentaje de la población masculina de 12 años y más económicamente activa,,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+Porcentaje de la población de 12 años y más no económicamente activa que estudia,,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+Porcentaje de la población femenina de 12 años y más económicamente activa ocupada,,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+Porcentaje de la población masculina de 12 años y más económicamente activa ocupada,,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+Porcentaje de población de 12 años con condición de actividad económica no especificada,,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+Porcentaje de la población de 12 años y más no económicamente activa que es pensionada o jubilada,,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+Porcentaje de la población de 12 años y más no económicamente activa que se dedica a los quehaceres del hogar,,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+Porcentaje de la población de 12 años y más no económicamente activa que realiza otras actividades no económicas,,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+Porcentaje de la población de 12 años y más no económicamente activa con alguna limitación física o mental que les impide trabajar,,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+Personal ocupado total. Sector 46. Comercio al por menor,,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+Personal ocupado total. Sector 43. Comercio al por mayor,,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+"Personal ocupado total. Resto de las actividades. Sectores 11, 22, 23, 48-49, 52",,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+Estructura porcentual de personal ocupado. Hombres. Universo total,,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+Estructura porcentual de personal ocupado. Mujeres . Universo total,,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+Personal ocupado que inició operaciones en el año censal. Universo total,,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+Personal ocupado que inició operaciones antes del año censal. Zona Rural. Universo total,,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+Personal ocupado en Zona Urbana. Servicios públicos. Universo total,,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+Personal ocupado que inició operaciones antes del año censal. Zona Urbana. Universo total,,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+Personal ocupado en Zona Urbana. Asociaciones religiosas. Universo total,,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+Personal ocupado de servicios públicos y asociaciones religiosas. Universo total,,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+Personal ocupado en Zona Urbana. Sector privado y paraestatal. Universo total,,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+Personal ocupado que inició operaciones antes del año censal. Universo total,,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+Tasa de crecimiento de Personal ocupado total. Sector privado y paraestatal,,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+Proporción de escaños ocupados por mujeres en la Cámara de Diputados,,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+Proporción de escaños ocupados por mujeres en la Cámara de Senadores,,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+Proporción de mujeres en el total de asalariados en el sector no agropecuario - 14 años y más; serie 1995 - 2013,,BISE,Demografía y Sociedad,Empleo y Ocupación,Empleo y ocupación,
+Población en hogares familiares,,BISE,Demografía y Sociedad,Hogares y Vivienda,Hogares,Características de los hogares
+Población en hogares no familiares,,BISE,Demografía y Sociedad,Hogares y Vivienda,Hogares,Características de los hogares
+Hogares con jefatura masculina,,BISE,Demografía y Sociedad,Hogares y Vivienda,Hogares,Características de los hogares
+Hogares con jefatura femenina,,BISE,Demografía y Sociedad,Hogares y Vivienda,Hogares,Características de los hogares
+Tamaño promedio de los hogares censales,,BISE,Demografía y Sociedad,Hogares y Vivienda,Hogares,Características de los hogares
+Tamaño promedio de los hogares con jefe hombre,,BISE,Demografía y Sociedad,Hogares y Vivienda,Hogares,Características de los hogares
+Tamaño promedio de los hogares con jefe mujer,,BISE,Demografía y Sociedad,Hogares y Vivienda,Hogares,Características de los hogares
+Tamaño promedio del hogar,,BISE,Demografía y Sociedad,Hogares y Vivienda,Hogares,Características de los hogares
+Hogares familiares monoparentales,,BISE,Demografía y Sociedad,Hogares y Vivienda,Hogares,Características de los hogares
+Otros hogares familiares,,BISE,Demografía y Sociedad,Hogares y Vivienda,Hogares,Características de los hogares
+Hogares familiares compuestos,,BISE,Demografía y Sociedad,Hogares y Vivienda,Hogares,Características de los hogares
+Hogares familiares biparentales,,BISE,Demografía y Sociedad,Hogares y Vivienda,Hogares,Características de los hogares
+Hogares familiares nucleares,,BISE,Demografía y Sociedad,Hogares y Vivienda,Hogares,Características de los hogares
+Porcentaje de hogares familiares,,BISE,Demografía y Sociedad,Hogares y Vivienda,Hogares,Características de los hogares
+Porcentaje de hogares unipersonales,,BISE,Demografía y Sociedad,Hogares y Vivienda,Hogares,Características de los hogares
+Hogares familiares ampliados,,BISE,Demografía y Sociedad,Hogares y Vivienda,Hogares,Características de los hogares
+Gasto corriente total promedio trimestral por hogar en artículos y servicios para la casa,,BISE,Demografía y Sociedad,Hogares y Vivienda,Hogares,Ingresos y Gastos de los Hogares
+Ingreso corriente total promedio trimestral por hogar,,BISE,Demografía y Sociedad,Hogares y Vivienda,Hogares,Ingresos y Gastos de los Hogares
+Gasto corriente total promedio trimestral por hogar en transferencia de gasto,,BISE,Demografía y Sociedad,Hogares y Vivienda,Hogares,Ingresos y Gastos de los Hogares
+Gasto corriente total promedio trimestral por hogar,,BISE,Demografía y Sociedad,Hogares y Vivienda,Hogares,Ingresos y Gastos de los Hogares
+Gasto corriente total promedio trimestral por hogar en transporte y comunicaciones,,BISE,Demografía y Sociedad,Hogares y Vivienda,Hogares,Ingresos y Gastos de los Hogares
+Gasto corriente total promedio trimestral por hogar en educación y esparcimiento,,BISE,Demografía y Sociedad,Hogares y Vivienda,Hogares,Ingresos y Gastos de los Hogares
+Gasto corriente total promedio trimestral por hogar en cuidados personales,,BISE,Demografía y Sociedad,Hogares y Vivienda,Hogares,Ingresos y Gastos de los Hogares
+Gasto corriente total promedio trimestral por hogar en vivienda y combustibles,,BISE,Demografía y Sociedad,Hogares y Vivienda,Hogares,Ingresos y Gastos de los Hogares
+"Gasto corriente total promedio trimestral por hogar en alimentos, bebidas y tabaco",,BISE,Demografía y Sociedad,Hogares y Vivienda,Hogares,Ingresos y Gastos de los Hogares
+Gasto corriente total promedio trimestral por hogar en cuidados de la salud,,BISE,Demografía y Sociedad,Hogares y Vivienda,Hogares,Ingresos y Gastos de los Hogares
+Gasto corriente total promedio trimestral por hogar en vestido y calzado,,BISE,Demografía y Sociedad,Hogares y Vivienda,Hogares,Ingresos y Gastos de los Hogares
+Ingreso corriente total promedio trimestral por hogar en el decil I,,BISE,Demografía y Sociedad,Hogares y Vivienda,Hogares,Ingresos y Gastos de los Hogares
+Ingreso corriente total promedio trimestral por hogar en el decil V,,BISE,Demografía y Sociedad,Hogares y Vivienda,Hogares,Ingresos y Gastos de los Hogares
+Ingreso corriente total promedio trimestral por hogar en el decil X,,BISE,Demografía y Sociedad,Hogares y Vivienda,Hogares,Ingresos y Gastos de los Hogares
+Ingreso corriente total promedio trimestral por hogar en el decil II,,BISE,Demografía y Sociedad,Hogares y Vivienda,Hogares,Ingresos y Gastos de los Hogares
+Ingreso corriente total promedio trimestral por hogar en el decil IV,,BISE,Demografía y Sociedad,Hogares y Vivienda,Hogares,Ingresos y Gastos de los Hogares
+Ingreso corriente total promedio trimestral por hogar en el decil IX,,BISE,Demografía y Sociedad,Hogares y Vivienda,Hogares,Ingresos y Gastos de los Hogares
+Ingreso corriente total promedio trimestral por hogar en el decil VI,,BISE,Demografía y Sociedad,Hogares y Vivienda,Hogares,Ingresos y Gastos de los Hogares
+Ingreso corriente total promedio trimestral por hogar en el decil III,,BISE,Demografía y Sociedad,Hogares y Vivienda,Hogares,Ingresos y Gastos de los Hogares
+Ingreso corriente total promedio trimestral por hogar en el decil VII,,BISE,Demografía y Sociedad,Hogares y Vivienda,Hogares,Ingresos y Gastos de los Hogares
+Ingreso corriente total promedio trimestral por hogar en el decil VIII,,BISE,Demografía y Sociedad,Hogares y Vivienda,Hogares,Ingresos y Gastos de los Hogares
+Población en hogares censales,,BISE,Demografía y Sociedad,Hogares y Vivienda,Hogares,
+Hogares censales,,BISE,Demografía y Sociedad,Hogares y Vivienda,Hogares,
+Total de viviendas particulares habitadas,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Viviendas particulares habitadas,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Promedio de ocupantes en viviendas particulares habitadas,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Viviendas particulares habitadas que disponen de energía eléctrica,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Viviendas particulares habitadas que disponen de agua de la red pública en el ámbito de la vivienda,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Viviendas particulares habitadas que disponen de drenaje,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Viviendas particulares habitadas que disponen de excusado o sanitario,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Viviendas particulares habitadas que disponen de lavadora,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Viviendas particulares habitadas que disponen de computadora,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Porcentaje de viviendas con paredes de materiales resistentes,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Porcentaje de viviendas con piso de tierra,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Porcentaje de viviendas con agua entubada,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Porcentaje de viviendas con electricidad,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Porcentaje de viviendas particulares habitadas con disponibilidad de drenaje,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Porcentaje de viviendas particulares habitadas con disponibilidad de excusado,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Porcentaje de viviendas con techos de materiales resistentes,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Viviendas habitadas,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Viviendas que son cuarto de azotea,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Viviendas móviles,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Viviendas que son departamento en edificio o vivienda en vecindad,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Viviendas que son refugio,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Viviendas colectivas,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Viviendas que son casa independiente o local no construido para habitación,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Tasa de crecimiento promedio anual de las viviendas particulares habitadas,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+"Viviendas, de cada cien que cuentan con electricidad, agua y drenaje",,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Porcentaje de las viviendas particulares habitadas sin ningún bien,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Porcentaje de viviendas que disponen de sanitario,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Porcentaje de viviendas particulares habitadas propias,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Porcentaje de viviendas particulares habitadas alquiladas,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Porcentaje de viviendas donde todos sus focos son ahorradores,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Porcentaje de viviendas que disponen de calentador solar de agua,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Porcentaje de viviendas particulares habitadas con techos precarios,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Porcentaje de viviendas particulares habitadas con paredes precarias,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Porcentaje de viviendas particulares habitadas de un familiar o prestada,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Porcentaje de viviendas particulares habitadas que disponen de Internet,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Porcentaje de viviendas donde separan en orgánico e inorgánico los residuos,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Porcentaje de viviendas que disponen de panel solar para tener electricidad,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Porcentaje de viviendas particulares habitadas que disponen de computadora,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Porcentaje de viviendas particulares habitadas con tenencia no especificada,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Porcentaje de viviendas particulares habitadas en otra situación de tenencia,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Porcentaje de viviendas particulares habitadas que disponen de teléfono fijo,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Porcentaje de viviendas particulares habitadas que disponen de pantalla plana,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Porcentaje de viviendas particulares habitadas que disponen de teléfono celular,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Porcentaje de viviendas particulares habitadas que disponen de televisión de paga,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Porcentaje de viviendas en el ámbito geográfico de referencia respecto a la unidad geográfica superior,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Porcentaje de viviendas con drenaje,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Promedio de ocupantes por cuarto (Índice de hacinamiento),,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Manzanas con banqueta en ninguna vialidad,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Manzanas con guarnición en ninguna vialidad,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Manzanas con banqueta en todas las vialidades,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Manzanas con guarnición en todas las vialidades,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Manzanas con puesto semifijo en ninguna vialidad,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Manzanas con puesto ambulante en ninguna vialidad,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Manzanas con teléfono público en ninguna vialidad,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Manzanas con alumbrado público en ninguna vialidad,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Manzanas con árboles o palmeras en ninguna vialidad,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Manzanas con puesto semifijo en al menos una vialidad,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Manzanas con puesto ambulante en al menos una vialidad,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Manzanas con teléfono público en todas las vialidades,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Manzanas con alumbrado público en todas las vialidades,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Manzanas con árboles o palmeras en todas las vialidades,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Población en manzanas con banqueta en ninguna vialidad,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Población en manzanas con guarnición en ninguna vialidad,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Manzanas con rampa para silla de ruedas en ninguna vialidad,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Manzanas con recubrimiento de la calle en ninguna vialidad,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Población en manzanas con banqueta en todas las vialidades,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Población en manzanas con guarnición en todas las vialidades,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Manzanas con letrero con nombre de la calle en ninguna vialidad,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Manzanas con rampa para silla de ruedas en todas las vialidades,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Manzanas con recubrimiento de la calle en todas las vialidades,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Población en manzanas con puesto semifijo en ninguna vialidad,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Población en manzanas con puesto ambulante en ninguna vialidad,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Población en manzanas con teléfono público en ninguna vialidad,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Manzanas con restricción del paso a peatones en ninguna vialidad,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Población en manzanas con alumbrado público en ninguna vialidad,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Población en manzanas con árboles o palmeras en ninguna vialidad,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Manzanas con letrero con nombre de la calle en todas las vialidades,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Población en manzanas con puesto semifijo en al menos una vialidad,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Viviendas habitadas en manzanas con banqueta en ninguna vialidad,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Población en manzanas con puesto ambulante en al menos una vialidad,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Población en manzanas con teléfono público en todas las vialidades,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Manzanas con restricción del paso a automóviles en ninguna vialidad,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Manzanas con restricción del paso a peatones en al menos una vialidad,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Población en manzanas con alumbrado público en todas las vialidades,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Población en manzanas con árboles o palmeras en todas las vialidades,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Viviendas habitadas en manzanas con guarnición en ninguna vialidad,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Viviendas habitadas en manzanas con banqueta en todas las vialidades,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Manzanas con restricción del paso a automóviles en al menos una vialidad,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Población en manzanas con rampa para silla de ruedas en ninguna vialidad,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Población en manzanas con recubrimiento de la calle en ninguna vialidad,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Viviendas habitadas en manzanas con guarnición en todas las vialidades,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Viviendas habitadas en manzanas con puesto semifijo en ninguna vialidad,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Viviendas habitadas en manzanas con puesto ambulante en ninguna vialidad,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Viviendas habitadas en manzanas con teléfono público en ninguna vialidad,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Población en manzanas con letrero con nombre de la calle en ninguna vialidad,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Población en manzanas con rampa para silla de ruedas en todas las vialidades,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Población en manzanas con recubrimiento de la calle en todas las vialidades,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Viviendas habitadas en manzanas con alumbrado público en ninguna vialidad,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Viviendas habitadas en manzanas con árboles o palmeras en ninguna vialidad,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Viviendas habitadas en manzanas con puesto semifijo en al menos una vialidad,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Población en manzanas con restricción del paso a peatones en ninguna vialidad,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Viviendas habitadas en manzanas con puesto ambulante en al menos una vialidad,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Viviendas habitadas en manzanas con teléfono público en todas las vialidades,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Población en manzanas con letrero con nombre de la calle en todas las vialidades,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Viviendas habitadas en manzanas con alumbrado público en todas las vialidades,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Viviendas habitadas en manzanas con árboles o palmeras en todas las vialidades,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Población en manzanas con restricción del paso a automóviles en ninguna vialidad,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Población en manzanas con restricción del paso a peatones en al menos una vialidad,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Viviendas habitadas en manzanas con rampa para silla de ruedas en ninguna vialidad,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Viviendas habitadas en manzanas con recubrimiento de la calle en ninguna vialidad,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Población en manzanas con restricción del paso a automóviles en al menos una vialidad,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Viviendas habitadas en manzanas con letrero con nombre de la calle en ninguna vialidad,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Viviendas habitadas en manzanas con rampa para silla de ruedas en todas las vialidades,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Viviendas habitadas en manzanas con recubrimiento de la calle en todas las vialidades,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Viviendas habitadas en manzanas con restricción del paso a peatones en ninguna vialidad,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Viviendas habitadas en manzanas con letrero con nombre de la calle en todas las vialidades,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Viviendas habitadas en manzanas con restricción del paso a automóviles en ninguna vialidad,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Viviendas habitadas en manzanas con restricción del paso a peatones en al menos una vialidad,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Viviendas habitadas en manzanas con restricción del paso a automóviles en al menos una vialidad,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Porcentaje de viviendas con agua entubada dentro de la vivienda,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Porcentaje de viviendas particulares habitadas que disponen de tinaco,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Porcentaje de viviendas particulares habitadas que disponen de cisterna o aljibe,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Porcentaje de viviendas particulares habitadas que disponen de Automóvil o camioneta,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Porcentaje de viviendas particulares habitadas que disponen de motocicleta o motoneta,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Porcentaje de viviendas particulares habitadas que disponen de bicicleta como medio de transporte,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Porcentaje de viviendas particulares habitadas que disponen de refrigerador,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Porcentaje de viviendas particulares habitadas que disponen de lavadora,,BISE,Demografía y Sociedad,Hogares y Vivienda,Vivienda,
+Población total,,BISE,Demografía y Sociedad,Población,Población,
+Población total hombres,,BISE,Demografía y Sociedad,Población,Población,
+Población total mujeres,,BISE,Demografía y Sociedad,Población,Población,
+Porcentaje de población de 15 a 29 años,,BISE,Demografía y Sociedad,Población,Población,
+Porcentaje de hombres de 15 a 29 años,,BISE,Demografía y Sociedad,Población,Población,
+Porcentaje de mujeres de 15 a 29 años,,BISE,Demografía y Sociedad,Población,Población,
+Porcentaje de población de 60 y más años,,BISE,Demografía y Sociedad,Población,Población,
+Porcentaje de hombres de 60 y más años,,BISE,Demografía y Sociedad,Población,Población,
+Porcentaje de mujeres de 60 y más años,,BISE,Demografía y Sociedad,Población,Población,
+Edad mediana,,BISE,Demografía y Sociedad,Población,Población,
+Edad mediana hombres,,BISE,Demografía y Sociedad,Población,Población,
+Edad mediana mujeres,,BISE,Demografía y Sociedad,Población,Población,
+Relación hombres-mujeres,,BISE,Demografía y Sociedad,Población,Población,
+Población de edad no especificada,,BISE,Demografía y Sociedad,Población,Población,
+Población de edad no especificada. Hombres,,BISE,Demografía y Sociedad,Población,Población,
+Población de edad no especificada. Mujeres,,BISE,Demografía y Sociedad,Población,Población,
+Población de 0 a 4 años,,BISE,Demografía y Sociedad,Población,Población,
+Población de 0 a 4 años. Hombres,,BISE,Demografía y Sociedad,Población,Población,
+Población de 0 a 4 años. Mujeres,,BISE,Demografía y Sociedad,Población,Población,
+Población de 10 a 14 años,,BISE,Demografía y Sociedad,Población,Población,
+Población de 10 a 14 años. Hombres,,BISE,Demografía y Sociedad,Población,Población,
+Población de 10 a 14 años. Mujeres,,BISE,Demografía y Sociedad,Población,Población,
+Población de 100 años y más,,BISE,Demografía y Sociedad,Población,Población,
+Población de 100 años y más. Hombres,,BISE,Demografía y Sociedad,Población,Población,
+Población de 100 años y más. Mujeres,,BISE,Demografía y Sociedad,Población,Población,
+Población de 15 a 19 años,,BISE,Demografía y Sociedad,Población,Población,
+Población de 15 a 19 años. Hombres,,BISE,Demografía y Sociedad,Población,Población,
+Población de 15 a 19 años. Mujeres,,BISE,Demografía y Sociedad,Población,Población,
+Población de 20 a 24 años,,BISE,Demografía y Sociedad,Población,Población,
+Población de 20 a 24 años. Hombres,,BISE,Demografía y Sociedad,Población,Población,
+Población de 20 a 24 años. Mujeres,,BISE,Demografía y Sociedad,Población,Población,
+Población de 25 a 29 años,,BISE,Demografía y Sociedad,Población,Población,
+Población de 25 a 29 años. Hombres,,BISE,Demografía y Sociedad,Población,Población,
+Población de 25 a 29 años. Mujeres,,BISE,Demografía y Sociedad,Población,Población,
+Población de 30 a 34 años,,BISE,Demografía y Sociedad,Población,Población,
+Población de 30 a 34 años. Hombres,,BISE,Demografía y Sociedad,Población,Población,
+Población de 30 a 34 años. Mujeres,,BISE,Demografía y Sociedad,Población,Población,
+Población de 35 a 39 años,,BISE,Demografía y Sociedad,Población,Población,
+Población de 35 a 39 años. Hombres,,BISE,Demografía y Sociedad,Población,Población,
+Población de 35 a 39 años. Mujeres,,BISE,Demografía y Sociedad,Población,Población,
+Población de 40 a 44 años,,BISE,Demografía y Sociedad,Población,Población,
+Población de 40 a 44 años. Hombres,,BISE,Demografía y Sociedad,Población,Población,
+Población de 40 a 44 años. Mujeres,,BISE,Demografía y Sociedad,Población,Población,
+Población de 45 a 49 años,,BISE,Demografía y Sociedad,Población,Población,
+Población de 45 a 49 años. Hombres,,BISE,Demografía y Sociedad,Población,Población,
+Población de 45 a 49 años. Mujeres,,BISE,Demografía y Sociedad,Población,Población,
+Población de 5 a 9 años,,BISE,Demografía y Sociedad,Población,Población,
+Población de 5 a 9 años. Hombres,,BISE,Demografía y Sociedad,Población,Población,
+Población de 5 a 9 años. Mujeres,,BISE,Demografía y Sociedad,Población,Población,
+Población de 50 a 54 años,,BISE,Demografía y Sociedad,Población,Población,
+Población de 50 a 54 años. Hombres,,BISE,Demografía y Sociedad,Población,Población,
+Población de 50 a 54 años. Mujeres,,BISE,Demografía y Sociedad,Población,Población,
+Población de 55 a 59 años,,BISE,Demografía y Sociedad,Población,Población,
+Población de 55 a 59 años. Hombres,,BISE,Demografía y Sociedad,Población,Población,
+Población de 55 a 59 años. Mujeres,,BISE,Demografía y Sociedad,Población,Población,
+Población de 60 a 64 años,,BISE,Demografía y Sociedad,Población,Población,
+Población de 60 a 64 años. Hombres,,BISE,Demografía y Sociedad,Población,Población,
+Población de 60 a 64 años. Mujeres,,BISE,Demografía y Sociedad,Población,Población,
+Población de 65 a 69 años,,BISE,Demografía y Sociedad,Población,Población,
+Población de 65 a 69 años. Hombres,,BISE,Demografía y Sociedad,Población,Población,
+Población de 65 a 69 años. Mujeres,,BISE,Demografía y Sociedad,Población,Población,
+Población de 70 a 74 años,,BISE,Demografía y Sociedad,Población,Población,
+Población de 70 a 74 años. Hombres,,BISE,Demografía y Sociedad,Población,Población,
+Población de 70 a 74 años. Mujeres,,BISE,Demografía y Sociedad,Población,Población,
+Población de 75 a 79 años,,BISE,Demografía y Sociedad,Población,Población,
+Población de 75 a 79 años. Hombres,,BISE,Demografía y Sociedad,Población,Población,
+Población de 75 a 79 años. Mujeres,,BISE,Demografía y Sociedad,Población,Población,
+Población de 80 a 84 años,,BISE,Demografía y Sociedad,Población,Población,
+Población de 80 a 84 años. Hombres,,BISE,Demografía y Sociedad,Población,Población,
+Población de 80 a 84 años. Mujeres,,BISE,Demografía y Sociedad,Población,Población,
+Población de 85 a 89 años,,BISE,Demografía y Sociedad,Población,Población,
+Población de 85 a 89 años. Hombres,,BISE,Demografía y Sociedad,Población,Población,
+Población de 85 a 89 años. Mujeres,,BISE,Demografía y Sociedad,Población,Población,
+Población de 90 a 94 años,,BISE,Demografía y Sociedad,Población,Población,
+Población de 90 a 94 años. Hombres,,BISE,Demografía y Sociedad,Población,Población,
+Población de 90 a 94 años. Mujeres,,BISE,Demografía y Sociedad,Población,Población,
+Población de 95 a 99 años,,BISE,Demografía y Sociedad,Población,Población,
+Población de 95 a 99 años. Hombres,,BISE,Demografía y Sociedad,Población,Población,
+Población de 95 a 99 años. Mujeres,,BISE,Demografía y Sociedad,Población,Población,
+Relación de dependencia,,BISE,Demografía y Sociedad,Población,Población,
+Densidad de población,,BISE,Demografía y Sociedad,Población,Población,
+Porcentaje de población en localidades de menos de 2 500 habitantes,,BISE,Demografía y Sociedad,Población,Población,
+Porcentaje de hombres de 0 a 4 años,,BISE,Demografía y Sociedad,Población,Población,
+Porcentaje de mujeres de 75 a 79 años,,BISE,Demografía y Sociedad,Población,Población,
+Porcentaje de hombres de 10 a 14 años,,BISE,Demografía y Sociedad,Población,Población,
+Porcentaje de mujeres de 5 a 9 años,,BISE,Demografía y Sociedad,Población,Población,
+Porcentaje de mujeres de 55 a 59 años,,BISE,Demografía y Sociedad,Población,Población,
+Porcentaje de hombres de 75 a 79 años,,BISE,Demografía y Sociedad,Población,Población,
+Porcentaje de mujeres de 40 a 44 años,,BISE,Demografía y Sociedad,Población,Población,
+Porcentaje de mujeres de 70 a 74 años,,BISE,Demografía y Sociedad,Población,Población,
+Porcentaje de hombres de 15 a 19 años,,BISE,Demografía y Sociedad,Población,Población,
+Porcentaje de mujeres de 85 años y más,,BISE,Demografía y Sociedad,Población,Población,
+Porcentaje de mujeres de 10 a 14 años,,BISE,Demografía y Sociedad,Población,Población,
+Porcentaje de mujeres de 20 a 24 años,,BISE,Demografía y Sociedad,Población,Población,
+Porcentaje de hombres de 35 a 39 años,,BISE,Demografía y Sociedad,Población,Población,
+Porcentaje de mujeres de 45 a 49 años,,BISE,Demografía y Sociedad,Población,Población,
+Porcentaje de mujeres de 0 a 4 años,,BISE,Demografía y Sociedad,Población,Población,
+Porcentaje de mujeres de 80 a 84 años,,BISE,Demografía y Sociedad,Población,Población,
+Porcentaje de mujeres de 15 a 19 años,,BISE,Demografía y Sociedad,Población,Población,
+Porcentaje de hombres de 65 a 69 años,,BISE,Demografía y Sociedad,Población,Población,
+Índice de envejecimiento,,BISE,Demografía y Sociedad,Población,Población,
+Porcentaje de hombres de 60 a 64 años,,BISE,Demografía y Sociedad,Población,Población,
+Porcentaje de hombres de 85 años y más,,BISE,Demografía y Sociedad,Población,Población,
+Porcentaje de hombres de 40 a 44 años,,BISE,Demografía y Sociedad,Población,Población,
+Porcentaje de hombres de 70 a 74 años,,BISE,Demografía y Sociedad,Población,Población,
+Porcentaje de mujeres de 60 a 64 años,,BISE,Demografía y Sociedad,Población,Población,
+Porcentaje de mujeres de 65 a 69 años,,BISE,Demografía y Sociedad,Población,Población,
+Porcentaje de mujeres de 35 a 39 años,,BISE,Demografía y Sociedad,Población,Población,
+Porcentaje de hombres de 55 a 59 años,,BISE,Demografía y Sociedad,Población,Población,
+Porcentaje de hombres de 5 a 9 años,,BISE,Demografía y Sociedad,Población,Población,
+Porcentaje de hombres de 80 a 84 años,,BISE,Demografía y Sociedad,Población,Población,
+Porcentaje de hombres de 25 a 29 años,,BISE,Demografía y Sociedad,Población,Población,
+Porcentaje de mujeres de 50 a 54 años,,BISE,Demografía y Sociedad,Población,Población,
+Porcentaje de hombres de 30 a 34 años,,BISE,Demografía y Sociedad,Población,Población,
+Porcentaje de hombres de 20 a 24 años,,BISE,Demografía y Sociedad,Población,Población,
+Porcentaje de hombres de 45 a 49 años,,BISE,Demografía y Sociedad,Población,Población,
+Porcentaje de hombres de 50 a 54 años,,BISE,Demografía y Sociedad,Población,Población,
+Porcentaje de mujeres de 25 a 29 años,,BISE,Demografía y Sociedad,Población,Población,
+Porcentaje de mujeres de 30 a 34 años,,BISE,Demografía y Sociedad,Población,Población,
+Porcentaje de población que se considera afrodescendiente,,BISE,Demografía y Sociedad,Población,Población,
+Porcentaje de población que está registrada,,BISE,Demografía y Sociedad,Población,Población,
+Porcentaje de población que no está registrada,,BISE,Demografía y Sociedad,Población,Población,
+Porcentaje de población que se considera indígena,,BISE,Demografía y Sociedad,Población,Población,
+Porcentaje de población que está registrada en otro país,,BISE,Demografía y Sociedad,Población,Población,
+Porcentaje de población que no posee nacionalidad mexicana,,BISE,Demografía y Sociedad,Población,Población,
+Porcentaje de población que no especifica la condición de registro de nacimiento,,BISE,Demografía y Sociedad,Población,Población,
+Porcentaje de población en el ámbito geográfico de referencia respecto a la unidad geográfica superior,,BISE,Demografía y Sociedad,Población,Población,
+Porcentaje de superficie en el ámbito geográfico de referencia respecto a la unidad geográfica superior,,BISE,Demografía y Sociedad,Población,Población,
+Porcentaje de hombres,,BISE,Demografía y Sociedad,Población,Población,
+Porcentaje de mujeres,,BISE,Demografía y Sociedad,Población,Población,
+Población total en viviendas particulares habitadas,,BISE,Demografía y Sociedad,Población,Población,
+Porcentaje de la población nacional/estatal que representa,,BISE,Demografía y Sociedad,Población,Población,
+Promedio de ocupantes por dormitorio,,BISE,Demografía y Sociedad,Población,Población,
+Porcentaje de la población de 15 años y más LGBTI+,,BISE,Demografía y Sociedad,Población,Población,
+Población que se considera afrodescendiente,,BISE,Demografía y Sociedad,Población,Población,
+Población a mitad de año,,BISE,Demografía y Sociedad,Población,Población,
+Promedio de hijos nacidos vivos de las mujeres de 12 años y más,,BISE,Demografía y Sociedad,Población,Natalidad y fecundidad,
+Nacimientos registrados,,BISE,Demografía y Sociedad,Población,Natalidad y fecundidad,
+Nacimientos registrados. Hombres,,BISE,Demografía y Sociedad,Población,Natalidad y fecundidad,
+Nacimientos registrados. Mujeres,,BISE,Demografía y Sociedad,Población,Natalidad y fecundidad,
+Nacimientos registrados. Sexo no especificado,,BISE,Demografía y Sociedad,Población,Natalidad y fecundidad,
+Promedio de hijos nacidos vivos de las mujeres de 12 años y más casada sólo religiosamente,,BISE,Demografía y Sociedad,Población,Natalidad y fecundidad,
+Promedio de hijos nacidos vivos de las mujeres de 12 años y más solteras,,BISE,Demografía y Sociedad,Población,Natalidad y fecundidad,
+Promedio de hijos nacidos vivos de las mujeres de 12 años y más que no especificó estado conyugal,,BISE,Demografía y Sociedad,Población,Natalidad y fecundidad,
+Promedio de hijos nacidos vivos de las mujeres de 12 años y más casada civil y religiosamente,,BISE,Demografía y Sociedad,Población,Natalidad y fecundidad,
+Promedio de hijos nacidos vivos de las mujeres de 12 años y más separadas,,BISE,Demografía y Sociedad,Población,Natalidad y fecundidad,
+Promedio de hijos nacidos vivos de las mujeres de 12 años y más divorciadas,,BISE,Demografía y Sociedad,Población,Natalidad y fecundidad,
+Promedio de hijos nacidos vivos de las mujeres de 12 años y más en unión libre,,BISE,Demografía y Sociedad,Población,Natalidad y fecundidad,
+Promedio de hijos nacidos vivos de las mujeres de 12 años y más casada sólo por lo civil,,BISE,Demografía y Sociedad,Población,Natalidad y fecundidad,
+Promedio de hijos nacidos vivos de las mujeres de 12 años y más viudas,,BISE,Demografía y Sociedad,Población,Natalidad y fecundidad,
+"Promedio de hijos nacidos vivos de las mujeres de 12 años y más viudas, divorciadas y separadas",,BISE,Demografía y Sociedad,Población,Natalidad y fecundidad,
+Relación de nacimientos registrados mujeres - hombres,,BISE,Demografía y Sociedad,Población,Natalidad y fecundidad,
+Porcentaje de nacimientos registrados de madres adolescentes (menores de 20 años),,BISE,Demografía y Sociedad,Población,Natalidad y fecundidad,
+Promedio de hijos nacidos vivos de las mujeres de 12 años y más casadas o unidas,,BISE,Demografía y Sociedad,Población,Natalidad y fecundidad,
+Promedio de hijos nacidos vivos de las mujeres de 15 a 49 años EI2015,,BISE,Demografía y Sociedad,Población,Natalidad y fecundidad,
+Promedio de hijos nacidos vivos por grupo de edad: 15-19,,BISE,Demografía y Sociedad,Población,Natalidad y fecundidad,
+Promedio de hijos nacidos vivos por grupo de edad: 20-24,,BISE,Demografía y Sociedad,Población,Natalidad y fecundidad,
+Promedio de hijos nacidos vivos por grupo de edad: 25-29,,BISE,Demografía y Sociedad,Población,Natalidad y fecundidad,
+Promedio de hijos nacidos vivos por grupo de edad: 30-34,,BISE,Demografía y Sociedad,Población,Natalidad y fecundidad,
+Promedio de hijos nacidos vivos por grupo de edad: 35-39,,BISE,Demografía y Sociedad,Población,Natalidad y fecundidad,
+Promedio de hijos nacidos vivos por grupo de edad: 40-44,,BISE,Demografía y Sociedad,Población,Natalidad y fecundidad,
+Promedio de hijos nacidos vivos por grupo de edad: 45-49,,BISE,Demografía y Sociedad,Población,Natalidad y fecundidad,
+Defunciones registradas,,BISE,Demografía y Sociedad,Población,Mortalidad,
+Defunciones registradas. Hombres,,BISE,Demografía y Sociedad,Población,Mortalidad,
+Defunciones registradas. Mujeres,,BISE,Demografía y Sociedad,Población,Mortalidad,
+Defunciones registradas. Sexo no especificado,,BISE,Demografía y Sociedad,Población,Mortalidad,
+Defunciones registradas de menores de un año,,BISE,Demografía y Sociedad,Población,Mortalidad,
+Defunciones registradas de menores de un año. Hombres,,BISE,Demografía y Sociedad,Población,Mortalidad,
+Defunciones registradas de menores de un año. Mujeres,,BISE,Demografía y Sociedad,Población,Mortalidad,
+Defunciones registradas de menores de un año. Sexo no especificado,,BISE,Demografía y Sociedad,Población,Mortalidad,
+Tasa de defunciones por homicidio por cada 100 mil habitantes,,BISE,Demografía y Sociedad,Población,Mortalidad,
+Suicidios registrados,,BISE,Demografía y Sociedad,Población,Mortalidad,
+Índice de sobremortalidad masculina,,BISE,Demografía y Sociedad,Población,Mortalidad,
+Porcentaje de defunciones registradas por suicidio con respecto al total de muertes violentas,,BISE,Demografía y Sociedad,Población,Mortalidad,
+Porcentaje de hijos fallecidos de las mujeres de 15 a 49 años,,BISE,Demografía y Sociedad,Población,Mortalidad,
+Defunciones registradas por homicidio. Hombres,,BISE,Demografía y Sociedad,Población,Mortalidad,
+"Tasa de defunciones por homicidio por cada 100 mil habitantes, mujeres",,BISE,Demografía y Sociedad,Población,Mortalidad,
+Defunciones registradas por homicidio,,BISE,Demografía y Sociedad,Población,Mortalidad,
+"Tasa de defunciones por homicidio por cada 100 mil habitantes, hombres",,BISE,Demografía y Sociedad,Población,Mortalidad,
+Defunciones registradas por homicidio. Mujeres,,BISE,Demografía y Sociedad,Población,Mortalidad,
+Matrimonios,,BISE,Demografía y Sociedad,Población,Nupcialidad,
+Divorcios,,BISE,Demografía y Sociedad,Población,Nupcialidad,
+Relación divorcios - matrimonios,,BISE,Demografía y Sociedad,Población,Nupcialidad,
+Divorcios judiciales,,BISE,Demografía y Sociedad,Población,Nupcialidad,
+Porcentaje de personas de 12 años y más solteras,,BISE,Demografía y Sociedad,Población,Nupcialidad,
+Porcentaje de personas de 12 años y más casadas o unidas,,BISE,Demografía y Sociedad,Población,Nupcialidad,
+Tasa bruta de nupcialidad,,BISE,Demografía y Sociedad,Población,Nupcialidad,
+Divorcios administrativos,,BISE,Demografía y Sociedad,Población,Nupcialidad,
+"Porcentaje de personas de 12 años y más separadas, divorciadas o viudas",,BISE,Demografía y Sociedad,Población,Nupcialidad,
+Porcentaje de la población de 12 años y más viuda,,BISE,Demografía y Sociedad,Población,Nupcialidad,
+Porcentaje de la población de 12 años y más casada,,BISE,Demografía y Sociedad,Población,Nupcialidad,
+Porcentaje de la población de 12 años y más soltera,,BISE,Demografía y Sociedad,Población,Nupcialidad,
+Porcentaje de la población de 12 años y más separada,,BISE,Demografía y Sociedad,Población,Nupcialidad,
+Porcentaje de la población de 12 años y más divorciada,,BISE,Demografía y Sociedad,Población,Nupcialidad,
+Porcentaje de la población de 12 años y más en unión libre,,BISE,Demografía y Sociedad,Población,Nupcialidad,
+Porcentaje de la población de 12 años y más sin especificar su situación conyugal,,BISE,Demografía y Sociedad,Población,Nupcialidad,
+Porcentaje de población inmigrante (migración reciente),,BISE,Demografía y Sociedad,Población,Migración,
+Población de 5 años y más inmigrante,,BISE,Demografía y Sociedad,Población,Migración,
+Porcentaje de la población migrante internacional destino otro país,,BISE,Demografía y Sociedad,Población,Migración,
+Población nacida en otro país residente en México,,BISE,Demografía y Sociedad,Población,Migración,
+Saldo neto migratorio interno de acuerdo con el lugar de residencia 5 años atrás de la población de 5 años y más,,BISE,Demografía y Sociedad,Población,Migración,
+Porcentaje de la población migrante internacional destino no especificado,,BISE,Demografía y Sociedad,Población,Migración,
+Población nacida en otro país residente en México hombres,,BISE,Demografía y Sociedad,Población,Migración,
+Porcentaje de población nacida en otro país residente en México,,BISE,Demografía y Sociedad,Población,Migración,
+Porcentaje de población masculina nacida en otro país residente en México,,BISE,Demografía y Sociedad,Población,Migración,
+Población de 5 años y más emigrante,,BISE,Demografía y Sociedad,Población,Migración,
+Porcentaje de población femenina nacida en otro país residente en México,,BISE,Demografía y Sociedad,Población,Migración,
+Población nacida en otro país residente en México mujeres,,BISE,Demografía y Sociedad,Población,Migración,
+Porcentaje de la población migrante internacional destino Estados Unidos de América,,BISE,Demografía y Sociedad,Población,Migración,
+Índice de masculinidad de la población nacida en otro país residente en México,,BISE,Demografía y Sociedad,Población,Migración,
+Porcentaje de la población emigrante internacional a los Estados Unidos de América,,BISE,Demografía y Sociedad,Población,Migración,
+Porcentaje de la población emigrante internacional al resto del mundo,,BISE,Demografía y Sociedad,Población,Migración,
+Porcentaje de población emigrantes internacionales por causa no especificada,,BISE,Demografía y Sociedad,Población,Migración,
+Porcentaje de la población de 5 y más años residentes en la entidad cinco años antes,,BISE,Demografía y Sociedad,Población,Migración,
+Porcentaje de población emigrantes internacionales para buscar trabajo o trabajar,,BISE,Demografía y Sociedad,Población,Migración,
+Porcentaje de población emigrantes internacionales por inseguridad pública o violencia,,BISE,Demografía y Sociedad,Población,Migración,
+Porcentaje de la población emigrante internacional a países no especificados,,BISE,Demografía y Sociedad,Población,Migración,
+Porcentaje de población emigrantes internacionales por regularización migratoria,,BISE,Demografía y Sociedad,Población,Migración,
+Saldo neto migratorio de la población de 5 y más años,,BISE,Demografía y Sociedad,Población,Migración,
+Porcentaje de la población emigrante internacional a España,,BISE,Demografía y Sociedad,Población,Migración,
+Porcentaje de la población de 5 y más años residentes en otra entidad cinco años antes,,BISE,Demografía y Sociedad,Población,Migración,
+Porcentaje de la población de 5 y más años residentes en otro país cinco años antes,,BISE,Demografía y Sociedad,Población,Migración,
+Porcentaje de la población emigrante internacional a Canadá,,BISE,Demografía y Sociedad,Población,Migración,
+Porcentaje de población emigrantes internacionales por estudios,,BISE,Demografía y Sociedad,Población,Migración,
+Porcentaje de población emigrantes internacionales por otro motivo,,BISE,Demografía y Sociedad,Población,Migración,
+Porcentaje de población emigrantes internacionales para reunirse con la familia,,BISE,Demografía y Sociedad,Población,Migración,
+Porcentaje de la población de 5 y más años migrante según causa: Trabajo,,BISE,Demografía y Sociedad,Población,Migración,
+Porcentaje de la población de 5 y más años migrante según causa: Familiar,,BISE,Demografía y Sociedad,Población,Migración,
+Porcentaje de la población de 5 y más años migrante según causa: Educativa,,BISE,Demografía y Sociedad,Población,Migración,
+Porcentaje de la población de 5 y más años migrante según causa: Inseguridad delictiva o violencia,,BISE,Demografía y Sociedad,Población,Migración,
+Porcentaje de la población de 5 y más años migrante según causa: Otra causa,,BISE,Demografía y Sociedad,Población,Migración,
+Porcentaje de la población emigrante internacional por inseguridad delictiva,,BISE,Demografía y Sociedad,Población,Migración,
+Porcentaje de la población emigrante internacional por que se casó o se fue a vivir con su pareja,,BISE,Demografía y Sociedad,Población,Migración,
+Porcentaje de la población emigrante internacional por reunirse con la familia,,BISE,Demografía y Sociedad,Población,Migración,
+Porcentaje de la población emigrante internacional por causa no especificada,,BISE,Demografía y Sociedad,Población,Migración,
+Porcentaje de la población emigrante internacional por otra causa,,BISE,Demografía y Sociedad,Población,Migración,
+Porcentaje de la población emigrante internacional por estudiar,,BISE,Demografía y Sociedad,Población,Migración,
+Porcentaje de la población emigrante internacional por cambio u oferta de trabajo,,BISE,Demografía y Sociedad,Población,Migración,
+Porcentaje de la población emigrante internacional por buscar trabajo,,BISE,Demografía y Sociedad,Población,Migración,
+Población de 5 años y más hablante de lengua indígena,,BISE,Demografía y Sociedad,Población,Lengua indígena,
+Tasa de monolingüismo de la población de 5 años y más hablante de Tojolabal,,BISE,Demografía y Sociedad,Población,Lengua indígena,
+Tasa de monolingüismo de la población de 5 años y más hablante de Maya,,BISE,Demografía y Sociedad,Población,Lengua indígena,
+Población de 5 años y más hablante de Tzeltal (Tseltal),,BISE,Demografía y Sociedad,Población,Lengua indígena,
+Tasa de monolingüismo de la población de 5 años y más hablante de Mazateco,,BISE,Demografía y Sociedad,Población,Lengua indígena,
+Población de 5 años y más hablante de Lenguas chinantecas,,BISE,Demografía y Sociedad,Población,Lengua indígena,
+Tasa de monolingüismo de la población de 5 años y más hablante de Náhuatl,,BISE,Demografía y Sociedad,Población,Lengua indígena,
+Población de 5 años y más hablante de Lenguas zapotecas,,BISE,Demografía y Sociedad,Población,Lengua indígena,
+Población de 5 años y más hablante de Maya,,BISE,Demografía y Sociedad,Población,Lengua indígena,
+Población de 5 años y más hablante de Otomí,,BISE,Demografía y Sociedad,Población,Lengua indígena,
+Población de 5 años y más hablante de Tojolabal,,BISE,Demografía y Sociedad,Población,Lengua indígena,
+Población de 5 años y más hablante de Mixe,,BISE,Demografía y Sociedad,Población,Lengua indígena,
+Población de 5 años y más hablante de Mazahua,,BISE,Demografía y Sociedad,Población,Lengua indígena,
+Tasa de monolingüismo de la población de 5 años y más hablante de Chatino,,BISE,Demografía y Sociedad,Población,Lengua indígena,
+Tasa de monolingüismo de la población de 5 años y más hablante de Lenguas mixtecas,,BISE,Demografía y Sociedad,Población,Lengua indígena,
+Tasa de monolingüismo de la población de 5 años y más hablante de Tzotzil (Tsotsil),,BISE,Demografía y Sociedad,Población,Lengua indígena,
+Población de 5 años y más hablante de Lenguas mixtecas,,BISE,Demografía y Sociedad,Población,Lengua indígena,
+Tasa de monolingüismo de la población de 5 años y más hablante de Chol (Ch''ol),,BISE,Demografía y Sociedad,Población,Lengua indígena,
+Tasa de monolingüismo de la población de 5 años y más hablante de Totonaca (Totonaco),,BISE,Demografía y Sociedad,Población,Lengua indígena,
+Tasa de monolingüismo de la población de 5 años y más hablante de Huasteco,,BISE,Demografía y Sociedad,Población,Lengua indígena,
+Tasa de monolingüismo de la población de 5 años y más hablante de Mixe,,BISE,Demografía y Sociedad,Población,Lengua indígena,
+Tasa de monolingüismo de la población de 5 años y más hablante de Otomí,,BISE,Demografía y Sociedad,Población,Lengua indígena,
+Población de 5 años y más hablante de Purépecha (Tarasco),,BISE,Demografía y Sociedad,Población,Lengua indígena,
+Tasa de monolingüismo de la población de 5 años y más hablante de Zoque,,BISE,Demografía y Sociedad,Población,Lengua indígena,
+Tasa de monolingüismo de la población de 5 años y más hablante de Lenguas zapotecas,,BISE,Demografía y Sociedad,Población,Lengua indígena,
+Población de 5 años y más hablante de Chatino,,BISE,Demografía y Sociedad,Población,Lengua indígena,
+Tasa de monolingüismo de la población de 5 años y más hablante de lengua indígena,,BISE,Demografía y Sociedad,Población,Lengua indígena,
+Población de 5 años y más hablante de Tarahumara,,BISE,Demografía y Sociedad,Población,Lengua indígena,
+Población de 5 años y más hablante de Chol (Ch''ol),,BISE,Demografía y Sociedad,Población,Lengua indígena,
+Población de 5 años y más hablante de Totonaca (Totonaco),,BISE,Demografía y Sociedad,Población,Lengua indígena,
+Tasa de monolingüismo de la población de 5 años y más hablante de Mazahua,,BISE,Demografía y Sociedad,Población,Lengua indígena,
+Población de 5 años y más hablante de Tlapaneco,,BISE,Demografía y Sociedad,Población,Lengua indígena,
+Población de 5 años y más hablante de Huasteco,,BISE,Demografía y Sociedad,Población,Lengua indígena,
+Población de 5 años y más hablante de Tzotzil (Tsotsil),,BISE,Demografía y Sociedad,Población,Lengua indígena,
+Porcentaje de la población de 5 años y más hablante de lengua indígena,,BISE,Demografía y Sociedad,Población,Lengua indígena,
+Población de 5 años y más hablante de Náhuatl,,BISE,Demografía y Sociedad,Población,Lengua indígena,
+Tasa de monolingüismo de la población de 5 años y más hablante de Tarahumara,,BISE,Demografía y Sociedad,Población,Lengua indígena,
+Población de 5 años y más hablante de Zoque,,BISE,Demografía y Sociedad,Población,Lengua indígena,
+Tasa de monolingüismo de la población de 5 años y más hablante de Purépecha (Tarasco),,BISE,Demografía y Sociedad,Población,Lengua indígena,
+Tasa de monolingüismo de la población de 5 años y más hablante de Resto de lenguas,,BISE,Demografía y Sociedad,Población,Lengua indígena,
+Población de 5 años y más hablante de Mazateco,,BISE,Demografía y Sociedad,Población,Lengua indígena,
+Tasa de monolingüismo de la población de 5 años y más hablante de Tlapaneco,,BISE,Demografía y Sociedad,Población,Lengua indígena,
+Tasa de monolingüismo de la población de 5 años y más hablante de Tzeltal (Tseltal),,BISE,Demografía y Sociedad,Población,Lengua indígena,
+Población de 5 años y más hablante del Resto de lenguas,,BISE,Demografía y Sociedad,Población,Lengua indígena,
+Tasa de monolingüismo de la población de 5 años y más hablante de Lenguas chinantecas,,BISE,Demografía y Sociedad,Población,Lengua indígena,
+Porcentaje de población de 3 años y más hablante de lengua indígena,,BISE,Demografía y Sociedad,Población,Lengua indígena,
+Porcentaje de población de 3 años y más hablante de lengua indígena que no habla español,,BISE,Demografía y Sociedad,Población,Lengua indígena,
+Población de 5 años y más con religión no especificada,,BISE,Demografía y Sociedad,Población,Religión,
+Población de 5 años y más católica,,BISE,Demografía y Sociedad,Población,Religión,
+Población de 5 años y más con religión distinta de católica,,BISE,Demografía y Sociedad,Población,Religión,
+Población de 5 años y más sin religión,,BISE,Demografía y Sociedad,Población,Religión,
+Población católica,,BISE,Demografía y Sociedad,Población,Religión,
+Porcentaje de la población que profesa la religión católica,,BISE,Demografía y Sociedad,Población,Religión,
+Porcentaje de la población que profesa la religión bíblica diferente de evangélica,,BISE,Demografía y Sociedad,Población,Religión,
+Porcentaje de la población que profesa otras religiones,,BISE,Demografía y Sociedad,Población,Religión,
+Población no católica,,BISE,Demografía y Sociedad,Población,Religión,
+Porcentaje de la población que profesa la religión protestante y evangélica,,BISE,Demografía y Sociedad,Población,Religión,
+Población derechohabiente a servicios de salud,,BISE,Demografía y Sociedad,Salud y Seguridad Social,Derechohabiencia,
+Porcentaje de la población derechohabiente en el Seguro popular,,BISE,Demografía y Sociedad,Salud y Seguridad Social,Derechohabiencia,
+"Porcentaje de la población derechohabiente en PEMEX, SDN o SM",,BISE,Demografía y Sociedad,Salud y Seguridad Social,Derechohabiencia,
+Porcentaje de la población usuaria de servicios de salud en instituciones de servicios médicos privados,,BISE,Demografía y Sociedad,Salud y Seguridad Social,Derechohabiencia,
+Porcentaje de la población derechohabiente en el ISSSTE,,BISE,Demografía y Sociedad,Salud y Seguridad Social,Derechohabiencia,
+Porcentaje de la población derechohabiente en el IMSS,,BISE,Demografía y Sociedad,Salud y Seguridad Social,Derechohabiencia,
+Porcentaje de la población usuaria de servicios de salud en instituciones de seguridad social,,BISE,Demografía y Sociedad,Salud y Seguridad Social,Derechohabiencia,
+Porcentaje de la población derechohabiente en otras instituciones,,BISE,Demografía y Sociedad,Salud y Seguridad Social,Derechohabiencia,
+Porcentaje de población afiliada a seguro privado,,BISE,Demografía y Sociedad,Salud y Seguridad Social,Derechohabiencia,
+Porcentaje de población afiliada a otra institución,,BISE,Demografía y Sociedad,Salud y Seguridad Social,Derechohabiencia,
+Porcentaje de población afiliada a servicios de salud,,BISE,Demografía y Sociedad,Salud y Seguridad Social,Derechohabiencia,
+Porcentaje de población no afiliada a servicios de salud,,BISE,Demografía y Sociedad,Salud y Seguridad Social,Derechohabiencia,
+Porcentaje de población que no especificó su afiliación a servicios de salud,,BISE,Demografía y Sociedad,Salud y Seguridad Social,Derechohabiencia,
+Porcentaje de la población derechohabiente en Instituto de Salud para el Bienestar (IMSS-PROSPERA o IMSS-BIENESTAR),,BISE,Demografía y Sociedad,Salud y Seguridad Social,Derechohabiencia,
+Pacientes egresados. Hombres,,BISE,Demografía y Sociedad,Salud y Seguridad Social,Sector privado,
+Pacientes egresados. Mujeres,,BISE,Demografía y Sociedad,Salud y Seguridad Social,Sector privado,
+Número de médicos en contacto directo con el paciente por cama censable,,BISE,Demografía y Sociedad,Salud y Seguridad Social,Sector privado,
+Unidades médicas privadas,,BISE,Demografía y Sociedad,Salud y Seguridad Social,Sector privado,
+Porcentaje de los integrantes del hogar de 12 años y más que se ha sentido deprimido,,BISE,Demografía y Sociedad,Salud y Seguridad Social,Salud mental,
+Porcentaje de los integrantes del hogar de 12 años y más con sentimientos de depresión semanalmente,,BISE,Demografía y Sociedad,Salud y Seguridad Social,Salud mental,
+Porcentaje de los integrantes del hogar de 12 años y más con sentimientos de depresión diario,,BISE,Demografía y Sociedad,Salud y Seguridad Social,Salud mental,
+Porcentaje de los integrantes del hogar de 12 años y más con sentimientos de depresión mensualmente,,BISE,Demografía y Sociedad,Salud y Seguridad Social,Salud mental,
+Porcentaje de los integrantes del hogar de 12 años y más que nunca se ha sentido deprimido,,BISE,Demografía y Sociedad,Salud y Seguridad Social,Salud mental,
+Porcentaje de los integrantes del hogar de 12 años y más que no sabe si se ha sentido deprimido,,BISE,Demografía y Sociedad,Salud y Seguridad Social,Salud mental,
+Porcentaje de los integrantes del hogar de 12 años y más con sentimientos de depresión algunas veces al año,,BISE,Demografía y Sociedad,Salud y Seguridad Social,Salud mental,
+Población total sin limitación en la actividad,,BISE,Demografía y Sociedad,Salud y Seguridad Social,Discapacidad,
+Población total que no especificó limitación en la actividad,,BISE,Demografía y Sociedad,Salud y Seguridad Social,Discapacidad,
+Población con limitación en la actividad para escuchar,,BISE,Demografía y Sociedad,Salud y Seguridad Social,Discapacidad,
+Población con limitación en la actividad para hablar o comunicarse,,BISE,Demografía y Sociedad,Salud y Seguridad Social,Discapacidad,
+Población con limitación en la actividad para caminar o moverse,,BISE,Demografía y Sociedad,Salud y Seguridad Social,Discapacidad,
+Población con limitación en la actividad para atender el cuidado personal,,BISE,Demografía y Sociedad,Salud y Seguridad Social,Discapacidad,
+Población con limitación en la actividad para poner atención o aprender,,BISE,Demografía y Sociedad,Salud y Seguridad Social,Discapacidad,
+Población con limitación en la actividad,,BISE,Demografía y Sociedad,Salud y Seguridad Social,Discapacidad,
+Población con limitación en la actividad para ver,,BISE,Demografía y Sociedad,Salud y Seguridad Social,Discapacidad,
+Población con limitación en la actividad mental,,BISE,Demografía y Sociedad,Salud y Seguridad Social,Discapacidad,
+Población total con limitación en la actividad,,BISE,Demografía y Sociedad,Salud y Seguridad Social,Discapacidad,
+Porcentaje de la población de 60 a 84 años con limitación en la actividad,,BISE,Demografía y Sociedad,Salud y Seguridad Social,Discapacidad,
+Porcentaje de la población con limitación mental,,BISE,Demografía y Sociedad,Salud y Seguridad Social,Discapacidad,
+Porcentaje de la población de 0 a 14 años con limitación en la actividad,,BISE,Demografía y Sociedad,Salud y Seguridad Social,Discapacidad,
+Porcentaje de la población con limitación para hablar o comunicarse,,BISE,Demografía y Sociedad,Salud y Seguridad Social,Discapacidad,
+Porcentaje de la población con discapacidad por accidente,,BISE,Demografía y Sociedad,Salud y Seguridad Social,Discapacidad,
+Porcentaje de la población de 30 a 59 años con limitación en la actividad,,BISE,Demografía y Sociedad,Salud y Seguridad Social,Discapacidad,
+Porcentaje de la población con limitación para caminar y moverse,,BISE,Demografía y Sociedad,Salud y Seguridad Social,Discapacidad,
+Porcentaje de la población con limitación para atender el cuidado personal,,BISE,Demografía y Sociedad,Salud y Seguridad Social,Discapacidad,
+Porcentaje de los integrantes del hogar de 65 años y más que usan aparato auditivo,,BISE,Demografía y Sociedad,Salud y Seguridad Social,Discapacidad,
+Porcentaje de la población con limitación para ver,,BISE,Demografía y Sociedad,Salud y Seguridad Social,Discapacidad,
+Porcentaje de la población con discapacidad por edad avanzada,,BISE,Demografía y Sociedad,Salud y Seguridad Social,Discapacidad,
+Porcentaje de la población con discapacidad por nacimiento,,BISE,Demografía y Sociedad,Salud y Seguridad Social,Discapacidad,
+Porcentaje de la población de 85 y más con limitación en la actividad,,BISE,Demografía y Sociedad,Salud y Seguridad Social,Discapacidad,
+Porcentaje de la población con limitación para escuchar,,BISE,Demografía y Sociedad,Salud y Seguridad Social,Discapacidad,
+Porcentaje de la población con limitación para poner atención o aprender,,BISE,Demografía y Sociedad,Salud y Seguridad Social,Discapacidad,
+Porcentaje de la población de 15 a 29 años con limitación en la actividad,,BISE,Demografía y Sociedad,Salud y Seguridad Social,Discapacidad,
+Porcentaje de la población con discapacidad por otra causa,,BISE,Demografía y Sociedad,Salud y Seguridad Social,Discapacidad,
+Porcentaje de los integrantes del hogar de 65 años y más que no usan aparato auditivo,,BISE,Demografía y Sociedad,Salud y Seguridad Social,Discapacidad,
+Porcentaje de la población con discapacidad por enfermedad,,BISE,Demografía y Sociedad,Salud y Seguridad Social,Discapacidad,
+Porcentaje de la población con algún tipo de discapacidad,,BISE,Demografía y Sociedad,Salud y Seguridad Social,Discapacidad,
+Porcentaje de la población entre 0 y 17 años con algún tipo de discapacidad,,BISE,Demografía y Sociedad,Salud y Seguridad Social,Discapacidad,
+Porcentaje de la población entre 18 y 29 años con algún tipo de discapacidad,,BISE,Demografía y Sociedad,Salud y Seguridad Social,Discapacidad,
+Porcentaje de la población entre 30 y 59 años con algún tipo de discapacidad,,BISE,Demografía y Sociedad,Salud y Seguridad Social,Discapacidad,
+Porcentaje de la población de 60 años y más con algún tipo de discapacidad,,BISE,Demografía y Sociedad,Salud y Seguridad Social,Discapacidad,
+Porcentaje de la población usuaria de servicios de salud en instituciones de servicios a la población abierta,,BISE,Demografía y Sociedad,Salud y Seguridad Social,,
+Población interesada en desarrollos científicos y tecnológicos,,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,Percepción sobre ciencia y tecnología,
+Población que visita museos de ciencia y tecnología,,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,Percepción sobre ciencia y tecnología,
+Percepción sobre las profesiones más respetables en México: Médico,,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,Percepción sobre ciencia y tecnología,
+Percepción sobre las profesiones más respetables en México: Bombero,,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,Percepción sobre ciencia y tecnología,
+Percepción sobre las profesiones más respetables en México: Inventor,,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,Percepción sobre ciencia y tecnología,
+Percepción sobre las profesiones más respetables en México: Enfermera,,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,Percepción sobre ciencia y tecnología,
+Percepción sobre las profesiones más respetables en México: Investigador científico,,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,Percepción sobre ciencia y tecnología,
+Medios de comunicación por los que la población se informa en temas de ciencia y tecnología: Radio,,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,Percepción sobre ciencia y tecnología,
+Medios de comunicación por los que la población se informa en temas de ciencia y tecnología: Revista,,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,Percepción sobre ciencia y tecnología,
+Medios de comunicación por los que la población se informa en temas de ciencia y tecnología: Periódico,,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,Percepción sobre ciencia y tecnología,
+Medios de comunicación por los que la población se informa en temas de ciencia y tecnología: Televisión,,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,Percepción sobre ciencia y tecnología,
+Población interesada en temas relevantes sobre desarrollos científicos y tecnológicos: Ingenierías,,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,Percepción sobre ciencia y tecnología,
+Población interesada en temas relevantes sobre desarrollos científicos y tecnológicos: Biología o Química,,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,Percepción sobre ciencia y tecnología,
+Población interesada en temas relevantes sobre desarrollos científicos y tecnológicos: Ciencias sociales,,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,Percepción sobre ciencia y tecnología,
+Población interesada en temas relevantes sobre desarrollos científicos y tecnológicos: Medicina o Ciencias de la Salud,,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,Percepción sobre ciencia y tecnología,
+Población interesada en temas relevantes sobre desarrollos científicos y tecnológicos: Humanidades o Ciencias de la Conducta,,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,Percepción sobre ciencia y tecnología,
+Población interesada en temas relevantes sobre desarrollos científicos y tecnológicos: Biotecnología o Ciencias Agropecuarias,,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,Percepción sobre ciencia y tecnología,
+Población interesada en temas relevantes sobre desarrollos científicos y tecnológicos: Físico-Matemáticas o Ciencias de la Tierra,,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,Percepción sobre ciencia y tecnología,
+Población que visitó diferentes tipos de recintos: Cine,,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,Percepción sobre ciencia y tecnología,
+Población que visitó diferentes tipos de recintos: Teatro,,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,Percepción sobre ciencia y tecnología,
+Población que visitó diferentes tipos de recintos: Planetario,,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,Percepción sobre ciencia y tecnología,
+Población que visitó diferentes tipos de recintos: Biblioteca pública,,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,Percepción sobre ciencia y tecnología,
+Población que visitó diferentes tipos de recintos: Parque de diversión,,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,Percepción sobre ciencia y tecnología,
+Población que visitó diferentes tipos de recintos: Zoológico o acuario,,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,Percepción sobre ciencia y tecnología,
+"Población que visitó diferentes tipos de recintos: Museo (de arte, de cera, natural)",,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,Percepción sobre ciencia y tecnología,
+Población que visitó diferentes tipos de recintos: Museo de ciencia y tecnología,,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,Percepción sobre ciencia y tecnología,
+Población que visitó diferentes tipos de recintos: Semana nacional de ciencia y tecnología,,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,Percepción sobre ciencia y tecnología,
+Población que visitó diferentes tipos de recintos: Exposiciones tecnológicas o industriales,,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,Percepción sobre ciencia y tecnología,
+Sobre la respetabilidad de profesiones en México: Juez,,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,Percepción sobre ciencia y tecnología,
+Sobre la respetabilidad de profesiones en México: Médico,,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,Percepción sobre ciencia y tecnología,
+Sobre la respetabilidad de profesiones en México: Abogado,,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,Percepción sobre ciencia y tecnología,
+Sobre la respetabilidad de profesiones en México: Artista,,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,Percepción sobre ciencia y tecnología,
+Sobre la respetabilidad de profesiones en México: Bombero,,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,Percepción sobre ciencia y tecnología,
+Sobre la respetabilidad de profesiones en México: Banquero,,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,Percepción sobre ciencia y tecnología,
+Sobre la respetabilidad de profesiones en México: Inventor,,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,Percepción sobre ciencia y tecnología,
+Sobre la respetabilidad de profesiones en México: Profesor,,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,Percepción sobre ciencia y tecnología,
+Sobre la respetabilidad de profesiones en México: Enfermera,,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,Percepción sobre ciencia y tecnología,
+Sobre la respetabilidad de profesiones en México: Ingeniero,,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,Percepción sobre ciencia y tecnología,
+Sobre la respetabilidad de profesiones en México: Arquitecto,,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,Percepción sobre ciencia y tecnología,
+Sobre la respetabilidad de profesiones en México: Deportista,,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,Percepción sobre ciencia y tecnología,
+Sobre la respetabilidad de profesiones en México: Periodista,,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,Percepción sobre ciencia y tecnología,
+Sobre la respetabilidad de profesiones en México: Investigador,,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,Percepción sobre ciencia y tecnología,
+Sobre la respetabilidad de profesiones en México: Hombre de negocios,,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,Percepción sobre ciencia y tecnología,
+Sobre la respetabilidad de profesiones en México: Oficial de policía,,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,Percepción sobre ciencia y tecnología,
+Sobre la respetabilidad de profesiones en México: Sacerdote o ministro de culto,,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,Percepción sobre ciencia y tecnología,
+Sobre la investigación científica. El gobierno debería invertir más en investigación científica: No sabe,,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,Percepción sobre ciencia y tecnología,
+Sobre la investigación científica. El gobierno debería invertir más en investigación científica: De acuerdo,,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,Percepción sobre ciencia y tecnología,
+Sobre la investigación científica. El gobierno debería invertir más en investigación científica: En desacuerdo,,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,Percepción sobre ciencia y tecnología,
+Sobre la investigación científica. Debería haber más mujeres dedicadas a la investigación científica en nuestro país: No sabe,,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,Percepción sobre ciencia y tecnología,
+Sobre la investigación científica. Debería haber más mujeres dedicadas a la investigación científica en nuestro país: De acuerdo,,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,Percepción sobre ciencia y tecnología,
+Sobre la investigación científica. Debería haber más mujeres dedicadas a la investigación científica en nuestro país: En desacuerdo,,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,Percepción sobre ciencia y tecnología,
+Sobre la investigación científica. La investigación científica y tecnológica juega un papel fundamental en el desarrollo tecnológico: No sabe,,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,Percepción sobre ciencia y tecnología,
+Sobre la investigación científica. La investigación científica y tecnológica juega un papel fundamental en el desarrollo tecnológico: De acuerdo,,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,Percepción sobre ciencia y tecnología,
+Sobre la investigación científica. La investigación científica y tecnológica juega un papel fundamental en el desarrollo tecnológico: En desacuerdo,,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,Percepción sobre ciencia y tecnología,
+"Población de 18 años y más por sexo y grupos de edad, según interés en desarrollos científicos y tecnológicos. Ingenierías",,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,Percepción sobre ciencia y tecnología,
+"Población de 18 años y más por sexo y grupos de edad, según interés en desarrollos científicos y tecnológicos. Biología o química",,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,Percepción sobre ciencia y tecnología,
+"Población de 18 años y más por sexo y grupos de edad, según interés en desarrollos científicos y tecnológicos. Ciencias sociales",,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,Percepción sobre ciencia y tecnología,
+"Población de 18 años o más según el nivel de información en inventos, descubrimientos científicos y desarrollo tecnológico. Nula",,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,Percepción sobre ciencia y tecnología,
+"Población de 18 años o más según el nivel de información en inventos, descubrimientos científicos y desarrollo tecnológico. Buena",,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,Percepción sobre ciencia y tecnología,
+"Población de 18 años o más según el nivel de información en inventos, descubrimientos científicos y desarrollo tecnológico. Moderada",,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,Percepción sobre ciencia y tecnología,
+"Población de 18 años o más según el nivel de información en inventos, descubrimientos científicos y desarrollo tecnológico. Muy buena",,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,Percepción sobre ciencia y tecnología,
+"Población de 18 años y más por sexo y grupos de edad, según interés en desarrollos científicos y tecnológicos. Medicina o ciencias de la salud",,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,Percepción sobre ciencia y tecnología,
+"Población de 18 años y más por sexo y grupos de edad, según interés en desarrollos científicos y tecnológicos. Humanidades o ciencias de la conducta",,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,Percepción sobre ciencia y tecnología,
+"Población de 18 años y más por sexo y grupos de edad, según interés en desarrollos científicos y tecnológicos. Biotecnología o ciencias agropecuarias",,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,Percepción sobre ciencia y tecnología,
+"Población de 18 años y más por sexo y grupos de edad, según interés en desarrollos científicos y tecnológicos. Físico-matemáticas o ciencias de la tierra",,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,Percepción sobre ciencia y tecnología,
+Hogares con televisor como proporción del total de hogares,,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,TICS En hogares,
+Hogares con computadora como proporción del total de hogares,,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,TICS En hogares,
+Hogares con televisión de paga como proporción del total de hogares,,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,TICS En hogares,
+Hogares con conexión a internet como proporción del total de hogares,,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,TICS En hogares,
+Usuarios de internet como proporción de la población de 6 años y más de edad,,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,TICS En hogares,
+Usuarios de computadora como proporción de la población de 6 años y más de edad,,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,TICS En hogares,
+Usuarios de internet que acceden desde fuera del hogar como proporción del total de usuarios de internet,,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,TICS En hogares,
+Usuarios de internet que han realizado transacciones vía internet como proporción del total de usuarios de internet,,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,TICS En hogares,
+Usuarios de computadora que la usan como herramienta de apoyo escolar como proporción del total de usuarios de computadora,,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,TICS En hogares,
+Usuarios de teléfono celular como proporción de la población de 6 años y más de edad,,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,TICS En hogares,
+Usuarios de televisión abierta como proporción de la población de 6 años y más de edad,,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,TICS En hogares,
+Usuarios de radio como proporción de la población de 6 años y más de edad,,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,TICS En hogares,
+Hogares con servicio de streaming como proporción del total de hogares,,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,TICS En hogares,
+Hogares con dispositivos inteligentes (IoT) conectados a internet o a una red local como proporción del total de hogares,,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,TICS En hogares,
+Usuarios de dispositivos inteligentes (IoT) conectados a internet o a una red local como proporción de la población de 6 años y más de edad,,BISE,Demografía y Sociedad,Tecnologías de la información y comunicaciones,TICS En hogares,
+Áreas naturales protegidas de competencia estatal por entidad federativa,,BISE,Geografía y Medio Ambiente,Catastro y Gestión Territorial,,
+Existencia de reservas territoriales de propiedad estatal,,BISE,Geografía y Medio Ambiente,Catastro y Gestión Territorial,,
+Zonas metropolitanas por entidad federativa,,BISE,Geografía y Medio Ambiente,Catastro y Gestión Territorial,,
+Conurbaciones interestatales por entidad federativa,,BISE,Geografía y Medio Ambiente,Catastro y Gestión Territorial,,
+Conurbaciones intermunicipales por entidad federativa,,BISE,Geografía y Medio Ambiente,Catastro y Gestión Territorial,,
+Condición de existencia de conurbaciones intermunicipales e interestatales,,BISE,Geografía y Medio Ambiente,Catastro y Gestión Territorial,,
+Realización de actividades de ordenamiento territorial,,BISE,Geografía y Medio Ambiente,Catastro y Gestión Territorial,,
+Realización de actividades de desarrollo urbano,,BISE,Geografía y Medio Ambiente,Catastro y Gestión Territorial,,
+Realización de actividades de planeación urbana,,BISE,Geografía y Medio Ambiente,Catastro y Gestión Territorial,,
+Porcentaje de vinculación de predios entre la institución registral y el catastro estatal,,BISE,Geografía y Medio Ambiente,Catastro y Gestión Territorial,,
+Existencia de vinculación de predios entre la institución registral y el catastro estatal,,BISE,Geografía y Medio Ambiente,Catastro y Gestión Territorial,,
+Personal de sexo femenino adscrito a la institución registral,,BISE,Geografía y Medio Ambiente,Catastro y Gestión Territorial,,
+Personal de sexo masculino adscrito a la institución registral,,BISE,Geografía y Medio Ambiente,Catastro y Gestión Territorial,,
+Condición de realización de actividades para la conservación del acervo documental,,BISE,Geografía y Medio Ambiente,Catastro y Gestión Territorial,,
+Servicios electrónicos para el público por entidad federativa,,BISE,Geografía y Medio Ambiente,Catastro y Gestión Territorial,,
+Folios reales electrónicos por entidad federativa,,BISE,Geografía y Medio Ambiente,Catastro y Gestión Territorial,,
+Folios reales físicos por entidad federativa,,BISE,Geografía y Medio Ambiente,Catastro y Gestión Territorial,,
+Personal de sexo femenino que laboró en los catastros estatales,,BISE,Geografía y Medio Ambiente,Catastro y Gestión Territorial,,
+Personal de sexo masculino que laboró en los catastros estatales,,BISE,Geografía y Medio Ambiente,Catastro y Gestión Territorial,,
+Vinculación entre el padrón y cartografía catastral,,BISE,Geografía y Medio Ambiente,Catastro y Gestión Territorial,,
+Recaudación del impuesto predial cobrado por la administración pública estatal,,BISE,Geografía y Medio Ambiente,Catastro y Gestión Territorial,,
+Trámites y/o servicios catastrales,,BISE,Geografía y Medio Ambiente,Catastro y Gestión Territorial,,
+Predios en cartografía catastral,,BISE,Geografía y Medio Ambiente,Catastro y Gestión Territorial,,
+Predios en padrón catastral,,BISE,Geografía y Medio Ambiente,Catastro y Gestión Territorial,,
+"Cantidad de tomas de agua en operación sin macromedidor, para abastecimiento público",,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Agua
+"Cantidad de tomas de agua en operación con macromedidor sin funcionar, para abastecimiento público",,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Agua
+"Cantidad de tomas de agua en operación con macromedidor funcionando, para abastecimiento público",,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Agua
+Cantidad de puntos de descarga de aguas residuales municipales sin tratamiento con salida a un río o arroyo,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Agua
+Cantidad de puntos de descarga de aguas residuales municipales sin tratamiento con salida al cuerpo de una presa,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Agua
+Cantidad de puntos de descarga de aguas residuales municipales sin tratamiento con salida al mar,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Agua
+Cantidad de puntos de descarga de aguas residuales municipales sin tratamiento con salida a un lago o laguna,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Agua
+Cantidad de puntos de descarga de aguas residuales municipales sin tratamiento con salida a un gran colector,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Agua
+Cantidad de puntos de descarga de aguas residuales municipales sin tratamiento con salida a un canal,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Agua
+Cantidad de puntos de descarga de aguas residuales municipales sin tratamiento con salida al suelo o barranca,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Agua
+Cantidad de puntos de descarga de aguas residuales municipales sin tratamiento,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Agua
+Cantidad de tomas de agua en operación para abastecimiento público,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Agua
+Superficie por tipo de uso de suelo. Bosque cultivado,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Suelo
+Superficie por tipo de uso de suelo. Pastizal cultivado,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Suelo
+Superficie por tipo de uso de suelo. Agricultura de humedad,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Suelo
+Superficie por tipo de uso de suelo. Agricultura de temporal,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Suelo
+Superficie por tipo de uso de suelo. Acuícola,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Suelo
+Superficie por tipo de uso de suelo. Agricultura de riego,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Suelo
+Variación de la vegetación primaria. Serie II (1993). Otros tipos,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Actividades antrópicas y otros tipos de vegetación. Total. Área desprovista de vegetación,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Variación de la vegetación primaria. Serie I (1985). Matorrales,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Actividades antrópicas y otros tipos de vegetación. Actividades antrópicas. Área desprovista de vegetación,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Variación de la vegetación primaria. Serie III (2002). Otros tipos,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Variación de la vegetación primaria. Serie III (2002). Total,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Variación de la vegetación primaria. Serie I (1985). Total,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Variación de la vegetación primaria. Vegetación primaria. Otros tipos,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Variación de la vegetación primaria. Vegetación primaria. Total,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Formaciones vegetales. Comunidades primarias. Selva Espinosa,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Variación de la vegetación primaria. Serie VI (2014). Indicador de Vegetación remanente,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Actividades antrópicas y otros tipos de vegetación. Total. Pecuario,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Variación de la vegetación primaria. Serie I (1985). Indicador de Vegetación remanente,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Formaciones vegetales. Total. Matorral xerófilo,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Actividades antrópicas y otros tipos de vegetación. Actividades antrópicas. Forestal,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Actividades antrópicas y otros tipos de vegetación. Actividades antrópicas. Total,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Formaciones vegetales. Total. Bosque Encino,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Variación de la vegetación primaria. Vegetación primaria. Selva seca,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Variación de la vegetación primaria. Serie V (2011). Indicador de Vegetación remanente,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Variación de la vegetación primaria. Serie V (2011). Total,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Actividades antrópicas y otros tipos de vegetación. Total. Forestal,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Actividades antrópicas y otros tipos de vegetación. Actividades antrópicas. Pecuario,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Formaciones vegetales. Comunidades secundarias. Selva Subcaducifolia,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Variación de la vegetación primaria. Serie II (1993). Pastizales,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Formaciones vegetales. Total. Selva Caducifolia,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Formaciones vegetales. Comunidades primarias. Selva Subcaducifolia,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Variación de la vegetación primaria. Serie IV (2007). Indicador de Vegetación remanente,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Actividades antrópicas y otros tipos de vegetación. Actividades antrópicas. Vegetación inducida,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Formaciones vegetales. Comunidades primarias. Pastizal,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Formaciones vegetales. Comunidades primarias. Selva Caducifolia,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Variación de la vegetación primaria. Serie II (1993). Selva seca,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Actividades antrópicas y otros tipos de vegetación. Total. Vegetación inducida,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Formaciones vegetales. Comunidades secundarias. Total,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Actividades antrópicas y otros tipos de vegetación. Actividades antrópicas. Asentamiento humano,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Actividades antrópicas y otros tipos de vegetación. Otros tipos de vegetación. Sin vegetación aparente,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Variación de la vegetación primaria. Serie III (2002). Selva seca,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Actividades antrópicas y otros tipos de vegetación. Total. Cuerpo de agua,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Variación de la vegetación primaria. Serie IV (2007). Pastizales,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Formaciones vegetales. Total. Selva Subcaducifolia,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Formaciones vegetales. Comunidades secundarias. Bosque Coníferas,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Variación de la vegetación primaria. Serie VI (2014). Bosques,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Variación de la vegetación primaria. Serie V (2011). Pastizales,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Formaciones vegetales. Comunidades secundarias. Vegetación hidrófila,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Formaciones vegetales. Comunidades secundarias. Vegetación especial,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Variación de la vegetación primaria. Serie I (1985). Selva seca,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Formaciones vegetales. Comunidades secundarias. Matorral xerófilo,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Actividades antrópicas y otros tipos de vegetación. Actividades antrópicas. Agrícola,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Variación de la vegetación primaria. Vegetación primaria. Indicador de Vegetación remanente,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Variación de la vegetación primaria. Serie V (2011). Bosques,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Formaciones vegetales. Comunidades secundarias. Selva Espinosa,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Formaciones vegetales. Comunidades secundarias. Selva Caducifolia,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Variación de la vegetación primaria. Serie VI (2014). Selva seca,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Variación de la vegetación primaria. Serie VI (2014). Pastizales,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Actividades antrópicas y otros tipos de vegetación. Actividades antrópicas. Cuerpo de agua,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Variación de la vegetación primaria. Serie II (1993). Matorrales,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Formaciones vegetales. Total. Bosque Mesófilo de montaña,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Formaciones vegetales. Total. Selva Espinosa,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Actividades antrópicas y otros tipos de vegetación. Otros tipos de vegetación. Acuícola,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Formaciones vegetales. Total. Total,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Formaciones vegetales. Comunidades secundarias. Bosque Mesófilo de montaña,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Variación de la vegetación primaria. Serie IV (2007). Selva húmeda,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Variación de la vegetación primaria. Vegetación primaria. Matorrales,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Formaciones vegetales. Comunidades primarias. Bosque Coníferas,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Variación de la vegetación primaria. Serie III (2002). Indicador de Vegetación remanente,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Formaciones vegetales. Total. Vegetación hidrófila,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Actividades antrópicas y otros tipos de vegetación. Otros tipos de vegetación. Pecuario,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Actividades antrópicas y otros tipos de vegetación. Otros tipos de vegetación. Cuerpo de agua,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Variación de la vegetación primaria. Serie VI (2014). Matorrales,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Variación de la vegetación primaria. Vegetación primaria. Pastizales,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Variación de la vegetación primaria. Serie I (1985). Selva húmeda,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Actividades antrópicas y otros tipos de vegetación. Actividades antrópicas. Acuícola,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Variación de la vegetación primaria. Serie IV (2007). Matorrales,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Variación de la vegetación primaria. Serie VI (2014). Selva húmeda,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Variación de la vegetación primaria. Serie III (2002). Pastizales,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Formaciones vegetales. Total. Pastizal,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Variación de la vegetación primaria. Serie IV (2007). Otros tipos,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Variación de la vegetación primaria. Serie II (1993). Indicador de Vegetación remanente,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Variación de la vegetación primaria. Serie III (2002). Selva húmeda,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Actividades antrópicas y otros tipos de vegetación. Otros tipos de vegetación. Área desprovista de vegetación,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Formaciones vegetales. Comunidades secundarias. Pastizal,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Variación de la vegetación primaria. Serie I (1985). Pastizales,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Variación de la vegetación primaria. Serie IV (2007). Total,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Variación de la vegetación primaria. Serie III (2002). Matorrales,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Actividades antrópicas y otros tipos de vegetación. Otros tipos de vegetación. Agrícola,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Formaciones vegetales. Comunidades primarias. Vegetación especial,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Actividades antrópicas y otros tipos de vegetación. Total. Asentamiento humano,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Variación de la vegetación primaria. Serie V (2011). Selva seca,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Variación de la vegetación primaria. Serie II (1993). Total,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Formaciones vegetales. Comunidades primarias. Vegetación hidrófila,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Variación de la vegetación primaria. Vegetación primaria. Bosques,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Actividades antrópicas y otros tipos de vegetación. Otros tipos de vegetación. Forestal,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Actividades antrópicas y otros tipos de vegetación. Otros tipos de vegetación. Vegetación inducida,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Formaciones vegetales. Total. Vegetación especial,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Variación de la vegetación primaria. Serie IV (2007). Selva seca,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Formaciones vegetales. Comunidades primarias. Bosque Encino,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Formaciones vegetales. Comunidades primarias. Matorral xerófilo,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Formaciones vegetales. Comunidades primarias. Selva Perennifolia,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Actividades antrópicas y otros tipos de vegetación. Total. Total,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Formaciones vegetales. Comunidades primarias. Total,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Actividades antrópicas y otros tipos de vegetación. Otros tipos de vegetación. Asentamiento humano,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Variación de la vegetación primaria. Serie VI (2014). Total,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Actividades antrópicas y otros tipos de vegetación. Total. Agrícola,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Actividades antrópicas y otros tipos de vegetación. Total. Acuícola,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Formaciones vegetales. Total. Bosque Coníferas,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Variación de la vegetación primaria. Serie I (1985). Bosques,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Variación de la vegetación primaria. Serie I (1985). Otros tipos,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Variación de la vegetación primaria. Serie II (1993). Selva húmeda,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Variación de la vegetación primaria. Serie IV (2007). Bosques,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Variación de la vegetación primaria. Serie V (2011). Otros tipos,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Variación de la vegetación primaria. Serie V (2011). Selva húmeda,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Variación de la vegetación primaria. Vegetación primaria. Selva húmeda,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Variación de la vegetación primaria. Serie III (2002). Bosques,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Actividades antrópicas y otros tipos de vegetación. Actividades antrópicas. Sin vegetación aparente,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Formaciones vegetales. Comunidades primarias. Bosque Mesófilo de montaña,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Variación de la vegetación primaria. Serie II (1993). Bosques,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Formaciones vegetales. Comunidades secundarias. Selva Perennifolia,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Actividades antrópicas y otros tipos de vegetación. Total. Sin vegetación aparente,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Actividades antrópicas y otros tipos de vegetación. Otros tipos de vegetación. Total,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Formaciones vegetales. Comunidades secundarias. Bosque Encino,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Variación de la vegetación primaria. Serie V (2011). Matorrales,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Variación de la vegetación primaria. Serie VI (2014). Otros tipos,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos naturales,Bosques
+Superficie con asignación de apoyos y beneficiarios para incorporarse al manejo forestal. Superficie apoyada,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos ambientales y su uso,Forestal
+Superficie con asignación de apoyos y beneficiarios para incorporarse al manejo forestal. Apoyos Asignados,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos ambientales y su uso,Forestal
+Superficie con asignación de apoyos y beneficiarios para incorporarse al manejo forestal. Beneficiarios,,BISE,Geografía y Medio Ambiente,Medio ambiente,Recursos ambientales y su uso,Forestal
+Número de municipios y delegaciones con servicio de recolección y disposición final de los residuos sólidos urbanos,,BISE,Geografía y Medio Ambiente,Medio ambiente,Residuos,Residuos sólidos
+Cantidad promedio diario de eléctricos y electrónicos recibidos en centros de acopio,,BISE,Geografía y Medio Ambiente,Medio ambiente,Residuos,Residuos sólidos
+Número de municipios y delegaciones sin servicios relacionados con el manejo de los residuos sólidos urbanos,,BISE,Geografía y Medio Ambiente,Medio ambiente,Residuos,Residuos sólidos
+Cantidad promedio diaria de residuos sólidos urbanos recolectados,,BISE,Geografía y Medio Ambiente,Medio ambiente,Residuos,Residuos sólidos
+"Residuos sólidos urbanos generados, por tipo de residuo. Vidrios",,BISE,Geografía y Medio Ambiente,Medio ambiente,Residuos,Residuos sólidos
+"Residuos sólidos urbanos generados, por tipo de residuo. Otro",,BISE,Geografía y Medio Ambiente,Medio ambiente,Residuos,Residuos sólidos
+"Residuos sólidos urbanos generados, por tipo de residuo. Textiles",,BISE,Geografía y Medio Ambiente,Medio ambiente,Residuos,Residuos sólidos
+"Residuos sólidos urbanos generados, por tipo de residuo. Productos de papel y cartón",,BISE,Geografía y Medio Ambiente,Medio ambiente,Residuos,Residuos sólidos
+"Residuos sólidos urbanos generados, por tipo de residuo. Plásticos",,BISE,Geografía y Medio Ambiente,Medio ambiente,Residuos,Residuos sólidos
+Volumen generado de residuos peligrosos,,BISE,Geografía y Medio Ambiente,Medio ambiente,Residuos,Residuos sólidos
+"Residuos sólidos urbanos generados, por tipo de residuo. Basura orgánica",,BISE,Geografía y Medio Ambiente,Medio ambiente,Residuos,Residuos sólidos
+"Residuos sólidos urbanos generados, por tipo de residuo. Metales",,BISE,Geografía y Medio Ambiente,Medio ambiente,Residuos,Residuos sólidos
+"Disponibilidad de servicios relacionados con los residuos sólidos urbanos. Municipios con recolección, disposición final y tratamiento",,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Cuestiones ambientales específicas de los asentamientos urbanos
+Índice de motorización,,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Cuestiones ambientales específicas de los asentamientos urbanos
+Disponibilidad de servicios relacionados con los residuos sólidos urbanos. Municipios con solo recolección y disposición final,,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Cuestiones ambientales específicas de los asentamientos urbanos
+Disponibilidad de servicios relacionados con los residuos sólidos urbanos. Municipios sin servicios,,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Cuestiones ambientales específicas de los asentamientos urbanos
+Promedio diario de residuos sólidos urbanos recolectados. Promedio diario,,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Cuestiones ambientales específicas de los asentamientos urbanos
+Promedio diario de residuos sólidos urbanos recolectados. Municipios con información,,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Cuestiones ambientales específicas de los asentamientos urbanos
+Promedio diario de residuos sólidos urbanos recolectados. Municipios sin información,,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Cuestiones ambientales específicas de los asentamientos urbanos
+Porcentaje de hogares que separan la basura,,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Prácticas ambientales
+Porcentaje de hogares que no separan la basura,,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Prácticas ambientales
+Porcentaje de hogares que reutilizan botes de lata,,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Prácticas ambientales
+Porcentaje de hogares que reutilizan hojas de papel,,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Prácticas ambientales
+Porcentaje de hogares que reutilizan bolsas de plástico,,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Prácticas ambientales
+Porcentaje de hogares que reutilizan otro tipo de producto,,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Prácticas ambientales
+Porcentaje de hogares que reutilizan cajas de cartón o madera,,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Prácticas ambientales
+Porcentaje de hogares que revisan instalaciones eléctricas,,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Prácticas ambientales
+Porcentaje de hogares que apagan las luces cuando no las necesitan,,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Prácticas ambientales
+Porcentaje de hogares que reutilizan envases de vidrio o plástico,,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Prácticas ambientales
+Porcentaje de hogares que planchan la mayor cantidad de ropa de una sola vez,,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Prácticas ambientales
+Porcentaje de hogares que se abastecen de agua para beber principalmente de un pozo,,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Prácticas ambientales
+Porcentaje de hogares que no separan la basura debido a que no sabe donde depositarla,,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Prácticas ambientales
+Porcentaje de hogares que no separan la basura debido a que no sabe qué residuos separar,,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Prácticas ambientales
+Porcentaje de hogares que se abastecen de agua para beber principalmente de otra fuente,,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Prácticas ambientales
+Porcentaje de hogares que no separan la basura debido a que la revuelven cuando la recogen,,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Prácticas ambientales
+Porcentaje de hogares que desconectan el cargador de los celulares cuando no lo necesitan,,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Prácticas ambientales
+Porcentaje de hogares que no separan la basura debido a que no hay centros de acopio cercanos,,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Prácticas ambientales
+Porcentaje de hogares que no separan la basura debido a que no tiene espacio para almacenarla,,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Prácticas ambientales
+Porcentaje de hogares que desconectan el cargador de la laptop o tableta cuando no lo necesitan,,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Prácticas ambientales
+Porcentaje de hogares que no separan la basura debido a que no sabe qué utilidad tiene separarla,,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Prácticas ambientales
+Porcentaje de hogares que se abastecen de agua para beber principalmente de garrafón o botella,,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Prácticas ambientales
+Porcentaje de hogares que no separan la basura debido a que no les interesa o le supone mucho esfuerzo,,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Prácticas ambientales
+Porcentaje de hogares que se abastecen de agua para beber principalmente de la llave de la red pública,,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Prácticas ambientales
+"Porcentaje de hogares que se abastecen de agua para beber principalmente de un río, arroyo, lago o manantial",,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Prácticas ambientales
+"Porcentaje de hogares que desconectan los aparatos eléctricos, lámparas o herramientas cuando no los utilizan",,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Prácticas ambientales
+Porcentaje de hogares que se abastecen de agua para beber principalmente de garrafón o botella debido a otro motivo,,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Prácticas ambientales
+Porcentaje de hogares que se abastecen de agua para beber principalmente de garrafón o botella debido a que es más saludable,,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Prácticas ambientales
+Porcentaje de hogares que se abastecen de agua para beber principalmente de garrafón o botella debido a que es la única forma de tener agua para beber,,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Prácticas ambientales
+Porcentaje de hogares principales con servicio de agua de la red pública que califica como malo el aspecto del servicio relacionado con el monto cobrado,,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Prácticas ambientales
+Porcentaje de hogares principales con servicio de agua de la red pública que califica como bueno el aspecto del servicio relacionado con el monto cobrado,,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Prácticas ambientales
+Porcentaje de hogares principales con servicio de agua de la red pública que califica como regular el aspecto del servicio relacionado con el monto cobrado,,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Prácticas ambientales
+Porcentaje de hogares que se abastecen de agua para beber principalmente de garrafón o botella debido a que la mayoría de las personas toman agua embotellada,,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Prácticas ambientales
+Porcentaje de hogares principales con servicio de agua de la red pública que califica como malo el aspecto del servicio relacionado con la reparación de fugas,,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Prácticas ambientales
+Porcentaje de hogares principales con servicio de agua de la red pública que califica como bueno el aspecto del servicio relacionado con la reparación de fugas,,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Prácticas ambientales
+Porcentaje de hogares principales con servicio de agua de la red pública que califica como malo el aspecto del servicio relacionado a la presión del suministro,,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Prácticas ambientales
+Porcentaje de hogares que se abastecen de agua para beber principalmente de garrafón o botella debido a que no les gusta el sabor o color del agua de la red pública,,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Prácticas ambientales
+Porcentaje de hogares principales con servicio de agua de la red pública que califica como bueno el aspecto del servicio relacionado a la presión en el suministro,,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Prácticas ambientales
+Porcentaje de hogares principales con servicio de agua de la red pública que califica como regular el aspecto del servicio relacionado con la reparación de fugas,,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Prácticas ambientales
+Porcentaje de hogares principales con servicio de agua de la red pública que califica como regular el aspecto del servicio relacionado a la presión en el suministro,,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Prácticas ambientales
+Porcentaje de hogares principales con servicio de agua de la red pública que califica como malo el aspecto del servicio asociado a la confianza en relación con la salud,,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Prácticas ambientales
+Porcentaje de hogares principales con servicio de agua de la red pública que califica como malo el aspecto del servicio relacionado con la medición del consumo de agua,,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Prácticas ambientales
+Porcentaje de hogares principales con servicio de agua de la red pública que califica como bueno el aspecto del servicio asociado a la confianza en relación con la salud,,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Prácticas ambientales
+Porcentaje de hogares principales con servicio de agua de la red pública que califica como bueno el aspecto del servicio relacionado con la medición del consumo de agua,,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Prácticas ambientales
+Porcentaje de hogares principales con servicio de agua de la red pública que califica como malo el aspecto del servicio relacionado con la atención al cliente en oficinas,,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Prácticas ambientales
+Porcentaje de hogares principales con servicio de agua de la red pública que califica como regular el aspecto del servicio asociado a la confianza en relación con la salud,,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Prácticas ambientales
+Porcentaje de hogares principales con servicio de agua de la red pública que califica como regular el aspecto del servicio relacionado con la medición del consumo de agua,,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Prácticas ambientales
+Porcentaje de hogares principales con servicio de agua de la red pública que califica como bueno el aspecto del servicio relacionado con la atención al cliente en oficinas,,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Prácticas ambientales
+Porcentaje de hogares principales con servicio de agua de la red pública que califica como no sabe o no contesta sobre el aspecto del servicio relacionado con el monto cobrado,,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Prácticas ambientales
+Porcentaje de hogares principales con servicio de agua de la red pública que califica como regular el aspecto del servicio relacionado con la atención al cliente en oficinas,,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Prácticas ambientales
+Porcentaje de hogares principales con servicio de agua de la red pública que califica como malo el aspecto del servicio relacionado con la continuidad en el suministro del líquido,,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Prácticas ambientales
+Porcentaje de hogares principales con servicio de agua de la red pública que califica como no sabe o no contesta sobre el aspecto del servicio relacionado con la reparación de fugas,,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Prácticas ambientales
+Porcentaje de hogares principales con servicio de agua de la red pública que califica como bueno el aspecto del servicio relacionado con la continuidad en el suministro del líquido,,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Prácticas ambientales
+"Porcentaje de hogares principales con servicio de agua de la red pública que califica como malo el aspecto del servicio relacionado con el sabor, olor, claridad del agua suministrada",,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Prácticas ambientales
+"Porcentaje de hogares principales con servicio de agua de la red pública que califica como bueno el aspecto del servicio relacionado con el sabor, olor, claridad del agua suministrada",,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Prácticas ambientales
+Porcentaje de hogares principales con servicio de agua de la red pública que califica como no sabe o no contesta sobre el aspecto del servicio relacionado a la presión en el suministro,,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Prácticas ambientales
+Porcentaje de hogares principales con servicio de agua de la red pública que califica como regular el aspecto del servicio relacionado con la continuidad en el suministro del líquido,,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Prácticas ambientales
+"Porcentaje de hogares principales con servicio de agua de la red pública que califica como regular el aspecto del servicio relacionado con el sabor, olor, claridad del agua suministrada",,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Prácticas ambientales
+Porcentaje de hogares principales con servicio de agua de la red pública que califica como no sabe o no contesta sobre el aspecto del servicio asociado a la confianza en relación con la salud,,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Prácticas ambientales
+Porcentaje de hogares principales con servicio de agua de la red pública que califica como no sabe o no contesta sobre el aspecto del servicio relacionado con la medición del consumo de agua,,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Prácticas ambientales
+Porcentaje de hogares principales con servicio de agua de la red pública que califica como no sabe o no contesta sobre el aspecto del servicio relacionado con la atención al cliente en oficinas,,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Prácticas ambientales
+Porcentaje de hogares principales con servicio de agua de la red pública que califica como no sabe o no contesta sobre el aspecto del servicio relacionado con la continuidad en el suministro del líquido,,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Prácticas ambientales
+"Porcentaje de hogares principales con servicio de agua de la red pública que califica como no sabe o no contesta sobre el aspecto del servicio relacionado con el sabor, olor, claridad del agua suministrada",,BISE,Geografía y Medio Ambiente,Medio ambiente,Asentamientos humanos y salud ambiental,Prácticas ambientales
+"Origen y destino de la inversión en infraestructura de agua potable, alcantarillado y saneamiento. Origen de los recursos. Organismos operadores",,,Geografía y Medio Ambiente,Medio ambiente,"Protección, Gestión y Compromiso con el medio ambiente",Gasto público de Protección al Medio ambiente y Gestión de recursos
+"Origen y destino de la inversión en infraestructura de agua potable, alcantarillado y saneamiento. Destino de los recursos. Zonas rurales. Total",,,Geografía y Medio Ambiente,Medio ambiente,"Protección, Gestión y Compromiso con el medio ambiente",Gasto público de Protección al Medio ambiente y Gestión de recursos
+Indicadores seleccionados del programa Agua Limpia. Caudal de agua desinfectada,,,Geografía y Medio Ambiente,Medio ambiente,"Protección, Gestión y Compromiso con el medio ambiente",Gasto público de Protección al Medio ambiente y Gestión de recursos
+"Origen y destino de la inversión en infraestructura de agua potable, alcantarillado y saneamiento. Origen de los recursos. Federal",,,Geografía y Medio Ambiente,Medio ambiente,"Protección, Gestión y Compromiso con el medio ambiente",Gasto público de Protección al Medio ambiente y Gestión de recursos
+"Origen y destino de la inversión en infraestructura de agua potable, alcantarillado y saneamiento. Destino de los recursos. Zonas urbanas. Total",,,Geografía y Medio Ambiente,Medio ambiente,"Protección, Gestión y Compromiso con el medio ambiente",Gasto público de Protección al Medio ambiente y Gestión de recursos
+"Origen y destino de la inversión en infraestructura de agua potable, alcantarillado y saneamiento. Destino de los recursos. Zonas urbanas. Alcantarillado",,,Geografía y Medio Ambiente,Medio ambiente,"Protección, Gestión y Compromiso con el medio ambiente",Gasto público de Protección al Medio ambiente y Gestión de recursos
+"Origen y destino de la inversión en infraestructura de agua potable, alcantarillado y saneamiento. Destino de los recursos. Zonas urbanas. Agua potable",,,Geografía y Medio Ambiente,Medio ambiente,"Protección, Gestión y Compromiso con el medio ambiente",Gasto público de Protección al Medio ambiente y Gestión de recursos
+"Origen y destino de la inversión en infraestructura de agua potable, alcantarillado y saneamiento. Destino de los recursos. Zonas urbanas. Saneamiento",,,Geografía y Medio Ambiente,Medio ambiente,"Protección, Gestión y Compromiso con el medio ambiente",Gasto público de Protección al Medio ambiente y Gestión de recursos
+"Origen y destino de la inversión en infraestructura de agua potable, alcantarillado y saneamiento. Origen de los recursos. Total",,,Geografía y Medio Ambiente,Medio ambiente,"Protección, Gestión y Compromiso con el medio ambiente",Gasto público de Protección al Medio ambiente y Gestión de recursos
+"Origen y destino de la inversión en infraestructura de agua potable, alcantarillado y saneamiento. Origen de los recursos. Usuarios",,,Geografía y Medio Ambiente,Medio ambiente,"Protección, Gestión y Compromiso con el medio ambiente",Gasto público de Protección al Medio ambiente y Gestión de recursos
+"Origen y destino de la inversión en infraestructura de agua potable, alcantarillado y saneamiento. Destino de los recursos. Zonas rurales. Agua potable",,,Geografía y Medio Ambiente,Medio ambiente,"Protección, Gestión y Compromiso con el medio ambiente",Gasto público de Protección al Medio ambiente y Gestión de recursos
+Indicadores seleccionados del programa Agua Limpia. Porcentaje de cloración,,,Geografía y Medio Ambiente,Medio ambiente,"Protección, Gestión y Compromiso con el medio ambiente",Gasto público de Protección al Medio ambiente y Gestión de recursos
+"Origen y destino de la inversión en infraestructura de agua potable, alcantarillado y saneamiento. Origen de los recursos. Estatal y municipal",,,Geografía y Medio Ambiente,Medio ambiente,"Protección, Gestión y Compromiso con el medio ambiente",Gasto público de Protección al Medio ambiente y Gestión de recursos
+"Origen y destino de la inversión en infraestructura de agua potable, alcantarillado y saneamiento. Destino de los recursos. Zonas urbanas. Mejoramiento de eficiencia",,,Geografía y Medio Ambiente,Medio ambiente,"Protección, Gestión y Compromiso con el medio ambiente",Gasto público de Protección al Medio ambiente y Gestión de recursos
+"Origen y destino de la inversión en infraestructura de agua potable, alcantarillado y saneamiento. Destino de los recursos. Zonas rurales. Sanitarios ecológicos",,,Geografía y Medio Ambiente,Medio ambiente,"Protección, Gestión y Compromiso con el medio ambiente",Gasto público de Protección al Medio ambiente y Gestión de recursos
+Indicadores seleccionados del programa Agua Limpia. Habitantes beneficiados,,,Geografía y Medio Ambiente,Medio ambiente,"Protección, Gestión y Compromiso con el medio ambiente",Gasto público de Protección al Medio ambiente y Gestión de recursos
+Indicadores seleccionados del programa Agua Limpia. Caudal de agua suministrada a la red pública,,,Geografía y Medio Ambiente,Medio ambiente,"Protección, Gestión y Compromiso con el medio ambiente",Gasto público de Protección al Medio ambiente y Gestión de recursos
+"Origen y destino de la inversión en infraestructura de agua potable, alcantarillado y saneamiento. Destino de los recursos. Zonas rurales. Alcantarillado",,,Geografía y Medio Ambiente,Medio ambiente,"Protección, Gestión y Compromiso con el medio ambiente",Gasto público de Protección al Medio ambiente y Gestión de recursos
+Indicadores de vigilancia del cumplimiento de la normatividad ambiental. Contingencias en los recursos naturales. Reportadas,,,Geografía y Medio Ambiente,Medio ambiente,"Protección, Gestión y Compromiso con el medio ambiente",Regulación ambiental
+Indicadores de vigilancia del cumplimiento de la normatividad ambiental. Recursos naturales. Forestal. Recorridos de vigilancia en áreas forestales con incidencia de ilícitos,,,Geografía y Medio Ambiente,Medio ambiente,"Protección, Gestión y Compromiso con el medio ambiente",Regulación ambiental
+Indicadores de vigilancia del cumplimiento de la normatividad ambiental. Inspección industrial. Visitas de inspección. Clausuras totales,,,Geografía y Medio Ambiente,Medio ambiente,"Protección, Gestión y Compromiso con el medio ambiente",Regulación ambiental
+Indicadores de vigilancia del cumplimiento de la normatividad ambiental. Recursos naturales. Flora y fauna silvestres. Inspecciones,,,Geografía y Medio Ambiente,Medio ambiente,"Protección, Gestión y Compromiso con el medio ambiente",Regulación ambiental
+Indicadores de vigilancia del cumplimiento de la normatividad ambiental. Recursos naturales. Recursos Marinos y Ecosistemas Costeros. Inspecciones,,,Geografía y Medio Ambiente,Medio ambiente,"Protección, Gestión y Compromiso con el medio ambiente",Regulación ambiental
+Indicadores de vigilancia del cumplimiento de la normatividad ambiental. Recursos naturales. Recursos Marinos y Ecosistemas Costeros. Certificación de dispositivos,,,Geografía y Medio Ambiente,Medio ambiente,"Protección, Gestión y Compromiso con el medio ambiente",Regulación ambiental
+Indicadores de vigilancia del cumplimiento de la normatividad ambiental. Recursos naturales. Forestal. Operativos,,,Geografía y Medio Ambiente,Medio ambiente,"Protección, Gestión y Compromiso con el medio ambiente",Regulación ambiental
+Indicadores de vigilancia del cumplimiento de la normatividad ambiental. Recursos naturales. Impacto ambiental. Verificaciones e inspecciones en materia de impacto ambiental,,,Geografía y Medio Ambiente,Medio ambiente,"Protección, Gestión y Compromiso con el medio ambiente",Regulación ambiental
+Indicadores de vigilancia del cumplimiento de la normatividad ambiental. Recursos naturales. Recursos Marinos y Ecosistemas Costeros. Operativos,,,Geografía y Medio Ambiente,Medio ambiente,"Protección, Gestión y Compromiso con el medio ambiente",Regulación ambiental
+Indicadores de vigilancia del cumplimiento de la normatividad ambiental. Inspección industrial. Contingencias ambientales. Total de visitas,,,Geografía y Medio Ambiente,Medio ambiente,"Protección, Gestión y Compromiso con el medio ambiente",Regulación ambiental
+Indicadores de vigilancia del cumplimiento de la normatividad ambiental. Inspección industrial. Contingencias ambientales. Empresas en cumplimiento,,,Geografía y Medio Ambiente,Medio ambiente,"Protección, Gestión y Compromiso con el medio ambiente",Regulación ambiental
+Indicadores de vigilancia del cumplimiento de la normatividad ambiental. Impacto ambiental. Proyectos con autorización fuera de norma,,,Geografía y Medio Ambiente,Medio ambiente,"Protección, Gestión y Compromiso con el medio ambiente",Regulación ambiental
+Indicadores de vigilancia del cumplimiento de la normatividad ambiental. Inspección industrial. Contingencias ambientales. Duración en días,,,Geografía y Medio Ambiente,Medio ambiente,"Protección, Gestión y Compromiso con el medio ambiente",Regulación ambiental
+Indicadores de vigilancia del cumplimiento de la normatividad ambiental. Recursos naturales. Forestal. Resoluciones,,,Geografía y Medio Ambiente,Medio ambiente,"Protección, Gestión y Compromiso con el medio ambiente",Regulación ambiental
+Indicadores de vigilancia del cumplimiento de la normatividad ambiental. Recursos naturales. Recursos Marinos y Ecosistemas Costeros. Productos asegurados,,,Geografía y Medio Ambiente,Medio ambiente,"Protección, Gestión y Compromiso con el medio ambiente",Regulación ambiental
+"Indicadores de vigilancia del cumplimiento de la normatividad ambiental. Recursos naturales. Puertos, aeropuertos y fronteras. Plagas forestales detectadas",,,Geografía y Medio Ambiente,Medio ambiente,"Protección, Gestión y Compromiso con el medio ambiente",Regulación ambiental
+Indicadores de vigilancia del cumplimiento de la normatividad ambiental. Recursos naturales. Movimientos transfronterizos de Residuos Peligrosos,,,Geografía y Medio Ambiente,Medio ambiente,"Protección, Gestión y Compromiso con el medio ambiente",Regulación ambiental
+Indicadores de vigilancia del cumplimiento de la normatividad ambiental. Inspección industrial. Contingencias ambientales. Empresas fuera de operación,,,Geografía y Medio Ambiente,Medio ambiente,"Protección, Gestión y Compromiso con el medio ambiente",Regulación ambiental
+Indicadores de vigilancia del cumplimiento de la normatividad ambiental. Zona Federal Marítimo Terrestre. Procedimientos instaurados,,,Geografía y Medio Ambiente,Medio ambiente,"Protección, Gestión y Compromiso con el medio ambiente",Regulación ambiental
+Indicadores de vigilancia del cumplimiento de la normatividad ambiental. Zona Federal Marítimo Terrestre. Visitas de inspección y vigilancia,,,Geografía y Medio Ambiente,Medio ambiente,"Protección, Gestión y Compromiso con el medio ambiente",Regulación ambiental
+Indicadores de vigilancia del cumplimiento de la normatividad ambiental. Contingencias en los recursos naturales. Atendidas,,,Geografía y Medio Ambiente,Medio ambiente,"Protección, Gestión y Compromiso con el medio ambiente",Regulación ambiental
+"Indicadores de vigilancia del cumplimiento de la normatividad ambiental. Recursos naturales. Puertos, aeropuertos y fronteras. Plagas de importancia cuarentenaria",,,Geografía y Medio Ambiente,Medio ambiente,"Protección, Gestión y Compromiso con el medio ambiente",Regulación ambiental
+Indicadores de vigilancia del cumplimiento de la normatividad ambiental. Recursos naturales. Áreas Naturales Protegidas. Inspecciones,,,Geografía y Medio Ambiente,Medio ambiente,"Protección, Gestión y Compromiso con el medio ambiente",Regulación ambiental
+Indicadores de vigilancia del cumplimiento de la normatividad ambiental. Inspección industrial. Contingencias ambientales,,,Geografía y Medio Ambiente,Medio ambiente,"Protección, Gestión y Compromiso con el medio ambiente",Regulación ambiental
+Indicadores de vigilancia del cumplimiento de la normatividad ambiental. Inspección industrial. Contingencias ambientales. Empresas en revisión jurídica,,,Geografía y Medio Ambiente,Medio ambiente,"Protección, Gestión y Compromiso con el medio ambiente",Regulación ambiental
+Indicadores de vigilancia del cumplimiento de la normatividad ambiental. Inspección industrial. Visitas de inspección. Clausuras parciales,,,Geografía y Medio Ambiente,Medio ambiente,"Protección, Gestión y Compromiso con el medio ambiente",Regulación ambiental
+"Indicadores de vigilancia del cumplimiento de la normatividad ambiental. Recursos naturales. Puertos, aeropuertos y fronteras. Verificaciones de flora y fauna silvestres",,,Geografía y Medio Ambiente,Medio ambiente,"Protección, Gestión y Compromiso con el medio ambiente",Regulación ambiental
+Indicadores de vigilancia del cumplimiento de la normatividad ambiental. Recursos naturales. Recursos Marinos y Ecosistemas Costeros. Vehículos y embarcaciones asegurados,,,Geografía y Medio Ambiente,Medio ambiente,"Protección, Gestión y Compromiso con el medio ambiente",Regulación ambiental
+Indicadores de vigilancia del cumplimiento de la normatividad ambiental. Recursos naturales. Forestal. Madera asegurada,,,Geografía y Medio Ambiente,Medio ambiente,"Protección, Gestión y Compromiso con el medio ambiente",Regulación ambiental
+Indicadores de vigilancia del cumplimiento de la normatividad ambiental. Inspección industrial. Verificación y certificación de vehículos nuevos en planta. Familias de motores verificadas,,,Geografía y Medio Ambiente,Medio ambiente,"Protección, Gestión y Compromiso con el medio ambiente",Regulación ambiental
+Indicadores de vigilancia del cumplimiento de la normatividad ambiental. Inspección industrial. Visitas de inspección. Irregularidades menores,,,Geografía y Medio Ambiente,Medio ambiente,"Protección, Gestión y Compromiso con el medio ambiente",Regulación ambiental
+Indicadores de vigilancia del cumplimiento de la normatividad ambiental. Recursos naturales. Impacto ambiental. Proyectos detectados sin autorización,,,Geografía y Medio Ambiente,Medio ambiente,"Protección, Gestión y Compromiso con el medio ambiente",Regulación ambiental
+Indicadores de vigilancia del cumplimiento de la normatividad ambiental. Recursos naturales. Forestal. Vehículos asegurados,,,Geografía y Medio Ambiente,Medio ambiente,"Protección, Gestión y Compromiso con el medio ambiente",Regulación ambiental
+Indicadores de vigilancia del cumplimiento de la normatividad ambiental. Recursos naturales. Áreas Naturales Protegidas. Operativos,,,Geografía y Medio Ambiente,Medio ambiente,"Protección, Gestión y Compromiso con el medio ambiente",Regulación ambiental
+Indicadores de vigilancia del cumplimiento de la normatividad ambiental. Inspección industrial. Verificación y certificación de vehículos nuevos en planta. Familias de motores comercializadas,,,Geografía y Medio Ambiente,Medio ambiente,"Protección, Gestión y Compromiso con el medio ambiente",Regulación ambiental
+Indicadores de vigilancia del cumplimiento de la normatividad ambiental. Inspección industrial. Visitas de inspección. Sin irregularidades,,,Geografía y Medio Ambiente,Medio ambiente,"Protección, Gestión y Compromiso con el medio ambiente",Regulación ambiental
+Indicadores de vigilancia del cumplimiento de la normatividad ambiental. Recursos naturales. Forestal. Inspecciones,,,Geografía y Medio Ambiente,Medio ambiente,"Protección, Gestión y Compromiso con el medio ambiente",Regulación ambiental
+Indicadores de vigilancia del cumplimiento de la normatividad ambiental. Recursos naturales. Flora y fauna silvestres. Productos y subproductos asegurados,,,Geografía y Medio Ambiente,Medio ambiente,"Protección, Gestión y Compromiso con el medio ambiente",Regulación ambiental
+Indicadores de vigilancia del cumplimiento de la normatividad ambiental. Recursos naturales. Flora y fauna silvestres. Especímenes asegurados,,,Geografía y Medio Ambiente,Medio ambiente,"Protección, Gestión y Compromiso con el medio ambiente",Regulación ambiental
+Indicadores de vigilancia del cumplimiento de la normatividad ambiental. Impacto ambiental. Clausura de actividades irregulares,,,Geografía y Medio Ambiente,Medio ambiente,"Protección, Gestión y Compromiso con el medio ambiente",Regulación ambiental
+Indicadores de vigilancia del cumplimiento de la normatividad ambiental. Recursos naturales. Áreas Naturales Protegidas. Rondas de vigilancia sistemática,,,Geografía y Medio Ambiente,Medio ambiente,"Protección, Gestión y Compromiso con el medio ambiente",Regulación ambiental
+Superficie continental,,,Geografía y Medio Ambiente,Medio ambiente,,
