@@ -73,27 +73,33 @@ def main():
         
         print(f"Opción seleccionada: {selected_value}")  # Esto debe imprimir "379_Demografía y Sociedad_6"
 
-        # Expande todas las clases dentro del árbol
+        # Expande todas las clases dentro del árbol y sus subclases recursivamente
         page.evaluate("""
             () => {
                 const iframe = document.querySelector("iframe#qbIndicadores");
                 if (iframe) {
                     const innerDoc = iframe.contentDocument || iframe.contentWindow.document;
                     if (innerDoc) {
-                        // Buscar todos los elementos <span> dentro del árbol que tienen la clase 'glyphicon-plus' (expandir)
-                        const expanders = innerDoc.querySelectorAll("span.glyphicon-plus");
-                        
-                        // Iterar sobre cada <span> y hacer clic para expandir
-                        expanders.forEach(expander => {
-                            expander.click();
-                        });
+                        const expandAll = () => {
+                            // Buscar todos los elementos <span> dentro del árbol que tienen la clase 'glyphicon-plus' (expandir)
+                            const expanders = innerDoc.querySelectorAll("span.glyphicon-plus");
+                            
+                            // Si hay elementos para expandir, hacer clic en ellos
+                            if (expanders.length > 0) {
+                                expanders.forEach(expander => {
+                                    expander.click();  // Hacer clic para expandir
+                                });
+                                setTimeout(expandAll, 15000);  // Llamar a la función recursivamente para continuar con los nuevos elementos expandidos
+                            }
+                        };
+                        expandAll();  // Iniciar la expansión recursiva
                     }
                 }
             }
         """)
 
-        # Esperamos 3.5 segundos para asegurarnos de que todo se haya expandido
-        page.wait_for_timeout(3500)
+        # Esperamos 15 segundos entre cada expansión y damos un tiempo total de 60 segundos antes de cerrar el navegador
+        page.wait_for_timeout(60000)
 
         # Cerramos el navegador
         browser.close()
