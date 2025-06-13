@@ -2,6 +2,23 @@ import csv
 from playwright.sync_api import sync_playwright
 
 def main(banco, sector):
+    # Los sectores posibles según la numeración
+    sectores = {
+        1: "Demografía y Sociedad",
+        2: "Economía y Sectores Productivos",
+        3: "Geografía y Medio Ambiente",
+        4: "Gobierno, Seguridad y Justicia",
+        5: "Educación",
+        6: "Empleo y Ocupación",
+        7: "Hogares y Vivienda",
+        8: "Población",
+        9: "Salud y Seguridad Social",
+        10: "Tecnologías de la información y comunicaciones"
+    }
+
+    # Si el sector no existe, mostramos un mensaje
+    sector_nombre = sectores.get(sector, "Sector no disponible")
+
     with sync_playwright() as p:
         # Lanzamos el navegador
         browser = p.chromium.launch(headless=False)  # Si quieres ver la navegación, pon headless=False
@@ -29,35 +46,36 @@ def main(banco, sector):
         page.wait_for_selector("iframe#qbIndicadores")
 
         # Ahora inyectamos el código para interactuar dentro del iframe
-        page.evaluate(f"""
-            () => {{
+        page.evaluate("""
+            (args) => {
+                const { banco, sector } = args;
                 const iframe = document.querySelector("iframe#qbIndicadores");
-                if (iframe) {{
+                if (iframe) {
                     const innerDoc = iframe.contentDocument || iframe.contentWindow.document;
-                    if (innerDoc) {{
+                    if (innerDoc) {
                         // Seleccionamos el banco según el parámetro
                         const selectConsultaTree = innerDoc.querySelector('select#consultaTree');
-                        if (selectConsultaTree) {{
-                            selectConsultaTree.value = '{banco}';
-                            selectConsultaTree.dispatchEvent(new Event('change', {{ bubbles: true }}));
-                        }}
+                        if (selectConsultaTree) {
+                            selectConsultaTree.value = banco;
+                            selectConsultaTree.dispatchEvent(new Event('change', { bubbles: true }));
+                        }
                         
                         // Seleccionamos el sector según el número proporcionado
                         const selectTemasComponente = innerDoc.querySelector('select#temas_componente');
-                        if (selectTemasComponente) {{
+                        if (selectTemasComponente) {
                             const opciones = selectTemasComponente.querySelectorAll('option');
-                            const index = {sector} - 1;  // Los índices empiezan en 0, pero el parámetro usa un 1-indexed
-                            if (opciones[index]) {{
+                            const index = sector - 1;  // Los índices empiezan en 0, pero el parámetro usa un 1-indexed
+                            if (opciones[index]) {
                                 selectTemasComponente.value = opciones[index].value;
-                                selectTemasComponente.dispatchEvent(new Event('change', {{ bubbles: true }}));
-                            }} else {{
+                                selectTemasComponente.dispatchEvent(new Event('change', { bubbles: true }));
+                            } else {
                                 console.log('El sector seleccionado no existe.');
-                            }}
-                        }}
-                    }}
-                }}
-            }}
-        """)
+                            }
+                        }
+                    }
+                }
+            }
+        """, {"banco": banco, "sector": sector})
 
         # Esperamos 3.5 segundos para asegurar que se haya ejecutado la acción
         page.wait_for_timeout(3500)
@@ -76,7 +94,7 @@ def main(banco, sector):
                 return null;
             }
         """)
-        
+
         print(f"Opción seleccionada: {selected_value}")  # Imprime la opción seleccionada
 
         # Expande todas las clases dentro del árbol y sus subclases recursivamente
@@ -109,7 +127,8 @@ def main(banco, sector):
 
         # Ahora extraemos los datos y los escribimos en un archivo CSV
         data = page.evaluate("""
-            () => {
+            (args) => {
+                const { banco, sector_nombre } = args;
                 const iframe = document.querySelector("iframe#qbIndicadores");
                 let result = [];
                 if (iframe) {
@@ -122,19 +141,19 @@ def main(banco, sector):
                             if (label && checkbox) {
                                 const id = checkbox.id.split('_')[2];  // Extraemos el ID
                                 const name = label.textContent.trim();  // Extraemos el nombre
-                                result.push([name, id]);  // Guardamos el nombre y el ID
+                                result.push([name, id, banco, sector_nombre]);  // Guardamos el nombre, el ID, el banco y el sector
                             }
                         });
                     }
                 }
                 return result;
             }
-        """)
+        """, {"banco": banco, "sector_nombre": sector_nombre})
 
         # Escribir los datos extraídos en un archivo CSV
-        with open("test.csv", "w", newline="") as file:
+        with open("test.csv", "w", newline="", encoding='utf-8') as file:
             writer = csv.writer(file)
-            writer.writerow(["Nombre del Indicador", "ID del Indicador"])  # Encabezado
+            writer.writerow(["Nombre del Indicador", "ID del Indicador", "Banco", "Sector"])  # Encabezado
             writer.writerows(data)  # Escribimos los datos
 
         # Cerramos el navegador
