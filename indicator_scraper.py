@@ -8,12 +8,20 @@ def main(banco, sector):
         2: "Economía y Sectores Productivos",
         3: "Geografía y Medio Ambiente",
         4: "Gobierno, Seguridad y Justicia",
-        5: "Educación",
-        6: "Empleo y Ocupación",
-        7: "Hogares y Vivienda",
-        8: "Población",
-        9: "Salud y Seguridad Social",
-        10: "Tecnologías de la información y comunicaciones"
+        5: "Indicadores económicos de coyuntura",
+        6: "Ocupación, empleo y remuneraciones",
+        7: "Indicadores de productividad. Base 2018",
+        8: "Cuentas nacionales",
+        9: "Minería",
+        10: "Manufacturas",
+        11: "Encuesta Nacional de Empresas Constructoras (ENEC). Serie 2018",
+        12: "Encuesta Anual de Empresas Constructoras (EAEC). Serie 2018",
+        13: "Encuesta mensual sobre empresas comerciales (EMEC), Base 2018",
+        14: "Encuesta mensual de servicios (EMS). Serie 2018",
+        15: "Comunicaciones y transportes",
+        16: "Sector externo",
+        17: "Finanzas públicas",
+        18: "Series que ya no se actualizan"
     }
 
     # Si el sector no existe, mostramos un mensaje
