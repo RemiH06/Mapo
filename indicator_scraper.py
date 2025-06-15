@@ -2,8 +2,12 @@ import csv
 import os
 from playwright.sync_api import sync_playwright
 
-def main(banco, sector):
+def main(sector):
     # Los sectores posibles según la numeración
+    banco = 'BISE'
+    if sector > 4:
+        banco = 'BIE'
+    
     sectores = {
         1: "Demografía y Sociedad",
         2: "Economía y Sectores Productivos",
@@ -189,10 +193,5 @@ def main(banco, sector):
         # Cerramos el navegador
         browser.close()
 
-# Ejecutamos el script con el banco y el sector
-# El primer parámetro es el banco (BIE o BISE), y el segundo es el número del sector (1 para el primer sector, 2 para el segundo, etc.)
-main('BISE', 1)  # Cambia estos parámetros según necesites
-
 for i in range(1,19):
-    main('BIE', i)
-    main('BISE', i)
+    main(i)
