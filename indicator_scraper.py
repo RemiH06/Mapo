@@ -1,4 +1,5 @@
 import csv
+import os
 from playwright.sync_api import sync_playwright
 
 def main(banco, sector):
@@ -158,11 +159,32 @@ def main(banco, sector):
             }
         """, {"banco": banco, "sector_nombre": sector_nombre})
 
-        # Escribir los datos extraídos en un archivo CSV
-        with open("test.csv", "w", newline="", encoding='utf-8') as file:
+        file_exists = os.path.isfile("test.csv")
+        
+        existing_data = set()
+        if file_exists:
+            with open("test.csv", "r", encoding='utf-8') as file:
+                reader = csv.reader(file)
+                next(reader)  # Saltar encabezado
+                existing_data = {tuple(row) for row in reader}
+
+        new_data = [row for row in data if tuple(row) not in existing_data]
+
+        with open("test.csv", "a", newline="", encoding='utf-8') as file:
             writer = csv.writer(file)
-            writer.writerow(["Nombre del Indicador", "ID del Indicador", "Banco", "Sector"])  # Encabezado
-            writer.writerows(data)  # Escribimos los datos
+            if not file_exists:
+                writer.writerow(["Nombre del Indicador", "ID del Indicador", "Banco", "Sector"])
+            writer.writerows(new_data)
+
+        with open("test.csv", "a", newline="", encoding='utf-8') as file:
+            writer = csv.writer(file)
+            
+            # Solo escribimos los encabezados si el archivo no existe
+            if not file_exists:
+                writer.writerow(["Nombre del Indicador", "ID del Indicador", "Banco", "Sector"])
+            
+            # Escribimos los datos
+            writer.writerows(data)
 
         # Cerramos el navegador
         browser.close()
@@ -170,3 +192,7 @@ def main(banco, sector):
 # Ejecutamos el script con el banco y el sector
 # El primer parámetro es el banco (BIE o BISE), y el segundo es el número del sector (1 para el primer sector, 2 para el segundo, etc.)
 main('BISE', 1)  # Cambia estos parámetros según necesites
+
+for i in range(1,19):
+    main('BIE', i)
+    main('BISE', i)
