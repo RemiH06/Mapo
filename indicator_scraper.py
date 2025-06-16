@@ -154,7 +154,21 @@ def main(sector):
                             if (label && checkbox) {
                                 const id = checkbox.id.split('_')[2];  // Extraemos el ID
                                 const name = label.textContent.trim();  // Extraemos el nombre
-                                result.push([name, id, banco, sector_nombre]);  // Guardamos el nombre, el ID, el banco y el sector
+                                
+                                // Extraemos las categorías y subcategorías
+                                let category = '';
+                                let subcategory = '';
+                                const parentLabel = item.closest('ul').previousElementSibling;
+                                if (parentLabel && parentLabel.tagName === 'LABEL') {
+                                    category = parentLabel.textContent.trim();
+                                }
+                                
+                                const grandParentLabel = item.closest('ul').parentElement.previousElementSibling;
+                                if (grandParentLabel && grandParentLabel.tagName === 'LABEL') {
+                                    subcategory = grandParentLabel.textContent.trim();
+                                }
+                                
+                                result.push([name, id, banco, sector_nombre, category, subcategory]);  // Agregamos la categoría y subcategoría
                             }
                         });
                     }
@@ -163,35 +177,26 @@ def main(sector):
             }
         """, {"banco": banco, "sector_nombre": sector_nombre})
 
-        file_exists = os.path.isfile("test.csv")
+        file_exists = os.path.isfile("test2.csv")
         
         existing_data = set()
         if file_exists:
-            with open("test.csv", "r", encoding='utf-8') as file:
+            with open("test2.csv", "r", encoding='utf-8') as file:
                 reader = csv.reader(file)
                 next(reader)  # Saltar encabezado
                 existing_data = {tuple(row) for row in reader}
 
         new_data = [row for row in data if tuple(row) not in existing_data]
 
-        with open("test.csv", "a", newline="", encoding='utf-8') as file:
+        with open("test2.csv", "a", newline="", encoding='utf-8') as file:
             writer = csv.writer(file)
             if not file_exists:
-                writer.writerow(["Nombre del Indicador", "ID del Indicador", "Banco", "Sector"])
+                writer.writerow(["nombre", "id", "bdi", "sect", "cat", "subcat"])
             writer.writerows(new_data)
-
-        with open("test.csv", "a", newline="", encoding='utf-8') as file:
-            writer = csv.writer(file)
-            
-            # Solo escribimos los encabezados si el archivo no existe
-            if not file_exists:
-                writer.writerow(["Nombre del Indicador", "ID del Indicador", "Banco", "Sector"])
-            
-            # Escribimos los datos
-            writer.writerows(data)
 
         # Cerramos el navegador
         browser.close()
 
-for i in range(1,19):
-    main(i)
+main(1)
+#for i in range(1,19):
+#    main(i)
