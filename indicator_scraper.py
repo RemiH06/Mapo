@@ -3,6 +3,8 @@ import os
 from playwright.sync_api import sync_playwright
 
 def main(sector):
+    # Donde pondremos los indicadores
+    file_name = "test2.csv"
     # Los sectores posibles según la numeración
     banco = 'BISE'
     if sector > 4:
@@ -177,18 +179,18 @@ def main(sector):
             }
         """, {"banco": banco, "sector_nombre": sector_nombre})
 
-        file_exists = os.path.isfile("test2.csv")
+        file_exists = os.path.isfile(file_name)
         
         existing_data = set()
         if file_exists:
-            with open("test2.csv", "r", encoding='utf-8') as file:
+            with open(file_name, "r", encoding='utf-8') as file:
                 reader = csv.reader(file)
                 next(reader)  # Saltar encabezado
                 existing_data = {tuple(row) for row in reader}
 
         new_data = [row for row in data if tuple(row) not in existing_data]
 
-        with open("test2.csv", "a", newline="", encoding='utf-8') as file:
+        with open(file_name, "a", newline="", encoding='utf-8') as file:
             writer = csv.writer(file)
             if not file_exists:
                 writer.writerow(["nombre", "id", "bdi", "sect", "cat", "subcat"])
@@ -197,6 +199,8 @@ def main(sector):
         # Cerramos el navegador
         browser.close()
 
-main(1)
 #for i in range(1,19):
 #    main(i)
+main(1)
+
+# haz que scrapee todos los árboles de categorías, los lance como texto plano con tabs o algo, y ya de ahí haces las asociaciones
