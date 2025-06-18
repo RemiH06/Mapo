@@ -3,8 +3,6 @@ import os
 from playwright.sync_api import sync_playwright
 
 def main(sector):
-    # Donde pondremos los indicadores
-    file_name = "test2.csv"
     # Los sectores posibles según la numeración
     banco = 'BISE'
     if sector > 4:
@@ -112,7 +110,7 @@ def main(sector):
 
         print(f"Opción seleccionada: {selected_value}")  # Imprime la opción seleccionada
 
-        # Expande todas las clases dentro del árbol y sus subclases recursivamente
+        # Expansión del árbol
         page.evaluate("""
             () => {
                 const iframe = document.querySelector("iframe#qbIndicadores");
@@ -149,58 +147,67 @@ def main(sector):
                 if (iframe) {
                     const innerDoc = iframe.contentDocument || iframe.contentWindow.document;
                     if (innerDoc) {
-                        const items = innerDoc.querySelectorAll('li');
-                        items.forEach(item => {
-                            const label = item.querySelector('label');
-                            const checkbox = item.querySelector('input[type="checkbox"]');
-                            if (label && checkbox) {
-                                const id = checkbox.id.split('_')[2];  // Extraemos el ID
-                                const name = label.textContent.trim();  // Extraemos el nombre
-                                
-                                // Extraemos las categorías y subcategorías
-                                let category = '';
-                                let subcategory = '';
-                                const parentLabel = item.closest('ul').previousElementSibling;
-                                if (parentLabel && parentLabel.tagName === 'LABEL') {
-                                    category = parentLabel.textContent.trim();
+                        const root = innerDoc.querySelector("#body_componente");  // Seleccionamos el div del que hablamos
+                        if (root) {
+                            const categories = root.querySelectorAll('tr');  // Buscar todos los tr dentro de la tabla
+                            categories.forEach(category => {
+                                const tds = category.querySelectorAll('td');
+                                if (tds.length >= 2) {
+                                    const category_td = tds[1];  // El segundo td es el que contiene la categoría
+                                    const category_a = category_td.querySelector('a');  // Buscamos el <a> dentro de este td
+                                    if (category_a) {
+                                        const category_name = category_a.nextSibling.nodeValue.trim();  // Extraemos el texto de categoría entre <a> y <ul>
+                                        
+                                        // Expande el árbol de subcategorías
+                                        const subcategories = category.querySelectorAll('ul li');
+                                        subcategories.forEach(subcategory => {
+                                            const subLabel = subcategory.querySelector('label');
+                                            if (subLabel) {
+                                                const subcategory_name = subLabel.textContent.trim();
+
+                                                // Si tiene un checkbox, es un indicador
+                                                const checkbox = subcategory.querySelector('input[type="checkbox"]');
+                                                if (checkbox) {
+                                                    const indicator_name = subLabel.textContent.trim();
+                                                    const id = checkbox.id.split('_')[2];  // Extraemos el ID
+                                                    result.push([category_name, subcategory_name, indicator_name, id, banco, sector_nombre]);
+                                                }
+                                            }
+                                        });
+                                    }
                                 }
-                                
-                                const grandParentLabel = item.closest('ul').parentElement.previousElementSibling;
-                                if (grandParentLabel && grandParentLabel.tagName === 'LABEL') {
-                                    subcategory = grandParentLabel.textContent.trim();
-                                }
-                                
-                                result.push([name, id, banco, sector_nombre, category, subcategory]);  // Agregamos la categoría y subcategoría
-                            }
-                        });
+                            });
+                        }
                     }
                 }
                 return result;
             }
         """, {"banco": banco, "sector_nombre": sector_nombre})
 
-        file_exists = os.path.isfile(file_name)
+        # Comprobamos si el archivo ya existe
+        file_exists = os.path.isfile("indicadores.csv")
         
+        # Evitar duplicados
         existing_data = set()
         if file_exists:
-            with open(file_name, "r", encoding='utf-8') as file:
+            with open("indicadores.csv", "r", encoding='utf-8') as file:
                 reader = csv.reader(file)
                 next(reader)  # Saltar encabezado
                 existing_data = {tuple(row) for row in reader}
 
+        # Solo agregamos las nuevas filas
         new_data = [row for row in data if tuple(row) not in existing_data]
 
-        with open(file_name, "a", newline="", encoding='utf-8') as file:
+        with open("indicadores.csv", "a", newline="", encoding='utf-8') as file:
             writer = csv.writer(file)
             if not file_exists:
-                writer.writerow(["nombre", "id", "bdi", "sect", "cat", "subcat"])
+                writer.writerow(["Categoría", "Subcategoría", "Indicador", "ID", "Banco", "Sector"])
             writer.writerows(new_data)
 
         # Cerramos el navegador
         browser.close()
 
-#for i in range(1,19):
-#    main(i)
-main(1)
+main(1)  # ya más o menos jala
 
-# haz que scrapee todos los árboles de categorías, los lance como texto plano con tabs o algo, y ya de ahí haces las asociaciones
+# #for i in range(1,19):
+#    main(i)
