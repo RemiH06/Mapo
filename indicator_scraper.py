@@ -170,7 +170,9 @@ def main(sector):
                                                 if (checkbox) {
                                                     const indicator_name = subLabel.textContent.trim();
                                                     const id = checkbox.id.split('_')[2];  // Extraemos el ID
-                                                    result.push([category_name, subcategory_name, indicator_name, id, banco, sector_nombre]);
+                                                    
+                                                    // Asignamos los valores en el orden correcto con subcategorías vacías
+                                                    result.push([indicator_name, id, banco, sector_nombre, category_name, subcategory_name, '', '', '', '']);  // Añadimos subclase3, subclase4 y subclase5 vacíos
                                                 }
                                             }
                                         });
@@ -180,7 +182,7 @@ def main(sector):
                         }
                     }
                 }
-                return result;
+                return result.filter(row => row[0] !== "");  // Filtrar filas donde el nombre del indicador está vacío
             }
         """, {"banco": banco, "sector_nombre": sector_nombre})
 
@@ -198,16 +200,17 @@ def main(sector):
         # Solo agregamos las nuevas filas
         new_data = [row for row in data if tuple(row) not in existing_data]
 
+        # Escribimos los datos en el archivo CSV
         with open("indicadores.csv", "a", newline="", encoding='utf-8') as file:
             writer = csv.writer(file)
             if not file_exists:
-                writer.writerow(["Categoría", "Subcategoría", "Indicador", "ID", "Banco", "Sector"])
+                writer.writerow(["Nombre", "ID", "BDI", "Sector", "Clase", "Subclase", "Subclase2", "Subclase3", "Subclase4", "Subclase5"])  # Orden de las columnas
             writer.writerows(new_data)
 
         # Cerramos el navegador
         browser.close()
 
-main(1)  # ya más o menos jala
+main(1)  # Corre solo una vez para el sector 1
 
 # #for i in range(1,19):
 #    main(i)
