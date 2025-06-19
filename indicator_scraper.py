@@ -2,11 +2,9 @@ import csv
 import os
 from playwright.sync_api import sync_playwright
 
+file_name = "indicadores_rd.csv"
+final_file = "indicadores.csv"
 def main(sector):
-    # Los sectores posibles según la numeración
-    banco = 'BISE'
-    if sector > 4:
-        banco = 'BIE'
     
     sectores = {
         1: "Demografía y Sociedad",
@@ -29,36 +27,35 @@ def main(sector):
         18: "Series que ya no se actualizan"
     }
 
-    # Si el sector no existe, mostramos un mensaje
+    # Si el sector no existe
     sector_nombre = sectores.get(sector, "Sector no disponible")
+
+    # Los sectores posibles según la numeración
+    banco = 'BISE'
+    if sector > 4:
+        banco = 'BIE'
+        sector-=4
 
     with sync_playwright() as p:
         # Lanzamos el navegador
-        browser = p.chromium.launch(headless=False)  # Si quieres ver la navegación, pon headless=False
+        browser = p.chromium.launch(headless=False)
         page = browser.new_page()
 
-        # Vamos a la URL principal
         page.goto("https://www.inegi.org.mx/servicios/api_indicadores.html#profile")
-        
-        # Esperamos 3.5 segundos para que la página cargue
         page.wait_for_timeout(3500)
 
-        # Esperamos a que el enlace "Constructor de Consultas" esté disponible
+        # Esperamos al constructor de consultas
         page.wait_for_selector("a[aria-controls='messages']")
-        
-        # Esperamos 3.5 segundos más
         page.wait_for_timeout(3500)
 
-        # Hacemos clic en el enlace "Constructor de Consultas"
+        # Hacemos clic en constructor
         page.click("a[aria-controls='messages']")
-
-        # Esperamos 3.5 segundos para asegurarnos de que la acción de clic haya terminado
         page.wait_for_timeout(3500)
 
         # Esperamos a que el iframe esté disponible
         page.wait_for_selector("iframe#qbIndicadores")
 
-        # Ahora inyectamos el código para interactuar dentro del iframe
+        # Inyectamos
         page.evaluate("""
             (args) => {
                 const { banco, sector } = args;
@@ -73,24 +70,29 @@ def main(sector):
                             selectConsultaTree.dispatchEvent(new Event('change', { bubbles: true }));
                         }
                         
-                        // Seleccionamos el sector según el número proporcionado
-                        const selectTemasComponente = innerDoc.querySelector('select#temas_componente');
-                        if (selectTemasComponente) {
-                            const opciones = selectTemasComponente.querySelectorAll('option');
-                            const index = sector - 1;  // Los índices empiezan en 0, pero el parámetro usa un 1-indexed
-                            if (opciones[index]) {
-                                selectTemasComponente.value = opciones[index].value;
-                                selectTemasComponente.dispatchEvent(new Event('change', { bubbles: true }));
-                            } else {
-                                console.log('El sector seleccionado no existe.');
-                            }
-                        }
+                        // Espera de 15 segundos (15000 ms)
+                        return new Promise(resolve => {
+                            setTimeout(() => {
+                                // Seleccionamos el sector según el número proporcionado
+                                const selectTemasComponente = innerDoc.querySelector('select#temas_componente');
+                                if (selectTemasComponente) {
+                                    const opciones = selectTemasComponente.querySelectorAll('option');
+                                    const index = sector - 1;  // Los índices empiezan en 0, pero el parámetro usa un 1-indexed
+                                    if (opciones[index]) {
+                                        selectTemasComponente.value = opciones[index].value;
+                                        selectTemasComponente.dispatchEvent(new Event('change', { bubbles: true }));
+                                    } else {
+                                        console.log('El sector seleccionado no existe.');
+                                    }
+                                }
+                                resolve();
+                            }, 15000); // 15 segundos
+                        });
                     }
                 }
             }
         """, {"banco": banco, "sector": sector})
 
-        # Esperamos 3.5 segundos para asegurar que se haya ejecutado la acción
         page.wait_for_timeout(3500)
 
         # Verificamos que la opción fue seleccionada
@@ -108,7 +110,7 @@ def main(sector):
             }
         """)
 
-        print(f"Opción seleccionada: {selected_value}")  # Imprime la opción seleccionada
+        print(f"Opción seleccionada: {selected_value}")
 
         # Expansión del árbol
         page.evaluate("""
@@ -135,7 +137,7 @@ def main(sector):
             }
         """)
 
-        # Esperamos 15 segundos entre cada expansión y damos un tiempo total de 60 segundos antes de cerrar el navegador
+        # Es lentísimo así que más vale esperar a que se expanda todo
         page.wait_for_timeout(60000)
 
         # Ahora extraemos los datos y los escribimos en un archivo CSV
@@ -187,12 +189,12 @@ def main(sector):
         """, {"banco": banco, "sector_nombre": sector_nombre})
 
         # Comprobamos si el archivo ya existe
-        file_exists = os.path.isfile("indicadores.csv")
+        file_exists = os.path.isfile(file_name)
         
-        # Evitar duplicados
+        # Evitamos duplicados
         existing_data = set()
         if file_exists:
-            with open("indicadores.csv", "r", encoding='utf-8') as file:
+            with open(file_name, "r", encoding='utf-8') as file:
                 reader = csv.reader(file)
                 next(reader)  # Saltar encabezado
                 existing_data = {tuple(row) for row in reader}
@@ -201,16 +203,100 @@ def main(sector):
         new_data = [row for row in data if tuple(row) not in existing_data]
 
         # Escribimos los datos en el archivo CSV
-        with open("indicadores.csv", "a", newline="", encoding='utf-8') as file:
+        with open(file_name, "a", newline="", encoding='utf-8') as file:
             writer = csv.writer(file)
             if not file_exists:
                 writer.writerow(["Nombre", "ID", "BDI", "Sector", "Clase", "Subclase", "Subclase2", "Subclase3", "Subclase4", "Subclase5"])  # Orden de las columnas
             writer.writerows(new_data)
 
-        # Cerramos el navegador
+        # Y conejo
         browser.close()
 
-main(1)  # Corre solo una vez para el sector 1
+for i in range(1,19):
+    main(i)
 
-# #for i in range(1,19):
-#    main(i)
+# Cargamos el CSV
+def load_data(filename=file_name):
+    data = []
+    with open(filename, "r", encoding="utf-8") as file:
+        reader = csv.reader(file)
+        headers = next(reader)
+        for row in reader:
+            data.append(row)
+    return headers, data
+
+# Limpiamos la basura creada (si se creó algo) en las cols de subclases
+def clear_subcategories(data):
+    for row in data:
+        row[5] = ""  # Limpiar columna "subclase"
+        row[6] = ""  # Limpiar columna "subclase2"
+        row[7] = ""  # Limpiar columna "subclase3"
+        row[8] = ""  # Limpiar columna "subclase4"
+        row[9] = ""  # Limpiar columna "subclase5"
+    return data
+
+# Asignar clases a las subcategorías
+def assign_subcategories(data):
+    id_map = {}  # Diccionario para guardar el ID y las filas relacionadas
+    for row in data:
+        indicator_id = row[1]
+        
+        # Si el ID ya ha sido encontrado, asignamos la clase
+        if indicator_id in id_map:
+            original_row = id_map[indicator_id]
+            
+            # Asignamos la clase del indicador duplicado a la primera subcategoría libre
+            if original_row[5] == "":
+                original_row[5] = row[4]  # Asignamos la clase a subclase
+            elif original_row[6] == "":
+                original_row[6] = row[4]  # Asignamos la clase a subclase2
+            elif original_row[7] == "":
+                original_row[7] = row[4]  # Asignamos la clase a subclase3
+            elif original_row[8] == "":
+                original_row[8] = row[4]  # Asignamos la clase a subclase4
+            elif original_row[9] == "":
+                original_row[9] = row[4]  # Asignamos la clase a subclase5
+            
+            # Ahora eliminamos el duplicado (segundo indicador)
+            data.remove(row)  # Borramos la fila duplicada
+        else:
+            # Si el ID no está en el diccionario, lo agregamos
+            id_map[indicator_id] = row
+
+    return data
+
+# Contar los IDs únicos
+def count_unique_ids(data):
+    ids = [row[1] for row in data]  # Obtener todos los IDs
+    unique_ids = set(ids)  # Set de IDs únicos
+    return len(ids), len(unique_ids)  # Devolver el total y el total de únicos
+
+# Guardar los datos procesados en un nuevo archivo CSV
+def save_data(headers, data, filename=final_file):
+    with open(filename, "w", newline="", encoding="utf-8") as file:
+        writer = csv.writer(file)
+        writer.writerow(headers)
+        writer.writerows(data)
+
+# Main para procesar el CSV
+def process_csv():
+    # Cargar el archivo generado
+    headers, data = load_data(file_name)
+    
+    # Limpiar las columnas de subcategorías
+    data = clear_subcategories(data)
+    
+    # Repetir el proceso
+    total_ids, unique_ids = count_unique_ids(data)
+    while total_ids != unique_ids:
+        # Llamamos a la función de asignación de subcategorías
+        data = assign_subcategories(data)
+        
+        # Recontamos los IDs únicos
+        total_ids, unique_ids = count_unique_ids(data)
+        print(f"IDs totales: {total_ids}, IDs únicos: {unique_ids}")
+    
+    # Guardar el archivo con los datos procesados
+    save_data(headers, data, final_file)
+
+process_csv()
