@@ -1,5 +1,6 @@
 import csv
 import os
+import time
 from playwright.sync_api import sync_playwright
 
 file_name = "indicadores_rd.csv"
@@ -212,8 +213,8 @@ def main(sector):
         # Y conejo
         browser.close()
 
-for i in range(1,19):
-    main(i)
+# for i in range(1,19):
+    # main(i)
 
 # Cargamos el CSV
 def load_data(filename=file_name):
@@ -225,7 +226,7 @@ def load_data(filename=file_name):
             data.append(row)
     return headers, data
 
-# Limpiamos la basura creada (si se creó algo) en las cols de subclases
+# Limpiar la basura creada (si se creó algo) en las columnas de subcategorías
 def clear_subcategories(data):
     for row in data:
         row[5] = ""  # Limpiar columna "subclase"
@@ -262,14 +263,41 @@ def assign_subcategories(data):
         else:
             # Si el ID no está en el diccionario, lo agregamos
             id_map[indicator_id] = row
+    return data # se están solapando algunas clases y poniendo en desorden
 
-    return data
+# Filtrar los datos de acuerdo al banco (BIE o BISE)
+def filter_by_banco(data, banco):
+    return [row for row in data if row[2] == banco]
+
+# Contar los IDs únicos para cada banco por separado
+def count_unique_ids_by_banco(data):
+    # Filtrar datos para BIE
+    bie_data = filter_by_banco(data, 'BIE')
+    bie_ids = [row[1] for row in bie_data]
+    bie_unique_ids = set(bie_ids)  # IDs únicos para BIE
+    
+    # Filtrar datos para BISE
+    bise_data = filter_by_banco(data, 'BISE')
+    bise_ids = [row[1] for row in bise_data]
+    bise_unique_ids = set(bise_ids)  # IDs únicos para BISE
+
+    # Contar IDs totales y únicos por banco
+    total_bie_ids = len(bie_ids)
+    total_bise_ids = len(bise_ids)
+    total_unique_bie_ids = len(bie_unique_ids)
+    total_unique_bise_ids = len(bise_unique_ids)
+
+    return total_bie_ids, total_bise_ids, total_unique_bie_ids, total_unique_bise_ids
 
 # Contar los IDs únicos
 def count_unique_ids(data):
-    ids = [row[1] for row in data]  # Obtener todos los IDs
-    unique_ids = set(ids)  # Set de IDs únicos
-    return len(ids), len(unique_ids)  # Devolver el total y el total de únicos
+    total_bie_ids, total_bise_ids, total_unique_bie_ids, total_unique_bise_ids = count_unique_ids_by_banco(data)
+    
+    # Imprimir los resultados para cada banco
+    print(f"BIE - IDs totales: {total_bie_ids}, IDs únicos: {total_unique_bie_ids}")
+    print(f"BISE - IDs totales: {total_bise_ids}, IDs únicos: {total_unique_bise_ids}")
+    
+    return total_bie_ids, total_bise_ids, total_unique_bie_ids, total_unique_bise_ids
 
 # Guardar los datos procesados en un nuevo archivo CSV
 def save_data(headers, data, filename=final_file):
@@ -287,14 +315,16 @@ def process_csv():
     data = clear_subcategories(data)
     
     # Repetir el proceso
-    total_ids, unique_ids = count_unique_ids(data)
-    while total_ids != unique_ids:
+    total_bie_ids, total_bise_ids, total_unique_bie_ids, total_unique_bise_ids = count_unique_ids(data)
+    while total_bie_ids != total_unique_bie_ids or total_bise_ids != total_unique_bise_ids:
         # Llamamos a la función de asignación de subcategorías
         data = assign_subcategories(data)
         
         # Recontamos los IDs únicos
-        total_ids, unique_ids = count_unique_ids(data)
-        print(f"IDs totales: {total_ids}, IDs únicos: {unique_ids}")
+        total_bie_ids, total_bise_ids, total_unique_bie_ids, total_unique_bise_ids = count_unique_ids(data)
+        print(f"BIE - IDs totales: {total_bie_ids}, IDs únicos: {total_unique_bie_ids}")
+        print(f"BISE - IDs totales: {total_bise_ids}, IDs únicos: {total_unique_bise_ids}")
+        time.sleep(.25)
     
     # Guardar el archivo con los datos procesados
     save_data(headers, data, final_file)
