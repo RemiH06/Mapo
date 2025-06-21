@@ -337,25 +337,43 @@ def process_csv():
 # No pensé que esto se fuera a complicar tanto para tener que usar pandas
 df = pd.read_csv(proc_file)
 
-# Primera subclase
-inicio_col = 5
-# Quintay y última subclase
-fin_col = 9  
+pares_columnas = [
+    (8, 9), (7, 9), (7, 8),
+    (6, 9), (6, 8), (6, 7),
+    (5, 9), (5, 8), (5, 7), (5, 6)
+]
 
-# Iteramos todas las filas menos la última
+pares_upside_down = [
+    (9, 8), (9, 7), (8, 7),
+    (9, 6), (8, 6), (7, 6),
+    (9, 5), (8, 5), (7, 5), (6, 5),
+]
+
+# Iteramos por cada par de filas
 for i in range(len(df) - 1):  
-    for j in range(inicio_col, fin_col):  # F->G, G->H, H->I, I->J
-        actual = df.iloc[i, j]
-        siguiente = df.iloc[i + 1, j + 1]
+    for col_actual, col_siguiente in pares_columnas:
+        actual = df.iloc[i, col_actual]
+        siguiente = df.iloc[i + 1, col_siguiente]
 
-        # Verificamos si NO hay vacíos
-        if  pd.notna(actual) and str(actual).strip() != "" and \
-            pd.notna(siguiente) and str(siguiente).strip() != "":
+        if pd.notna(actual) and str(actual).strip() != "" and \
+           pd.notna(siguiente) and str(siguiente).strip() != "":
+            if str(actual) == str(siguiente): 
+                temp = df.iloc[i + 1, col_actual]
+                df.iloc[i + 1, col_actual] = df.iloc[i + 1, col_siguiente]
+                df.iloc[i + 1, col_siguiente] = temp
 
-            if str(actual) == str(siguiente):
-                temp = df.iloc[i + 1, j]
-                df.iloc[i + 1, j] = df.iloc[i + 1, j + 1]
-                df.iloc[i + 1, j + 1] = temp
+# n vs n-1
+for i in range(1, len(df)):  
+    for col_actual, col_siguiente in pares_columnas:
+        actual = df.iloc[i, col_actual]
+        anterior = df.iloc[i - 1, col_siguiente]
+
+        if pd.notna(actual) and str(actual).strip() != "" and \
+           pd.notna(anterior) and str(anterior).strip() != "":
+            if str(actual) == str(anterior): 
+                temp = df.iloc[i, col_actual]
+                df.iloc[i, col_actual] = df.iloc[i, col_siguiente]
+                df.iloc[i, col_siguiente] = temp
 
 # FINAL FILE
 df.to_csv(final_file, index=False)
