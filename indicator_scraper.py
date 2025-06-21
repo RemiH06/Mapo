@@ -1,9 +1,11 @@
 import csv
 import os
 import time
+import pandas as pd
 from playwright.sync_api import sync_playwright
 
 file_name = "indicadores_rd.csv"
+proc_file = "indicadores_pd.csv"
 final_file = "indicadores.csv"
 def main(sector):
     
@@ -213,9 +215,6 @@ def main(sector):
         # Y conejo
         browser.close()
 
-# for i in range(1,19):
-    # main(i)
-
 # Cargamos el CSV
 def load_data(filename=file_name):
     data = []
@@ -226,17 +225,17 @@ def load_data(filename=file_name):
             data.append(row)
     return headers, data
 
-# Limpiar la basura creada (si se creó algo) en las columnas de subcategorías
+# Limpiamos la basura creada (si se creó algo) en las columnas de subcategorías
 def clear_subcategories(data):
     for row in data:
-        row[5] = ""  # Limpiar columna "subclase"
-        row[6] = ""  # Limpiar columna "subclase2"
-        row[7] = ""  # Limpiar columna "subclase3"
-        row[8] = ""  # Limpiar columna "subclase4"
-        row[9] = ""  # Limpiar columna "subclase5"
+        row[5] = ""  
+        row[6] = ""  
+        row[7] = ""  
+        row[8] = ""  
+        row[9] = ""  
     return data
 
-# Asignar clases a las subcategorías
+# Asignamos subclases una después de otra
 def assign_subcategories(data):
     id_map = {}  # Diccionario para guardar el ID y las filas relacionadas
     for row in data:
@@ -248,22 +247,22 @@ def assign_subcategories(data):
             
             # Asignamos la clase del indicador duplicado a la primera subcategoría libre
             if original_row[5] == "":
-                original_row[5] = row[4]  # Asignamos la clase a subclase
+                original_row[5] = row[4]  
             elif original_row[6] == "":
-                original_row[6] = row[4]  # Asignamos la clase a subclase2
+                original_row[6] = row[4]  
             elif original_row[7] == "":
-                original_row[7] = row[4]  # Asignamos la clase a subclase3
+                original_row[7] = row[4]  
             elif original_row[8] == "":
-                original_row[8] = row[4]  # Asignamos la clase a subclase4
+                original_row[8] = row[4]  
             elif original_row[9] == "":
-                original_row[9] = row[4]  # Asignamos la clase a subclase5
+                original_row[9] = row[4]  
             
             # Ahora eliminamos el duplicado (segundo indicador)
             data.remove(row)  # Borramos la fila duplicada
         else:
             # Si el ID no está en el diccionario, lo agregamos
             id_map[indicator_id] = row
-    return data # se están solapando algunas clases y poniendo en desorden
+    return data # se están solapando algunas clases y poniendo en desorden pero lo arreglaré con un comparador en otra función, esta ya es muy problemática
 
 # Filtrar los datos de acuerdo al banco (BIE o BISE)
 def filter_by_banco(data, banco):
@@ -300,7 +299,7 @@ def count_unique_ids(data):
     return total_bie_ids, total_bise_ids, total_unique_bie_ids, total_unique_bise_ids
 
 # Guardar los datos procesados en un nuevo archivo CSV
-def save_data(headers, data, filename=final_file):
+def save_data(headers, data, filename=proc_file):
     with open(filename, "w", newline="", encoding="utf-8") as file:
         writer = csv.writer(file)
         writer.writerow(headers)
@@ -327,6 +326,36 @@ def process_csv():
         time.sleep(.25)
     
     # Guardar el archivo con los datos procesados
-    save_data(headers, data, final_file)
+    save_data(headers, data, proc_file)
 
-process_csv()
+
+# for i in range(1,19):
+    # main(i)
+
+#process_csv()
+
+# No pensé que esto se fuera a complicar tanto para tener que usar pandas
+df = pd.read_csv(proc_file)
+
+# Primera subclase
+inicio_col = 5
+# Quintay y última subclase
+fin_col = 9  
+
+# Iteramos todas las filas menos la última
+for i in range(len(df) - 1):  
+    for j in range(inicio_col, fin_col):  # F->G, G->H, H->I, I->J
+        actual = df.iloc[i, j]
+        siguiente = df.iloc[i + 1, j + 1]
+
+        # Verificamos si NO hay vacíos
+        if  pd.notna(actual) and str(actual).strip() != "" and \
+            pd.notna(siguiente) and str(siguiente).strip() != "":
+
+            if str(actual) == str(siguiente):
+                temp = df.iloc[i + 1, j]
+                df.iloc[i + 1, j] = df.iloc[i + 1, j + 1]
+                df.iloc[i + 1, j + 1] = temp
+
+# FINAL FILE
+df.to_csv(final_file, index=False)
