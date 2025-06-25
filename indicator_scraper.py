@@ -329,10 +329,10 @@ def process_csv():
     save_data(headers, data, proc_file)
 
 
-# for i in range(1,19):
-    # main(i)
+for i in range(1,19):
+    main(i)
 
-#process_csv()
+process_csv()
 
 # No pensé que esto se fuera a complicar tanto para tener que usar pandas
 df = pd.read_csv(proc_file)
