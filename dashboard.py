@@ -13,7 +13,7 @@ def get_token():
 # Carga de datos iniciales
 estado_df = pd.read_csv("estados.csv")
 estado_claves = dict(zip(estado_df["estado"], estado_df["clave"]))
-indicador_df = pd.read_csv("indicadores.csv", encoding="ISO-8859-1")
+indicador_df = pd.read_csv("indicadores.csv", encoding="utf-8")
 indicador_ids = dict(zip(indicador_df["Nombre"], indicador_df["ID"]))
 
 def get_filters(bdi, sect=None, clase=None, subclase=None, subclase2=None, subclase3=None, subclase4=None, subclase5=None):
@@ -47,7 +47,6 @@ st.title("Dashboard INEGI - Indicador Ejemplo")
 indicador_id = st.selectbox("Selecciona un indicador:", options=list(indicador_ids.keys()))
 estado = st.selectbox("Selecciona un estado:", options=list(estado_claves.keys()))
 recientes = st.checkbox("Mostrar datos recientes", value=False)
-usar_bie = st.checkbox("Usar BIE en lugar de BISE", value=False)
 bdi = st.selectbox("Selecciona BDI:", options=["BIE", "BISE"])
 
 # Filtros dinámicos
@@ -61,18 +60,40 @@ subclase4 = st.selectbox("Selecciona cuarta subclase:", options=get_filters(bdi,
 subclase5 = st.selectbox("Selecciona quinta subclase:", options=get_filters(bdi, sect, clase, subclase, subclase2, subclase3, subclase4)["subclases5"])
 
 token = get_token()
-url = f"https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/{indicador_ids[indicador_id]}/es/{estado_claves[estado]}/{str(recientes).lower()}/{ 'BIE' if usar_bie else 'BISE'}/2.0/{token}?type=json"
+url = f"https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/{indicador_ids[indicador_id]}/es/0{estado_claves[estado]}/{str(recientes).lower()}/{bdi}/2.0/{token}?type=json"
+print(url)
 res = requests.get(url)
 if res.status_code != 200:
     st.error(f"Error al obtener datos del INEGI: {res.status_code}")
 else:
-    content = res.json()
-    observations = content.get("Series", {}).get("OBSERVATIONS", [])
+    try:
+        content = res.json()
+        # Revisamos que haya Series
+        series = content.get("Series", [])
+        if series and isinstance(series, list):
+            # tomamos la primera serie, normalmente
+            observations = series[0].get("OBSERVATIONS", [])
+        else:
+            observations = []
+    except Exception as e:
+        st.error(f"No se pudo procesar la respuesta: {e}")
+        observations = []
+
     if observations:
         df = pd.DataFrame(observations)
         st.dataframe(df)
+
+        # Agregar opción de descarga
+        csv = df.to_csv(index=False, encoding="utf-8")
+        st.download_button(
+            label="Descargar datos como CSV",
+            data=csv,
+            file_name="observaciones.csv",
+            mime="text/csv"
+        )
     else:
         st.write("No se encontraron observaciones")
+
 
 st.text("Consultas posibles con los filtros elegidos:")
 st.text(f"BDI: {bdi}, Sector: {sect}, Clase: {clase}, Subclase: {subclase}, Subclase2: {subclase2}, Subclase3: {subclase3}, Subclase4: {subclase4}, Subclase5: {subclase5}")

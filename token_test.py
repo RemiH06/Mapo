@@ -18,7 +18,7 @@ class INEGIDashboard(ctk.CTk):
         
         # URL de la API
         self.url = f"https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/1002000041/es/0700/false/BISE/2.0/{self.token}?type=json"
-        
+        print(self.url)
         # Crear widgets
         self.create_widgets()
         
