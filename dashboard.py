@@ -13,9 +13,10 @@ def get_token():
 # Carga de datos iniciales
 estado_df = pd.read_csv("estados.csv")
 estado_claves = dict(zip(estado_df["estado"], estado_df["clave"]))
-indicador_df = pd.read_csv("indicadores.csv", encoding="utf-8")
-indicador_ids = dict(zip(indicador_df["Nombre"], indicador_df["ID"]))
 
+indicador_df = pd.read_csv("indicadores.csv", encoding="utf-8")
+
+# Funciones de filtrado
 def get_filters(bdi, sect=None, clase=None, subclase=None, subclase2=None, subclase3=None, subclase4=None, subclase5=None):
     df = indicador_df[indicador_df["BDI"] == bdi]
     if sect:
@@ -39,39 +40,62 @@ def get_filters(bdi, sect=None, clase=None, subclase=None, subclase2=None, subcl
         "subclases2": df["Subclase2"].dropna().unique(),
         "subclases3": df["Subclase3"].dropna().unique(),
         "subclases4": df["Subclase4"].dropna().unique(),
-        "subclases5": df["Subclase5"].dropna().unique()
+        "subclases5": df["Subclase5"].dropna().unique(),
+        "indicadores": dict(zip(df["Nombre"], df["ID"]))
     }
 
 # Interfaz Streamlit
 st.title("Dashboard INEGI - Indicador Ejemplo")
-indicador_id = st.selectbox("Selecciona un indicador:", options=list(indicador_ids.keys()))
+
 estado = st.selectbox("Selecciona un estado:", options=list(estado_claves.keys()))
 recientes = st.checkbox("Mostrar datos recientes", value=False)
 bdi = st.selectbox("Selecciona BDI:", options=["BIE", "BISE"])
 
-# Filtros dinámicos
+# filtros dinámicos
 filters = get_filters(bdi)
 sect = st.selectbox("Selecciona un sector:", options=filters["sects"])
-clase = st.selectbox("Selecciona una clase:", options=get_filters(bdi, sect)["clases"])
-subclase = st.selectbox("Selecciona una subclase:", options=get_filters(bdi, sect, clase)["subclases"])
-subclase2 = st.selectbox("Selecciona segunda subclase:", options=get_filters(bdi, sect, clase, subclase)["subclases2"])
-subclase3 = st.selectbox("Selecciona tercera subclase:", options=get_filters(bdi, sect, clase, subclase, subclase2)["subclases3"])
-subclase4 = st.selectbox("Selecciona cuarta subclase:", options=get_filters(bdi, sect, clase, subclase, subclase2, subclase3)["subclases4"])
-subclase5 = st.selectbox("Selecciona quinta subclase:", options=get_filters(bdi, sect, clase, subclase, subclase2, subclase3, subclase4)["subclases5"])
+filters = get_filters(bdi, sect)
+clase = st.selectbox("Selecciona una clase:", options=filters["clases"])
+filters = get_filters(bdi, sect, clase)
+subclase = st.selectbox("Selecciona una subclase:", options=filters["subclases"])
+filters = get_filters(bdi, sect, clase, subclase)
+subclase2 = st.selectbox("Selecciona segunda subclase:", options=filters["subclases2"])
+filters = get_filters(bdi, sect, clase, subclase, subclase2)
+subclase3 = st.selectbox("Selecciona tercera subclase:", options=filters["subclases3"])
+filters = get_filters(bdi, sect, clase, subclase, subclase2, subclase3)
+subclase4 = st.selectbox("Selecciona cuarta subclase:", options=filters["subclases4"])
+filters = get_filters(bdi, sect, clase, subclase, subclase2, subclase3, subclase4)
+subclase5 = st.selectbox("Selecciona quinta subclase:", options=filters["subclases5"])
 
+# indicadores filtrados finales
+filters = get_filters(bdi, sect, clase, subclase, subclase2, subclase3, subclase4, subclase5)
+indicadores_filtrados = filters["indicadores"]
+
+if indicadores_filtrados:
+    indicador_id = st.selectbox("Selecciona un indicador:", options=list(indicadores_filtrados.keys()))
+else:
+    st.warning("No hay indicadores que coincidan con los filtros seleccionados.")
+    st.stop()
+
+# Construcción URL
 token = get_token()
-url = f"https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/{indicador_ids[indicador_id]}/es/0{estado_claves[estado]}/{str(recientes).lower()}/{bdi}/2.0/{token}?type=json"
-print(url)
+url = (
+    f"https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/"
+    f"{indicadores_filtrados[indicador_id]}/es/0{estado_claves[estado]}/{str(recientes).lower()}/"
+    f"{bdi}/2.0/{token}?type=json"
+)
+
+st.text(f"Consulta generada: {url}")
+
+# Obtener datos
 res = requests.get(url)
 if res.status_code != 200:
     st.error(f"Error al obtener datos del INEGI: {res.status_code}")
 else:
     try:
         content = res.json()
-        # Revisamos que haya Series
         series = content.get("Series", [])
         if series and isinstance(series, list):
-            # tomamos la primera serie, normalmente
             observations = series[0].get("OBSERVATIONS", [])
         else:
             observations = []
@@ -83,7 +107,6 @@ else:
         df = pd.DataFrame(observations)
         st.dataframe(df)
 
-        # Agregar opción de descarga
         csv = df.to_csv(index=False, encoding="utf-8")
         st.download_button(
             label="Descargar datos como CSV",
@@ -94,6 +117,7 @@ else:
     else:
         st.write("No se encontraron observaciones")
 
-
+# Mostrar resumen de filtros
 st.text("Consultas posibles con los filtros elegidos:")
-st.text(f"BDI: {bdi}, Sector: {sect}, Clase: {clase}, Subclase: {subclase}, Subclase2: {subclase2}, Subclase3: {subclase3}, Subclase4: {subclase4}, Subclase5: {subclase5}")
+st.text(f"BDI: {bdi}, Sector: {sect}, Clase: {clase}, Subclase: {subclase}, Subclase2: {subclase2}, "
+        f"Subclase3: {subclase3}, Subclase4: {subclase4}, Subclase5: {subclase5}")
