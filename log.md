@@ -13,7 +13,7 @@
 
 **[Remi]**
 *Viernes 04/07/25 23:29*:
-<br>[Docs] -> Respecto a la documentación, la comenzaré aún porque antes quiero terminar un coso que grafica códigos postales, igual les dejo la lista de documentos que tendremos, acepto sugerencias:
+<br>[Docs] -> Respecto a la documentación, no la comenzaré aún porque antes quiero terminar un coso que grafica códigos postales, igual les dejo la lista de documentos que tendremos, acepto sugerencias:
 <br> - PoC (prueba de concepto)
 <br> - RF/RNF
 <br> - Gantt
