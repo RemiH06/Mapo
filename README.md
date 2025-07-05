@@ -17,24 +17,27 @@
 ### General Description
 In order to get all kind of data from INEGI, created a dashboard that allows to get it through filters for state, class and up to five subclasses. An scraper was made so this was possible, but there's no need to run it since the data dict (indicadores.csv) is already loaded.
 
-## Dashboard usage
+## General instructions
 
 1. Install requirements with the following command :
 
-   `pip install streamlit pandas`
+   `pip install -r requirements.txt`
 
-2. Put your API token in a file named ".secrets", you can get one here: www.inegi.org.mx/app/desarrolladores/generatoken/Usuarios/token_Verify
+## Dashboard usage
 
-3. Run:
+1. Put your API token in a file named ".secrets", you can get one here: www.inegi.org.mx/app/desarrolladores/generatoken/Usuarios/token_Verify
+
+2. Run:
 
     `streamlit run dashboard.py`
 
-## Map master usage
+## Map dashboard usage
 
-1. Under construction
+1. Run:
 
-
+    `streamlit run mapsDashboard.py`
 
 ## Future Features
 
-- Map aggregation through kml files
+- Map aggregation through kml files and filters
+- Filter through zipcode
