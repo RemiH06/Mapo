@@ -28,8 +28,8 @@ for estado in estados:
     id_estado = estado["id"]
     
     if id_estado == "00": continue
-    # testeamos
-    if id_estado != "14": continue
+    # comentamos la prueba de 14
+    # if id_estado != "14": continue
     
     # ##.XYZ
     try:
@@ -62,16 +62,24 @@ for estado in estados:
     except Exception as e:
         print(f"Error procesando estado {estado['nombre']}: {e}")
 
-
-print([estado["id"] for estado in estados])
+# print([estado["id"] for estado in estados])
 
 st.title("Look mom i'm on TV :D")
+
+# Filtros de estado en una sidebar
+st.sidebar.title("Filtros de estados")
+seleccionados = []
+for estado in estados:
+    if estado["kml"]:
+        checked = st.sidebar.checkbox(estado["nombre"], value=False)
+        if checked:
+            seleccionados.append(estado)
 
 # Focus de MX
 m = folium.Map(location=[23.6345, -102.5528], zoom_start=5)
 
 # Graficamos
-for estado in estados:
+for estado in seleccionados:
     # creds a chappy
     if estado["kml"]:
         try:

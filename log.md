@@ -28,3 +28,8 @@
 *Sábado 05/07/25 01:12:*
 <br> [mapsDashboard.py] -> creé el file y grafica bien los polígonos (single run de pocos segundos, pero se vuelve muy lento al intentar hacer iteraciones posteriores, creo que es por el peso de los archivos, pude comprobarlo con Jalisco que es de los más pesados), requiere KMLs que si los necesitan se los paso por otro lado porque cada uno pesa entre 3 y 30 MBs (y aparte ya tengo mi estructura de archivos xd). 
 <br> -> Planeo ponerle filtros para prender y apagar la visualización de estados específicos. Prolly haga un rework para guardar cada zipcode como su propio objeto en vez de tener todo ensartado cual blob field.
+
+**[Remi]**
+*Domingo 06/07/25 20:51:*
+<br> [mapsDashboard.py] -> agregué filtros de estado, como no tiene que cargar todo de una sola vez, ahora es más rápido.
+<br> solo se me ha ocurrido una manera de guardar cada zipcode como su propio objeto, y es con un regex, pero dada la naturaleza de los xml no tengo certeza de que pueda ser una solución general. Comenzaré con pruebas mañana.

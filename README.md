@@ -39,5 +39,5 @@ In order to get all kind of data from INEGI, created a dashboard that allows to 
 
 ## Future Features
 
-- Map aggregation through kml files and filters
 - Filter through zipcode
+- Data fetching through zipcode
