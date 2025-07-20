@@ -33,3 +33,7 @@
 *Domingo 06/07/25 20:51:*
 <br> [mapsDashboard.py] -> agregué filtros de estado, como no tiene que cargar todo de una sola vez, ahora es más rápido.
 <br> solo se me ha ocurrido una manera de guardar cada zipcode como su propio objeto, y es con un regex, pero dada la naturaleza de los xml no tengo certeza de que pueda ser una solución general. Comenzaré con pruebas mañana.
+
+**[Vivienne]**
+*Sábado 19/07/25:*
+<br> Hice una carpeta llamada [team1] con avances y archivos correspondientes en cuanto al matcheo de los AGEBs y Códigos Postales. Por ahora tiene un archivo [agebs.ipynb] con código exploratorio para los archivos .shp, muy rudimental.
