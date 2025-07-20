@@ -37,3 +37,7 @@
 **[Remi]**
 *Jueves 17/07/25 19:12:*
 <br> [Docs] -> llevo avanzando un rato en la documentación, el listado de requerimientos está bastante avanzado y eso permite el trabajo en otra clase de documentación, creo que haré un diagrama de tablas mañana.
+
+**[Vivienne]**
+*Sábado 19/07/25:*
+<br> Hice una carpeta llamada [team1] con avances y archivos correspondientes en cuanto al matcheo de los AGEBs y Códigos Postales. Por ahora tiene un archivo [agebs.ipynb] con código exploratorio para los archivos .shp, muy rudimental.
