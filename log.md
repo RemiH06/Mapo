@@ -41,3 +41,10 @@
 **[Vivienne]**
 *Sábado 19/07/25:*
 <br> Hice una carpeta llamada [team1] con avances y archivos correspondientes en cuanto al matcheo de los AGEBs y Códigos Postales. Por ahora tiene un archivo [agebs.ipynb] con código exploratorio para los archivos .shp, muy rudimental.
+
+**[Sofi]**
+*Domingo 20/07/2025 16:34*
+<br> Hice la primer versión del scrapper de los archivos esos grandes de KML. Todavía planeo hacerle lo siguiente: 
+- Refinar el código para ya ponerlo en un .py y que no sea un notebook
+- Ver si puedo poner las coordenadas en una lista de tuplas en vez de que sea un string enorme
+- Encontrar cómo agregar la info adicional como el municipio, las colonias dentro del CP y si es un código postal urbano o rural
