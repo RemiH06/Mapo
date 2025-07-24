@@ -1,34 +1,40 @@
 import geopandas as gpd
 import pandas as pd
 from IPython.display import display
+import matplotlib.pyplot as plt
 
-ageb_urb = gpd.read_file(r'team1\data\conjunto_de_datos\01a.shp')
-ageb_rul = gpd.read_file(r'team1\data\conjunto_de_datos\01ar.shp')
-# Añadir la columna faltante a las AGEBs rurales
-ageb_rul['CVE_LOC'] = None
-# Reordenar las columnas
-ageb_rul = ageb_rul[ageb_urb.columns]
-# Estandarizar los sistemas de referencia de coordenadas (CRS)
-ageb_rul = ageb_rul.to_crs(ageb_urb.crs)
-# Concatenar los AGEBs
-agebs = gpd.GeoDataFrame(pd.concat([ageb_urb, ageb_rul], ignore_index=True), crs=ageb_urb.crs)
-
-
+# Leer las MZAs
+blocks = gpd.read_file(r'team1\data\conjunto_de_datos\01m.shp')
 # Leer los CPs
 cps = gpd.read_file(r'team1\data\CP_01Ags_v11.shp')
-# Estandarizar las CRS 
-cps = cps.to_crs(agebs.crs)
+# Estandarizar las CRS (Sistema de Referencia de Coordenadas) 
+cps = cps.to_crs(blocks.crs)
 
 
-# Calcular el área de los AGEBs
-agebs['area_ageb'] = agebs.geometry.area
-# Intersectar las AGEBs y CPs en base al mayor área de pertenencia
-intersected = gpd.overlay(agebs, cps, how='intersection')
+# Calcular el área de las MZAs
+blocks['area_mza'] = blocks.geometry.area
+# Intersectar las MZAs y CPs en base al mayor área de pertenencia
+intersected = gpd.overlay(blocks, cps, how='intersection')
 intersected['area_intersect'] = intersected.geometry.area
 # Porcentaje de intersección
-intersected['intersect_percent'] = intersected['area_intersect'] / intersected['area_ageb']
+intersected['intersect_percent'] = intersected['area_intersect'] / intersected['area_mza']
 # Matchear en base al mayor porcentaje de pertenencia
 match = (intersected.sort_values('intersect_percent', ascending=False)
-         .drop_duplicates(subset='CVE_AGEB'))
+         .drop_duplicates(subset='CVEGEO'))
+match = match.rename(columns={'d_codigo': 'CP'})
 
-display(match.tail(20))
+# Output
+blocks_matched = blocks.merge(
+    match[['CVEGEO', 'intersect_percent', 'CP']], 
+    on='CVEGEO', 
+    how='left'
+    )
+
+display(blocks_matched.head())
+# Dfs Shapes
+print(f'Input: {blocks.shape}')
+print(f'Output: {blocks_matched.shape}')
+
+bad_matches = blocks_matched[blocks_matched['intersect_percent'] < 0.75]
+print(f'Matcheos imperfectos: {bad_matches.shape[0]}')
+
