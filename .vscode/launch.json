@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Flutter Web on Edge",
+      "request": "launch",
+      "type": "dart",
+      "args": ["-d", "chrome"],
+      "env": {
+        "CHROME_EXECUTABLE": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe"
+      }
+    }
+  ]
+}
