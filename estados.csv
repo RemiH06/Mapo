@@ -1,34 +1,34 @@
-estado,clave
-Aguascalientes,07000001
-Baja California,07000002
-Baja California Sur,07000003
-Campeche,07000004
-Coahuila,07000005
-Colima,07000006
-Chiapas,07000007
-Chihuahua,07000008
-Ciudad de México,07000009
-Durango,07000010
-Guanajuato,07000011
-Guerrero,07000012
-Hidalgo,07000013
-Jalisco,07000014
-México,07000015
-Michoacán,07000016
-Morelos,07000017
-Nayarit,07000018
-Nuevo León,07000019
-Oaxaca,07000020
-Puebla,07000021
-Querétaro,07000022
-Quintana Roo,07000023
-San Luis Potosí,07000024
-Sinaloa,07000025
-Sonora,07000026
-Tabasco,07000027
-Tamaulipas,07000028
-Tlaxcala,07000029
-Veracruz,07000030
-Yucatán,07000031
-Zacatecas,07000032
-Toda la República,0700
+id,estado,clave
+1,Aguascalientes,7000001
+2,Baja California,7000002
+3,Baja California Sur,7000003
+4,Campeche,7000004
+5,Coahuila,7000005
+6,Colima,7000006
+7,Chiapas,7000007
+8,Chihuahua,7000008
+9,Ciudad de México,7000009
+10,Durango,7000010
+11,Guanajuato,7000011
+12,Guerrero,7000012
+13,Hidalgo,7000013
+14,Jalisco,7000014
+15,México,7000015
+16,Michoacán,7000016
+17,Morelos,7000017
+18,Nayarit,7000018
+19,Nuevo León,7000019
+20,Oaxaca,7000020
+21,Puebla,7000021
+22,Querétaro,7000022
+23,Quintana Roo,7000023
+24,San Luis Potosí,7000024
+25,Sinaloa,7000025
+26,Sonora,7000026
+27,Tabasco,7000027
+28,Tamaulipas,7000028
+29,Tlaxcala,7000029
+30,Veracruz,7000030
+31,Yucatán,7000031
+32,Zacatecas,7000032
+0,Toda la República,700
