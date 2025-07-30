@@ -21,3 +21,23 @@ class MainTitles extends StatelessWidget {
     );
   }
 }
+
+class SecondaryTitles extends StatelessWidget {
+  final String text;
+  const SecondaryTitles({
+    super.key,
+    required this.text,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 25),
+      child: Text(
+        text,
+        textAlign: TextAlign.center,
+        style: Theme.of(context).textTheme.headlineMedium,
+      ),
+    );
+  }
+}

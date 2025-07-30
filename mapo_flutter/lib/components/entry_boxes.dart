@@ -45,7 +45,7 @@ class _UserPassState extends State<UserPass> {
           fillColor: Colors.white,
           filled: true,
           hintText: widget.field_indicator,
-          suffixIcon: widget.field_indicator.toLowerCase().contains('contraseña')
+          suffixIcon: widget.field_indicator.toLowerCase().contains('ñ')
             ? IconButton(
               icon: Icon(
                 _obscure ? Icons.visibility_off : Icons.visibility,
