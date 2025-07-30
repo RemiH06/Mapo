@@ -52,3 +52,7 @@
 **[Sofi]**
 *Martes 22/07/2025 20:00*
 <br> La semana pasada tuvimos una idea para implementar LLMs en el proyecto, con la premisa de tener un modelo corriendo localmente (Ollama/Deepseek/etc) que pudiera contestar preguntas en base a la información recolectada. Este es un prototipo muy temprano pero logré usar Ollama y OpenWebUi para correr un Ollama3.2 localmente. Después, le alimenté archivos PDF de documentos legales, entre otros, para que contestara preguntas con ese contexto específico. Todavía hay que hacer más trabajo (principalmente, cómo le alimentaríamos nuestra información a un modelo, etc) pero siento tener ya un entendimiento de cómo se podría hostear en un servidor y luego pegarlo en una UI, idealmente una que no sea OpenWebUi porque realmente no disfruté usarla :( 
+
+**[Sofi]**
+*Lunes 28/07/2025 13:05*
+<br> Hoy hice la versión primitiva de la página de Login (y toda la app de Flutter en general). 
