@@ -56,3 +56,7 @@
 **[Sofi]**
 *Lunes 28/07/2025 13:05*
 <br> Hoy hice la versión primitiva de la página de Login (y toda la app de Flutter en general). 
+
+**[Sofi]**
+*Miércoles 30/07/2025 13:01*
+<br> Hoy hice la versión primitiva de la página de signup
