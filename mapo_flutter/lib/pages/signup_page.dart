@@ -14,19 +14,35 @@ class _SignupPageState extends State<SignupPage> {
   final passController = TextEditingController();
   final confirmController = TextEditingController();
 
+  bool passwordCheck (String pwd) {
+    final numRegex = RegExp(r'\d');
+    final specialRegex = RegExp(r'[!@#\$%^&*(),.?":{}|<>]');
+    return numRegex.hasMatch(pwd) && specialRegex.hasMatch(pwd);
+  }
+
   String _message = '';
 
-  void confirm_password() {
+  void confirmPassword() {
+    String user = userController.text.toLowerCase();
     String password = passController.text.trim();
     String pswd_2 = confirmController.text.trim();
 
-    if (password == pswd_2) {
+    if (user == '') {
       setState(() {
-        _message = 'Registro Exitoso!';
+        _message = 'El usuario no puede estar vacío';
+      });
+
+    } else if (!passwordCheck(password) || password.length < 8) {
+      setState(() {
+        _message = 'No cumples con los requerimientos de caracteres o de largo. Revísa tu contraseña de nuevo!';
+      });
+    } else if (password != pswd_2) {
+      setState(() {
+        _message = 'Las contraseñas no coinciden :(';
       });
     } else {
       setState(() {
-        _message = 'Las contraseñas no coinciden :(';
+        _message = 'Registro Exitoso!';
       });
     }
   }
@@ -45,7 +61,7 @@ class _SignupPageState extends State<SignupPage> {
         const SizedBox(height: 10),
         UserPass(controller: confirmController, field_indicator: 'repite contraseña', obscureText: true),
         Divider(height: 20, thickness: 2, color: Theme.of(context).colorScheme.primary, indent: 25, endIndent: 25,),
-        ElevatedButton(onPressed: confirm_password, child: const Text('Registrate')),
+        ElevatedButton(onPressed: confirmPassword, child: const Text('Registrate')),
         const SizedBox(height: 10,),
         MainTitles(text: _message),
         ElevatedButton(onPressed: () {
