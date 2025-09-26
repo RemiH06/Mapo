@@ -8,7 +8,7 @@
 ██║╚██╔╝██║██╔══██║██╔═══╝ ██║   ██║
 ██║ ╚═╝ ██║██║  ██║██║     ╚██████╔╝
 ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝      ╚═════╝ 
-       by HectorH06 (@HectorH06)          version 0.1
+                                      version 0.1
 ```
 
 ![Maintained](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=for-the-badge)
